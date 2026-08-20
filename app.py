@@ -263,8 +263,8 @@ with c1:
 with c2:
     st.markdown(f"""
     <div class="metric-container">
-        <div class="metric-value">{total_carbon_ton:.1f} t</div>
-        <div class="metric-label">Total Embodied Carbon (A1-A3)</div>
+        <div class="metric-value">{total_carbon_ton:.3f} t</div>
+        <div class="metric-label">Total Embodied Carbon ({total_carbon_kg:,.2f} kg CO₂e)</div>
     </div>
     """, unsafe_allow_html=True)
 
