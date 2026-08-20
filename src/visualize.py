@@ -72,10 +72,13 @@ def generate_material_distribution_chart(
                    edgecolor="none", zorder=3)
 
     # Value label inside / outside each bar
-    for bar, val in zip(bars, counts):
+    # All labels black except the last bar (longest, on top) which stays white
+    for idx, (bar, val) in enumerate(zip(bars, counts)):
         x_end = bar.get_width()
         x_max = max(counts)
         inside = x_end > x_max * 0.25
+        is_last = (idx == n - 1)
+        label_color = (TEXT_COL if inside else ACCENT) if is_last else "#000000"
         ax.text(
             x_end - (0.3 if inside else -0.3),
             bar.get_y() + bar.get_height() / 2,
@@ -84,7 +87,7 @@ def generate_material_distribution_chart(
             ha="right" if inside else "left",
             fontsize=11,
             fontweight="bold",
-            color=TEXT_COL if inside else ACCENT,
+            color=label_color,
         )
 
     # ── Axes styling ─────────────────────────────────────────────────────────
