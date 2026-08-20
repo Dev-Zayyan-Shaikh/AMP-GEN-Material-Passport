@@ -798,13 +798,13 @@
     "volume_m3": null,
     "area_m2": 155.0,
     "length_m": null,
-    "weight_kg": 1813.5,
+    "weight_kg": null,
     "count_nos": null,
     "derived_quantity": null,
     "derived_quantity_unit": null,
     "derived_quantity_basis": null,
     "density_kg_m3": 650.0,
-    "embodied_carbon_a1_a3_kg_co2e": 816.07,
+    "embodied_carbon_a1_a3_kg_co2e": null,
     "gwp_per_kg": 0.45,
     "schedule_dsr_sor": "DSR 1989",
     "schedule_item_code": "5.14",
@@ -829,7 +829,7 @@
     "unit_rate": null,
     "total_cost": null,
     "currency": "INR",
-    "comment": "GWP: 0.450 kg CO2e/kg, Density: 650 kg/m³ | Source: ICE Database v3.0 (Sawn Timber, fossil GWP A1-A3). | Embodied carbon computed: mass=1813.50 kg (area_m2=155.000 * thickness=18mm * density=650 kg/m³); GWP=0.45 kg CO₂e/kg → 816.07 kg CO₂e A1-A3."
+    "comment": "GWP: 0.450 kg CO2e/kg, Density: 650 kg/m³ | Source: ICE Database v3.0 (Sawn Timber, fossil GWP A1-A3)."
   },
   {
     "gmap_id": "AMP-GEN-017",
@@ -1058,13 +1058,13 @@
     "volume_m3": null,
     "area_m2": 0.9,
     "length_m": null,
-    "weight_kg": 196.65,
+    "weight_kg": null,
     "count_nos": null,
     "derived_quantity": null,
     "derived_quantity_unit": null,
     "derived_quantity_basis": null,
     "density_kg_m3": 1900.0,
-    "embodied_carbon_a1_a3_kg_co2e": 47.2,
+    "embodied_carbon_a1_a3_kg_co2e": null,
     "gwp_per_kg": 0.24,
     "schedule_dsr_sor": "DSR 1989",
     "schedule_item_code": "6.13/6.21/6.5.1/6.5.2",
@@ -1089,7 +1089,7 @@
     "unit_rate": null,
     "total_cost": null,
     "currency": "INR",
-    "comment": "GWP: 0.240 kg CO2e/kg, Density: 1900 kg/m³ | Source: ICE Database v3.0 / Indian LCA literature (Burnt Clay Bricks & Mortar). | Embodied carbon computed: mass=196.65 kg (area_m2=0.900 * thickness=115mm * density=1900 kg/m³); GWP=0.24 kg CO₂e/kg → 47.20 kg CO₂e A1-A3."
+    "comment": "GWP: 0.240 kg CO2e/kg, Density: 1900 kg/m³ | Source: ICE Database v3.0 / Indian LCA literature (Burnt Clay Bricks & Mortar)."
   },
   {
     "gmap_id": "AMP-GEN-022",
@@ -1110,13 +1110,13 @@
     "volume_m3": null,
     "area_m2": 4.8,
     "length_m": null,
-    "weight_kg": 1048.8,
+    "weight_kg": null,
     "count_nos": null,
     "derived_quantity": null,
     "derived_quantity_unit": null,
     "derived_quantity_basis": null,
     "density_kg_m3": 1900.0,
-    "embodied_carbon_a1_a3_kg_co2e": 251.71,
+    "embodied_carbon_a1_a3_kg_co2e": null,
     "gwp_per_kg": 0.24,
     "schedule_dsr_sor": "DSR 1989",
     "schedule_item_code": "6.18.4/6.21",
@@ -1141,7 +1141,7 @@
     "unit_rate": null,
     "total_cost": null,
     "currency": "INR",
-    "comment": "GWP: 0.240 kg CO2e/kg, Density: 1900 kg/m³ | Source: ICE Database v3.0 / Indian LCA literature (Burnt Clay Bricks & Mortar). | Embodied carbon computed: mass=1048.80 kg (area_m2=4.800 * thickness=115mm * density=1900 kg/m³); GWP=0.24 kg CO₂e/kg → 251.71 kg CO₂e A1-A3."
+    "comment": "GWP: 0.240 kg CO2e/kg, Density: 1900 kg/m³ | Source: ICE Database v3.0 / Indian LCA literature (Burnt Clay Bricks & Mortar)."
   },
   {
     "gmap_id": "AMP-GEN-023",
@@ -1162,13 +1162,13 @@
     "volume_m3": null,
     "area_m2": 18.0,
     "length_m": null,
-    "weight_kg": 3933.0,
+    "weight_kg": null,
     "count_nos": null,
     "derived_quantity": null,
     "derived_quantity_unit": null,
     "derived_quantity_basis": null,
     "density_kg_m3": 1900.0,
-    "embodied_carbon_a1_a3_kg_co2e": 943.92,
+    "embodied_carbon_a1_a3_kg_co2e": null,
     "gwp_per_kg": 0.24,
     "schedule_dsr_sor": "DSR 1989",
     "schedule_item_code": "6.18.4/6.19.1/6.20/6.21.1/6.21.2",
@@ -1193,7 +1193,7 @@
     "unit_rate": null,
     "total_cost": null,
     "currency": "INR",
-    "comment": "GWP: 0.240 kg CO2e/kg, Density: 1900 kg/m³ | Source: ICE Database v3.0 / Indian LCA literature (Burnt Clay Bricks & Mortar). | Embodied carbon computed: mass=3933.00 kg (area_m2=18.000 * thickness=115mm * density=1900 kg/m³); GWP=0.24 kg CO₂e/kg → 943.92 kg CO₂e A1-A3."
+    "comment": "GWP: 0.240 kg CO2e/kg, Density: 1900 kg/m³ | Source: ICE Database v3.0 / Indian LCA literature (Burnt Clay Bricks & Mortar)."
   },
   {
     "gmap_id": "AMP-GEN-024",
@@ -1266,13 +1266,13 @@
     "volume_m3": null,
     "area_m2": 18.0,
     "length_m": null,
-    "weight_kg": 210.6,
+    "weight_kg": null,
     "count_nos": null,
     "derived_quantity": null,
     "derived_quantity_unit": null,
     "derived_quantity_basis": null,
     "density_kg_m3": 650.0,
-    "embodied_carbon_a1_a3_kg_co2e": 94.77,
+    "embodied_carbon_a1_a3_kg_co2e": null,
     "gwp_per_kg": 0.45,
     "schedule_dsr_sor": "DSR 1989",
     "schedule_item_code": "9.7.2/9.9",
@@ -1297,7 +1297,7 @@
     "unit_rate": null,
     "total_cost": null,
     "currency": "INR",
-    "comment": "GWP: 0.450 kg CO2e/kg, Density: 650 kg/m³ | Source: ICE Database v3.0 (Sawn Timber, fossil GWP A1-A3). | Embodied carbon computed: mass=210.60 kg (area_m2=18.000 * thickness=18mm * density=650 kg/m³); GWP=0.45 kg CO₂e/kg → 94.77 kg CO₂e A1-A3."
+    "comment": "GWP: 0.450 kg CO2e/kg, Density: 650 kg/m³ | Source: ICE Database v3.0 (Sawn Timber, fossil GWP A1-A3)."
   },
   {
     "gmap_id": "AMP-GEN-026",
@@ -1318,13 +1318,13 @@
     "volume_m3": null,
     "area_m2": 4.7,
     "length_m": null,
-    "weight_kg": 54.99,
+    "weight_kg": null,
     "count_nos": null,
     "derived_quantity": null,
     "derived_quantity_unit": null,
     "derived_quantity_basis": null,
     "density_kg_m3": 650.0,
-    "embodied_carbon_a1_a3_kg_co2e": 24.75,
+    "embodied_carbon_a1_a3_kg_co2e": null,
     "gwp_per_kg": 0.45,
     "schedule_dsr_sor": "DSR 1989",
     "schedule_item_code": "9.26.4",
@@ -1349,7 +1349,7 @@
     "unit_rate": null,
     "total_cost": null,
     "currency": "INR",
-    "comment": "GWP: 0.450 kg CO2e/kg, Density: 650 kg/m³ | Source: ICE Database v3.0 (Sawn Timber, fossil GWP A1-A3). | Embodied carbon computed: mass=54.99 kg (area_m2=4.700 * thickness=18mm * density=650 kg/m³); GWP=0.45 kg CO₂e/kg → 24.75 kg CO₂e A1-A3."
+    "comment": "GWP: 0.450 kg CO2e/kg, Density: 650 kg/m³ | Source: ICE Database v3.0 (Sawn Timber, fossil GWP A1-A3)."
   },
   {
     "gmap_id": "AMP-GEN-027",
@@ -1370,13 +1370,13 @@
     "volume_m3": null,
     "area_m2": null,
     "length_m": null,
-    "weight_kg": 800.0,
+    "weight_kg": null,
     "count_nos": 20.0,
     "derived_quantity": null,
     "derived_quantity_unit": null,
     "derived_quantity_basis": null,
     "density_kg_m3": 650.0,
-    "embodied_carbon_a1_a3_kg_co2e": 360.0,
+    "embodied_carbon_a1_a3_kg_co2e": null,
     "gwp_per_kg": 0.45,
     "schedule_dsr_sor": "DSR 1989",
     "schedule_item_code": "9.51",
@@ -1401,7 +1401,7 @@
     "unit_rate": null,
     "total_cost": null,
     "currency": "INR",
-    "comment": "GWP: 0.450 kg CO2e/kg, Density: 650 kg/m³ | Source: ICE Database v3.0 (Sawn Timber, fossil GWP A1-A3). | Embodied carbon computed: mass=800.00 kg (20 nos × 40.0 kg/unit (DSR typical unit mass)); GWP=0.45 kg CO₂e/kg → 360.00 kg CO₂e A1-A3."
+    "comment": "GWP: 0.450 kg CO2e/kg, Density: 650 kg/m³ | Source: ICE Database v3.0 (Sawn Timber, fossil GWP A1-A3)."
   },
   {
     "gmap_id": "AMP-GEN-028",
@@ -1422,13 +1422,13 @@
     "volume_m3": null,
     "area_m2": null,
     "length_m": null,
-    "weight_kg": 180.0,
+    "weight_kg": null,
     "count_nos": 6.0,
     "derived_quantity": null,
     "derived_quantity_unit": null,
     "derived_quantity_basis": null,
     "density_kg_m3": 7850.0,
-    "embodied_carbon_a1_a3_kg_co2e": 425.34,
+    "embodied_carbon_a1_a3_kg_co2e": null,
     "gwp_per_kg": 2.363,
     "schedule_dsr_sor": "DSR 1989",
     "schedule_item_code": "9.127.3",
@@ -1453,7 +1453,7 @@
     "unit_rate": null,
     "total_cost": null,
     "currency": "INR",
-    "comment": "GWP: 2.363 kg CO2e/kg, Density: 7850 kg/m³ | Source: ICE Database v3.0 (Steel - Rebar / Rod / Structural). | Embodied carbon computed: mass=180.00 kg (6 nos × 30.0 kg/unit (DSR typical unit mass)); GWP=2.363 kg CO₂e/kg → 425.34 kg CO₂e A1-A3."
+    "comment": "GWP: 2.363 kg CO2e/kg, Density: 7850 kg/m³ | Source: ICE Database v3.0 (Steel - Rebar / Rod / Structural)."
   },
   {
     "gmap_id": "AMP-GEN-029",
@@ -1474,13 +1474,13 @@
     "volume_m3": null,
     "area_m2": null,
     "length_m": null,
-    "weight_kg": 60.0,
+    "weight_kg": null,
     "count_nos": 2.0,
     "derived_quantity": null,
     "derived_quantity_unit": null,
     "derived_quantity_basis": null,
     "density_kg_m3": 7850.0,
-    "embodied_carbon_a1_a3_kg_co2e": 141.78,
+    "embodied_carbon_a1_a3_kg_co2e": null,
     "gwp_per_kg": 2.363,
     "schedule_dsr_sor": "DSR 1989",
     "schedule_item_code": "9.218.1",
@@ -1505,7 +1505,7 @@
     "unit_rate": null,
     "total_cost": null,
     "currency": "INR",
-    "comment": "GWP: 2.363 kg CO2e/kg, Density: 7850 kg/m³ | Source: ICE Database v3.0 (Steel - Rebar / Rod / Structural). | Embodied carbon computed: mass=60.00 kg (2 nos × 30.0 kg/unit (DSR typical unit mass)); GWP=2.363 kg CO₂e/kg → 141.78 kg CO₂e A1-A3."
+    "comment": "GWP: 2.363 kg CO2e/kg, Density: 7850 kg/m³ | Source: ICE Database v3.0 (Steel - Rebar / Rod / Structural)."
   },
   {
     "gmap_id": "AMP-GEN-030",
@@ -1526,13 +1526,13 @@
     "volume_m3": null,
     "area_m2": null,
     "length_m": null,
-    "weight_kg": 80.0,
+    "weight_kg": null,
     "count_nos": 10.0,
     "derived_quantity": null,
     "derived_quantity_unit": null,
     "derived_quantity_basis": null,
     "density_kg_m3": 2700.0,
-    "embodied_carbon_a1_a3_kg_co2e": 712.0,
+    "embodied_carbon_a1_a3_kg_co2e": null,
     "gwp_per_kg": 8.9,
     "schedule_dsr_sor": "DSR 1989",
     "schedule_item_code": "9.218",
@@ -1557,7 +1557,7 @@
     "unit_rate": null,
     "total_cost": null,
     "currency": "INR",
-    "comment": "GWP: 8.90 kg CO2e/kg, Density: 2700 kg/m³ | Source: ICE Database v3.0 (Extruded Aluminium). | Embodied carbon computed: mass=80.00 kg (10 nos × 8.0 kg/unit (DSR typical unit mass)); GWP=8.9 kg CO₂e/kg → 712.00 kg CO₂e A1-A3."
+    "comment": "GWP: 8.90 kg CO2e/kg, Density: 2700 kg/m³ | Source: ICE Database v3.0 (Extruded Aluminium)."
   },
   {
     "gmap_id": "AMP-GEN-031",
@@ -1578,13 +1578,13 @@
     "volume_m3": null,
     "area_m2": null,
     "length_m": null,
-    "weight_kg": 144.0,
+    "weight_kg": null,
     "count_nos": 18.0,
     "derived_quantity": null,
     "derived_quantity_unit": null,
     "derived_quantity_basis": null,
     "density_kg_m3": 2700.0,
-    "embodied_carbon_a1_a3_kg_co2e": 1281.6,
+    "embodied_carbon_a1_a3_kg_co2e": null,
     "gwp_per_kg": 8.9,
     "schedule_dsr_sor": "DSR 1989",
     "schedule_item_code": "9.219.3/9.219.5",
@@ -1609,7 +1609,7 @@
     "unit_rate": null,
     "total_cost": null,
     "currency": "INR",
-    "comment": "GWP: 8.90 kg CO2e/kg, Density: 2700 kg/m³ | Source: ICE Database v3.0 (Extruded Aluminium). | Embodied carbon computed: mass=144.00 kg (18 nos × 8.0 kg/unit (DSR typical unit mass)); GWP=8.9 kg CO₂e/kg → 1281.60 kg CO₂e A1-A3."
+    "comment": "GWP: 8.90 kg CO2e/kg, Density: 2700 kg/m³ | Source: ICE Database v3.0 (Extruded Aluminium)."
   },
   {
     "gmap_id": "AMP-GEN-032",
@@ -1630,13 +1630,13 @@
     "volume_m3": null,
     "area_m2": null,
     "length_m": null,
-    "weight_kg": 192.0,
+    "weight_kg": null,
     "count_nos": 24.0,
     "derived_quantity": null,
     "derived_quantity_unit": null,
     "derived_quantity_basis": null,
     "density_kg_m3": 2700.0,
-    "embodied_carbon_a1_a3_kg_co2e": 1708.8,
+    "embodied_carbon_a1_a3_kg_co2e": null,
     "gwp_per_kg": 8.9,
     "schedule_dsr_sor": "DSR 1989",
     "schedule_item_code": "9.222.2/9.222.3",
@@ -1661,7 +1661,7 @@
     "unit_rate": null,
     "total_cost": null,
     "currency": "INR",
-    "comment": "GWP: 8.90 kg CO2e/kg, Density: 2700 kg/m³ | Source: ICE Database v3.0 (Extruded Aluminium). | Embodied carbon computed: mass=192.00 kg (24 nos × 8.0 kg/unit (DSR typical unit mass)); GWP=8.9 kg CO₂e/kg → 1708.80 kg CO₂e A1-A3."
+    "comment": "GWP: 8.90 kg CO2e/kg, Density: 2700 kg/m³ | Source: ICE Database v3.0 (Extruded Aluminium)."
   },
   {
     "gmap_id": "AMP-GEN-033",
@@ -1682,13 +1682,13 @@
     "volume_m3": null,
     "area_m2": null,
     "length_m": null,
-    "weight_kg": 80.0,
+    "weight_kg": null,
     "count_nos": 10.0,
     "derived_quantity": null,
     "derived_quantity_unit": null,
     "derived_quantity_basis": null,
     "density_kg_m3": 2700.0,
-    "embodied_carbon_a1_a3_kg_co2e": 712.0,
+    "embodied_carbon_a1_a3_kg_co2e": null,
     "gwp_per_kg": 8.9,
     "schedule_dsr_sor": "DSR 1989",
     "schedule_item_code": "9.223",
@@ -1713,7 +1713,7 @@
     "unit_rate": null,
     "total_cost": null,
     "currency": "INR",
-    "comment": "GWP: 8.90 kg CO2e/kg, Density: 2700 kg/m³ | Source: ICE Database v3.0 (Extruded Aluminium). | Embodied carbon computed: mass=80.00 kg (10 nos × 8.0 kg/unit (DSR typical unit mass)); GWP=8.9 kg CO₂e/kg → 712.00 kg CO₂e A1-A3."
+    "comment": "GWP: 8.90 kg CO2e/kg, Density: 2700 kg/m³ | Source: ICE Database v3.0 (Extruded Aluminium)."
   },
   {
     "gmap_id": "AMP-GEN-034",
@@ -1734,13 +1734,13 @@
     "volume_m3": null,
     "area_m2": 12.3,
     "length_m": null,
-    "weight_kg": 193.11,
+    "weight_kg": null,
     "count_nos": null,
     "derived_quantity": null,
     "derived_quantity_unit": null,
     "derived_quantity_basis": null,
     "density_kg_m3": 7850.0,
-    "embodied_carbon_a1_a3_kg_co2e": 456.32,
+    "embodied_carbon_a1_a3_kg_co2e": null,
     "gwp_per_kg": 2.363,
     "schedule_dsr_sor": "Non-Schedule Item",
     "schedule_item_code": "N.S.I.",
@@ -1765,7 +1765,7 @@
     "unit_rate": null,
     "total_cost": null,
     "currency": "INR",
-    "comment": "GWP: 2.363 kg CO2e/kg, Density: 7850 kg/m³ | Source: ICE Database v3.0 (Steel - Rebar / Rod / Structural). | Embodied carbon computed: mass=193.11 kg (area_m2=12.300 * thickness=2mm * density=7850 kg/m³); GWP=2.363 kg CO₂e/kg → 456.32 kg CO₂e A1-A3."
+    "comment": "GWP: 2.363 kg CO2e/kg, Density: 7850 kg/m³ | Source: ICE Database v3.0 (Steel - Rebar / Rod / Structural)."
   },
   {
     "gmap_id": "AMP-GEN-035",
@@ -1786,13 +1786,13 @@
     "volume_m3": null,
     "area_m2": null,
     "length_m": null,
-    "weight_kg": 252.0,
+    "weight_kg": null,
     "count_nos": 21.0,
     "derived_quantity": null,
     "derived_quantity_unit": null,
     "derived_quantity_basis": null,
     "density_kg_m3": 7850.0,
-    "embodied_carbon_a1_a3_kg_co2e": 595.48,
+    "embodied_carbon_a1_a3_kg_co2e": null,
     "gwp_per_kg": 2.363,
     "schedule_dsr_sor": "Non-Schedule Item",
     "schedule_item_code": "N.S.I.",
@@ -1817,7 +1817,7 @@
     "unit_rate": null,
     "total_cost": null,
     "currency": "INR",
-    "comment": "GWP: 2.363 kg CO2e/kg, Density: 7850 kg/m³ | Source: ICE Database v3.0 (Steel - Rebar / Rod / Structural). | Embodied carbon computed: mass=252.00 kg (21 nos × 12.0 kg/unit (DSR typical unit mass)); GWP=2.363 kg CO₂e/kg → 595.48 kg CO₂e A1-A3."
+    "comment": "GWP: 2.363 kg CO2e/kg, Density: 7850 kg/m³ | Source: ICE Database v3.0 (Steel - Rebar / Rod / Structural)."
   },
   {
     "gmap_id": "AMP-GEN-036",
@@ -1838,13 +1838,13 @@
     "volume_m3": null,
     "area_m2": null,
     "length_m": null,
-    "weight_kg": 63.0,
+    "weight_kg": null,
     "count_nos": 21.0,
     "derived_quantity": null,
     "derived_quantity_unit": null,
     "derived_quantity_basis": null,
     "density_kg_m3": 2700.0,
-    "embodied_carbon_a1_a3_kg_co2e": 560.7,
+    "embodied_carbon_a1_a3_kg_co2e": null,
     "gwp_per_kg": 8.9,
     "schedule_dsr_sor": "DSR 1989",
     "schedule_item_code": "9.224",
@@ -1869,7 +1869,7 @@
     "unit_rate": null,
     "total_cost": null,
     "currency": "INR",
-    "comment": "GWP: 8.90 kg CO2e/kg, Density: 2700 kg/m³ | Source: ICE Database v3.0 (Extruded Aluminium). | Embodied carbon computed: mass=63.00 kg (21 nos × 3.0 kg/unit (DSR typical unit mass)); GWP=8.9 kg CO₂e/kg → 560.70 kg CO₂e A1-A3."
+    "comment": "GWP: 8.90 kg CO2e/kg, Density: 2700 kg/m³ | Source: ICE Database v3.0 (Extruded Aluminium)."
   },
   {
     "gmap_id": "AMP-GEN-037",
@@ -1994,13 +1994,13 @@
     "volume_m3": null,
     "area_m2": null,
     "length_m": null,
-    "weight_kg": 100.0,
+    "weight_kg": null,
     "count_nos": 5.0,
     "derived_quantity": null,
     "derived_quantity_unit": null,
     "derived_quantity_basis": null,
     "density_kg_m3": 7850.0,
-    "embodied_carbon_a1_a3_kg_co2e": 236.3,
+    "embodied_carbon_a1_a3_kg_co2e": null,
     "gwp_per_kg": 2.363,
     "schedule_dsr_sor": "DSR 1989",
     "schedule_item_code": "10.19",
@@ -2025,7 +2025,7 @@
     "unit_rate": null,
     "total_cost": null,
     "currency": "INR",
-    "comment": "GWP: 2.363 kg CO2e/kg, Density: 7850 kg/m³ | Source: ICE Database v3.0 (Steel - Rebar / Rod / Structural). | Embodied carbon computed: mass=100.00 kg (5 nos × 20.0 kg/unit (DSR typical unit mass)); GWP=2.363 kg CO₂e/kg → 236.30 kg CO₂e A1-A3."
+    "comment": "GWP: 2.363 kg CO2e/kg, Density: 7850 kg/m³ | Source: ICE Database v3.0 (Steel - Rebar / Rod / Structural)."
   },
   {
     "gmap_id": "AMP-GEN-040",
@@ -2046,13 +2046,13 @@
     "volume_m3": null,
     "area_m2": 68.0,
     "length_m": null,
-    "weight_kg": 1958.4,
+    "weight_kg": null,
     "count_nos": null,
     "derived_quantity": null,
     "derived_quantity_unit": null,
     "derived_quantity_basis": null,
     "density_kg_m3": 2400.0,
-    "embodied_carbon_a1_a3_kg_co2e": 303.55,
+    "embodied_carbon_a1_a3_kg_co2e": null,
     "gwp_per_kg": 0.155,
     "schedule_dsr_sor": "DSR 1989",
     "schedule_item_code": "11.4.2",
@@ -2077,7 +2077,7 @@
     "unit_rate": null,
     "total_cost": null,
     "currency": "INR",
-    "comment": "GWP: 0.155 kg CO2e/kg, Density: 2400.0 kg/m³ | Source: ICE Database v3.0 (Concrete 25/30 MPa). | Embodied carbon computed: mass=1958.40 kg (area_m2=68.000 * thickness=12mm * density=2400 kg/m³); GWP=0.155 kg CO₂e/kg → 303.55 kg CO₂e A1-A3."
+    "comment": "GWP: 0.155 kg CO2e/kg, Density: 2400.0 kg/m³ | Source: ICE Database v3.0 (Concrete 25/30 MPa)."
   },
   {
     "gmap_id": "AMP-GEN-041",
@@ -2098,13 +2098,13 @@
     "volume_m3": null,
     "area_m2": 11.0,
     "length_m": null,
-    "weight_kg": 220.0,
+    "weight_kg": null,
     "count_nos": null,
     "derived_quantity": null,
     "derived_quantity_unit": null,
     "derived_quantity_basis": null,
     "density_kg_m3": 2000.0,
-    "embodied_carbon_a1_a3_kg_co2e": 39.6,
+    "embodied_carbon_a1_a3_kg_co2e": null,
     "gwp_per_kg": 0.18,
     "schedule_dsr_sor": "DSR 1989",
     "schedule_item_code": "11.10.1",
@@ -2129,7 +2129,7 @@
     "unit_rate": null,
     "total_cost": null,
     "currency": "INR",
-    "comment": "GWP: 0.180 kg CO2e/kg, Density: 2000 kg/m³ | Source: ICE Database v3.0 (Cement Mortar / Plaster). | Embodied carbon computed: mass=220.00 kg (area_m2=11.000 * thickness=10mm * density=2000 kg/m³); GWP=0.18 kg CO₂e/kg → 39.60 kg CO₂e A1-A3."
+    "comment": "GWP: 0.180 kg CO2e/kg, Density: 2000 kg/m³ | Source: ICE Database v3.0 (Cement Mortar / Plaster)."
   },
   {
     "gmap_id": "AMP-GEN-042",
@@ -2410,13 +2410,13 @@
     "volume_m3": null,
     "area_m2": null,
     "length_m": 46.0,
-    "weight_kg": 3808.8,
+    "weight_kg": null,
     "count_nos": null,
     "derived_quantity": null,
     "derived_quantity_unit": null,
     "derived_quantity_basis": null,
     "density_kg_m3": 2400.0,
-    "embodied_carbon_a1_a3_kg_co2e": 590.36,
+    "embodied_carbon_a1_a3_kg_co2e": null,
     "gwp_per_kg": 0.155,
     "schedule_dsr_sor": "Non-Schedule Item",
     "schedule_item_code": "N.S.I.",
@@ -2441,7 +2441,7 @@
     "unit_rate": null,
     "total_cost": null,
     "currency": "INR",
-    "comment": "GWP: 0.155 kg CO2e/kg, Density: 2400.0 kg/m³ | Source: ICE Database v3.0 (Concrete 25/30 MPa). | Embodied carbon computed: mass=3808.80 kg (length=46.00 m × 0.03450 m² × density=2400 kg/m³); GWP=0.155 kg CO₂e/kg → 590.36 kg CO₂e A1-A3."
+    "comment": "GWP: 0.155 kg CO2e/kg, Density: 2400.0 kg/m³ | Source: ICE Database v3.0 (Concrete 25/30 MPa)."
   },
   {
     "gmap_id": "AMP-GEN-048",
@@ -2514,13 +2514,13 @@
     "volume_m3": null,
     "area_m2": null,
     "length_m": 10.0,
-    "weight_kg": 64.0,
+    "weight_kg": null,
     "count_nos": null,
     "derived_quantity": null,
     "derived_quantity_unit": null,
     "derived_quantity_basis": null,
     "density_kg_m3": 7150.0,
-    "embodied_carbon_a1_a3_kg_co2e": 129.92,
+    "embodied_carbon_a1_a3_kg_co2e": null,
     "gwp_per_kg": 2.03,
     "schedule_dsr_sor": "DSR 1989",
     "schedule_item_code": "12.69.2",
@@ -2545,7 +2545,7 @@
     "unit_rate": null,
     "total_cost": null,
     "currency": "INR",
-    "comment": "GWP: 2.030 kg CO2e/kg, Density: 7150 kg/m³ | Source: ICE Database v3.0 (Cast Iron / Drainage Pipework). | Embodied carbon computed: mass=64.00 kg (length=10.00 m × 6.40 kg/m (IS 1729 nominal)); GWP=2.03 kg CO₂e/kg → 129.92 kg CO₂e A1-A3."
+    "comment": "GWP: 2.030 kg CO2e/kg, Density: 7150 kg/m³ | Source: ICE Database v3.0 (Cast Iron / Drainage Pipework)."
   },
   {
     "gmap_id": "AMP-GEN-050",
@@ -2566,13 +2566,13 @@
     "volume_m3": null,
     "area_m2": null,
     "length_m": null,
-    "weight_kg": 45.0,
+    "weight_kg": null,
     "count_nos": 9.0,
     "derived_quantity": null,
     "derived_quantity_unit": null,
     "derived_quantity_basis": null,
     "density_kg_m3": 7150.0,
-    "embodied_carbon_a1_a3_kg_co2e": 91.35,
+    "embodied_carbon_a1_a3_kg_co2e": null,
     "gwp_per_kg": 2.03,
     "schedule_dsr_sor": "DSR 1989",
     "schedule_item_code": "12.71.2",
@@ -2597,7 +2597,7 @@
     "unit_rate": null,
     "total_cost": null,
     "currency": "INR",
-    "comment": "GWP: 2.030 kg CO2e/kg, Density: 7150 kg/m³ | Source: ICE Database v3.0 (Cast Iron / Drainage Pipework). | Embodied carbon computed: mass=45.00 kg (9 nos × 5.0 kg/unit (DSR typical unit mass)); GWP=2.03 kg CO₂e/kg → 91.35 kg CO₂e A1-A3."
+    "comment": "GWP: 2.030 kg CO2e/kg, Density: 7150 kg/m³ | Source: ICE Database v3.0 (Cast Iron / Drainage Pipework)."
   },
   {
     "gmap_id": "AMP-GEN-051",
@@ -2618,13 +2618,13 @@
     "volume_m3": null,
     "area_m2": null,
     "length_m": null,
-    "weight_kg": 45.0,
+    "weight_kg": null,
     "count_nos": 9.0,
     "derived_quantity": null,
     "derived_quantity_unit": null,
     "derived_quantity_basis": null,
     "density_kg_m3": 7150.0,
-    "embodied_carbon_a1_a3_kg_co2e": 91.35,
+    "embodied_carbon_a1_a3_kg_co2e": null,
     "gwp_per_kg": 2.03,
     "schedule_dsr_sor": "DSR 1989",
     "schedule_item_code": "12.72.2.2/12.72.3.2/12.72.1.2",
@@ -2649,7 +2649,7 @@
     "unit_rate": null,
     "total_cost": null,
     "currency": "INR",
-    "comment": "GWP: 2.030 kg CO2e/kg, Density: 7150 kg/m³ | Source: ICE Database v3.0 (Cast Iron / Drainage Pipework). | Embodied carbon computed: mass=45.00 kg (9 nos × 5.0 kg/unit (DSR typical unit mass)); GWP=2.03 kg CO₂e/kg → 91.35 kg CO₂e A1-A3."
+    "comment": "GWP: 2.030 kg CO2e/kg, Density: 7150 kg/m³ | Source: ICE Database v3.0 (Cast Iron / Drainage Pipework)."
   },
   {
     "gmap_id": "AMP-GEN-052",
@@ -2670,13 +2670,13 @@
     "volume_m3": null,
     "area_m2": 220.0,
     "length_m": null,
-    "weight_kg": 3520.0,
+    "weight_kg": null,
     "count_nos": null,
     "derived_quantity": null,
     "derived_quantity_unit": null,
     "derived_quantity_basis": null,
     "density_kg_m3": 2000.0,
-    "embodied_carbon_a1_a3_kg_co2e": 633.6,
+    "embodied_carbon_a1_a3_kg_co2e": null,
     "gwp_per_kg": 0.18,
     "schedule_dsr_sor": "DSR 1989",
     "schedule_item_code": "13.8.4",
@@ -2701,7 +2701,7 @@
     "unit_rate": null,
     "total_cost": null,
     "currency": "INR",
-    "comment": "GWP: 0.180 kg CO2e/kg, Density: 2000 kg/m³ | Source: ICE Database v3.0 (Cement Mortar / Plaster). | Embodied carbon computed: mass=3520.00 kg (area_m2=220.000 * thickness=8mm * density=2000 kg/m³); GWP=0.18 kg CO₂e/kg → 633.60 kg CO₂e A1-A3."
+    "comment": "GWP: 0.180 kg CO2e/kg, Density: 2000 kg/m³ | Source: ICE Database v3.0 (Cement Mortar / Plaster)."
   },
   {
     "gmap_id": "AMP-GEN-053",
@@ -2722,13 +2722,13 @@
     "volume_m3": null,
     "area_m2": 220.0,
     "length_m": null,
-    "weight_kg": 3520.0,
+    "weight_kg": null,
     "count_nos": null,
     "derived_quantity": null,
     "derived_quantity_unit": null,
     "derived_quantity_basis": null,
     "density_kg_m3": 2000.0,
-    "embodied_carbon_a1_a3_kg_co2e": 633.6,
+    "embodied_carbon_a1_a3_kg_co2e": null,
     "gwp_per_kg": 0.18,
     "schedule_dsr_sor": "DSR 1989",
     "schedule_item_code": "13.9.4",
@@ -2753,7 +2753,7 @@
     "unit_rate": null,
     "total_cost": null,
     "currency": "INR",
-    "comment": "GWP: 0.180 kg CO2e/kg, Density: 2000 kg/m³ | Source: ICE Database v3.0 (Cement Mortar / Plaster). | Embodied carbon computed: mass=3520.00 kg (area_m2=220.000 * thickness=8mm * density=2000 kg/m³); GWP=0.18 kg CO₂e/kg → 633.60 kg CO₂e A1-A3."
+    "comment": "GWP: 0.180 kg CO2e/kg, Density: 2000 kg/m³ | Source: ICE Database v3.0 (Cement Mortar / Plaster)."
   },
   {
     "gmap_id": "AMP-GEN-054",
@@ -2774,13 +2774,13 @@
     "volume_m3": null,
     "area_m2": 19.0,
     "length_m": null,
-    "weight_kg": 304.0,
+    "weight_kg": null,
     "count_nos": null,
     "derived_quantity": null,
     "derived_quantity_unit": null,
     "derived_quantity_basis": null,
     "density_kg_m3": 2000.0,
-    "embodied_carbon_a1_a3_kg_co2e": 54.72,
+    "embodied_carbon_a1_a3_kg_co2e": null,
     "gwp_per_kg": 0.18,
     "schedule_dsr_sor": "DSR 1989",
     "schedule_item_code": "13.25",
@@ -2805,7 +2805,7 @@
     "unit_rate": null,
     "total_cost": null,
     "currency": "INR",
-    "comment": "GWP: 0.180 kg CO2e/kg, Density: 2000 kg/m³ | Source: ICE Database v3.0 (Cement Mortar / Plaster). | Embodied carbon computed: mass=304.00 kg (area_m2=19.000 * thickness=8mm * density=2000 kg/m³); GWP=0.18 kg CO₂e/kg → 54.72 kg CO₂e A1-A3."
+    "comment": "GWP: 0.180 kg CO2e/kg, Density: 2000 kg/m³ | Source: ICE Database v3.0 (Cement Mortar / Plaster)."
   },
   {
     "gmap_id": "AMP-GEN-055",
@@ -2826,13 +2826,13 @@
     "volume_m3": null,
     "area_m2": 20.0,
     "length_m": null,
-    "weight_kg": 320.0,
+    "weight_kg": null,
     "count_nos": null,
     "derived_quantity": null,
     "derived_quantity_unit": null,
     "derived_quantity_basis": null,
     "density_kg_m3": 2000.0,
-    "embodied_carbon_a1_a3_kg_co2e": 57.6,
+    "embodied_carbon_a1_a3_kg_co2e": null,
     "gwp_per_kg": 0.18,
     "schedule_dsr_sor": "DSR 1989",
     "schedule_item_code": "13.41",
@@ -2857,7 +2857,7 @@
     "unit_rate": null,
     "total_cost": null,
     "currency": "INR",
-    "comment": "GWP: 0.180 kg CO2e/kg, Density: 2000 kg/m³ | Source: ICE Database v3.0 (Cement Mortar / Plaster). | Embodied carbon computed: mass=320.00 kg (area_m2=20.000 * thickness=8mm * density=2000 kg/m³); GWP=0.18 kg CO₂e/kg → 57.60 kg CO₂e A1-A3."
+    "comment": "GWP: 0.180 kg CO2e/kg, Density: 2000 kg/m³ | Source: ICE Database v3.0 (Cement Mortar / Plaster)."
   },
   {
     "gmap_id": "AMP-GEN-056",
@@ -2878,13 +2878,13 @@
     "volume_m3": null,
     "area_m2": 155.0,
     "length_m": null,
-    "weight_kg": 2480.0,
+    "weight_kg": null,
     "count_nos": null,
     "derived_quantity": null,
     "derived_quantity_unit": null,
     "derived_quantity_basis": null,
     "density_kg_m3": 2000.0,
-    "embodied_carbon_a1_a3_kg_co2e": 446.4,
+    "embodied_carbon_a1_a3_kg_co2e": null,
     "gwp_per_kg": 0.18,
     "schedule_dsr_sor": "DSR 1989",
     "schedule_item_code": "5.31/13.24.1",
@@ -2909,7 +2909,7 @@
     "unit_rate": null,
     "total_cost": null,
     "currency": "INR",
-    "comment": "GWP: 0.180 kg CO2e/kg, Density: 2000 kg/m³ | Source: ICE Database v3.0 (Cement Mortar / Plaster). | Embodied carbon computed: mass=2480.00 kg (area_m2=155.000 * thickness=8mm * density=2000 kg/m³); GWP=0.18 kg CO₂e/kg → 446.40 kg CO₂e A1-A3."
+    "comment": "GWP: 0.180 kg CO2e/kg, Density: 2000 kg/m³ | Source: ICE Database v3.0 (Cement Mortar / Plaster)."
   },
   {
     "gmap_id": "AMP-GEN-057",
@@ -3294,13 +3294,13 @@
     "volume_m3": null,
     "area_m2": 34.6,
     "length_m": null,
-    "weight_kg": 4152.0,
+    "weight_kg": null,
     "count_nos": null,
     "derived_quantity": null,
     "derived_quantity_unit": null,
     "derived_quantity_basis": null,
     "density_kg_m3": 2400.0,
-    "embodied_carbon_a1_a3_kg_co2e": 643.56,
+    "embodied_carbon_a1_a3_kg_co2e": null,
     "gwp_per_kg": 0.155,
     "schedule_dsr_sor": "DSR 1989",
     "schedule_item_code": "16.1",
@@ -3325,6 +3325,6 @@
     "unit_rate": null,
     "total_cost": null,
     "currency": "INR",
-    "comment": "GWP: 0.155 kg CO2e/kg, Density: 2400.0 kg/m³ | Source: ICE Database v3.0 (Concrete 25/30 MPa). | Embodied carbon computed: mass=4152.00 kg (area_m2=34.600 * thickness=50mm * density=2400 kg/m³); GWP=0.155 kg CO₂e/kg → 643.56 kg CO₂e A1-A3."
+    "comment": "GWP: 0.155 kg CO2e/kg, Density: 2400.0 kg/m³ | Source: ICE Database v3.0 (Concrete 25/30 MPa)."
   }
 ]
