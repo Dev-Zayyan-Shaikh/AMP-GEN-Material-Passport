@@ -629,21 +629,35 @@ with tab1:
             unsafe_allow_html=True,
         )
 
-# TAB 2: Engine Comparison Matrix with Light Red Disagreement Highlighting
+# TAB 2: Engine Comparison Matrix with 3-State Color Highlighting
 with tab2:
     st.subheader("Field-by-Field Engine Comparison Matrix")
-    st.markdown("Side-by-side extractions from **OCR**, **OpenAI Vision**, and **Gemini Vision** engines. **Disagreements (`NEEDS_REVIEW`) highlighted in light red.**")
+    st.markdown(
+        "Side-by-side extractions from **OCR**, **OpenAI Vision**, and **Gemini Vision** engines. <br>"
+        "<span style='background:#DCFCE7; color:#166534; padding:2px 8px; border-radius:4px; font-weight:600;'>🟢 3/3 Agreement (Green)</span> &nbsp;"
+        "<span style='background:#FEF9C3; color:#854D0E; padding:2px 8px; border-radius:4px; font-weight:600;'>🟡 2/3 Majority Vote (Yellow)</span> &nbsp;"
+        "<span style='background:#FEE2E2; color:#991B1B; padding:2px 8px; border-radius:4px; font-weight:600;'>🔴 Disagreement / Review (Red)</span>",
+        unsafe_allow_html=True
+    )
+    st.markdown("<br>", unsafe_allow_html=True)
 
     if comp_matrix:
         comp_df = pd.DataFrame(comp_matrix)
         
-        # Apply Pandas Styling to highlight NEEDS_REVIEW rows/cells in light red (#FEE2E2 / #991B1B)
-        def highlight_disagreements(row):
-            if row.get("status") == "NEEDS_REVIEW":
+        # 3-State Color Coding: Green (3/3), Yellow (2/3 majority), Red (1/3 disagreement)
+        def highlight_comparison_matrix(row):
+            ratio = str(row.get("vote_ratio", ""))
+            status = str(row.get("status", ""))
+            
+            if ratio == "3/3" or (status == "PASS" and ratio != "2/3"):
+                return ['background-color: #DCFCE7; color: #166534; font-weight: 600;'] * len(row)
+            elif ratio == "2/3":
+                return ['background-color: #FEF9C3; color: #854D0E; font-weight: 600;'] * len(row)
+            else:
                 return ['background-color: #FEE2E2; color: #991B1B; font-weight: 600;'] * len(row)
-            return [''] * len(row)
 
-        styled_comp_df = comp_df.style.apply(highlight_disagreements, axis=1)
+        styled_comp_df = comp_df.style.apply(highlight_comparison_matrix, axis=1)
+
 
         st.dataframe(
             styled_comp_df,
