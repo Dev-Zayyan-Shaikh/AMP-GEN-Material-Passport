@@ -77,7 +77,7 @@ def generate_material_distribution_chart(
         x_end = bar.get_width()
         x_max = max(counts)
         inside = x_end > x_max * 0.25
-        is_reinf = "reinf" in cat.lower() or "steel" in cat.lower()
+        is_reinf = "reinf" in cat.lower()
         if is_reinf:
             label_color = TEXT_COL if inside else ACCENT
         else:
