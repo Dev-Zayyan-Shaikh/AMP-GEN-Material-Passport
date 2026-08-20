@@ -1,0 +1,33 @@
+# Python bytecode & cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables & secrets (CRITICAL)
+.env
+.env.local
+.env.*
+.streamlit/secrets.toml
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Temporary test scratch scripts (keep scratch/*.json cached data files)
+scratch/*.py
