@@ -22,11 +22,57 @@ st.set_page_config(
 st.markdown("""
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-    
+
     html, body, [class*="css"] {
         font-family: 'Inter', sans-serif;
     }
-    
+
+    /* ── Sidebar: rich dark navy theme ───────────────────────────── */
+    [data-testid="stSidebar"] {
+        background: linear-gradient(180deg, #0B1120 0%, #0F1E35 60%, #0D1829 100%) !important;
+        border-right: 1px solid rgba(99, 179, 237, 0.12);
+    }
+
+    [data-testid="stSidebar"] * {
+        color: #CBD5E1 !important;
+    }
+
+    [data-testid="stSidebar"] .stSelectbox label,
+    [data-testid="stSidebar"] .stTextInput label,
+    [data-testid="stSidebar"] h1,
+    [data-testid="stSidebar"] h2,
+    [data-testid="stSidebar"] h3 {
+        color: #E2E8F0 !important;
+        font-weight: 600;
+    }
+
+    [data-testid="stSidebar"] hr {
+        border-color: rgba(99, 179, 237, 0.15) !important;
+    }
+
+    /* Sidebar select/input controls */
+    [data-testid="stSidebar"] .stSelectbox > div > div,
+    [data-testid="stSidebar"] .stTextInput > div > div > input {
+        background-color: rgba(255,255,255,0.06) !important;
+        border: 1px solid rgba(99, 179, 237, 0.2) !important;
+        color: #E2E8F0 !important;
+        border-radius: 8px;
+    }
+
+    /* Sidebar download buttons */
+    [data-testid="stSidebar"] .stDownloadButton > button {
+        background: linear-gradient(135deg, #1D4ED8 0%, #2563EB 100%) !important;
+        color: #FFFFFF !important;
+        border: none !important;
+        border-radius: 8px !important;
+        font-weight: 600 !important;
+        transition: opacity 0.2s ease;
+    }
+    [data-testid="stSidebar"] .stDownloadButton > button:hover {
+        opacity: 0.88 !important;
+    }
+
+    /* ── Main header ────────────────────────────────────────────── */
     .main-header {
         background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
         padding: 24px 32px;
@@ -35,7 +81,7 @@ st.markdown("""
         margin-bottom: 24px;
         box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     }
-    
+
     .main-header h1 {
         font-size: 1.8rem;
         font-weight: 700;
@@ -43,13 +89,13 @@ st.markdown("""
         color: #F8FAFC;
         letter-spacing: -0.02em;
     }
-    
+
     .main-header p {
         font-size: 0.95rem;
         color: #94A3B8;
         margin: 0;
     }
-    
+
     .badge-gov {
         display: inline-block;
         background-color: rgba(37, 99, 235, 0.2);
@@ -64,6 +110,7 @@ st.markdown("""
         letter-spacing: 0.05em;
     }
 
+    /* ── Metric cards ───────────────────────────────────────────── */
     .metric-container {
         background-color: #FFFFFF;
         border: 1px solid #E2E8F0;
@@ -74,20 +121,9 @@ st.markdown("""
         height: 100%;
         transition: transform 0.15s ease, box-shadow 0.15s ease;
     }
-    
+
     .metric-container:hover {
         box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-    }
-    
-    .metric-icon {
-        width: 36px;
-        height: 36px;
-        border-radius: 8px;
-        background-color: #EFF6FF;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 12px;
     }
 
     .metric-value {
@@ -96,7 +132,7 @@ st.markdown("""
         color: #0F172A;
         line-height: 1.2;
     }
-    
+
     .metric-label {
         font-size: 0.85rem;
         font-weight: 500;
@@ -112,7 +148,8 @@ st.markdown("""
         font-size: 0.8rem;
         font-weight: 600;
     }
-    
+
+    /* ── Tabs ───────────────────────────────────────────────────── */
     .stTabs [data-baseweb="tab-list"] {
         gap: 8px;
         border-bottom: 2px solid #E2E8F0;
@@ -131,6 +168,15 @@ st.markdown("""
         color: #2563EB !important;
         border-bottom: 2px solid #2563EB !important;
         background-color: transparent !important;
+    }
+
+    /* ── Visualization caption ──────────────────────────────────── */
+    .viz-caption {
+        font-size: 0.8rem;
+        color: #64748B;
+        text-align: center;
+        margin-top: 6px;
+        font-style: italic;
     }
 </style>
 """, unsafe_allow_html=True)
