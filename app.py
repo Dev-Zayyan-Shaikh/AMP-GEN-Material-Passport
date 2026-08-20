@@ -345,24 +345,32 @@ if os.path.exists(excel_path):
 
 df = pd.DataFrame(records)
 
-# Ensure carbon numeric mapping & fallback calculation from output/passport.json if needed
-if "embodied_carbon_a1_a3_kg_co2e" in df.columns:
-    df["carbon_kg"] = pd.to_numeric(df["embodied_carbon_a1_a3_kg_co2e"], errors="coerce").fillna(0)
-else:
-    df["carbon_kg"] = 0.0
-
-# If carbon total is zero, fill from passport.json baseline
-if df["carbon_kg"].sum() == 0 and os.path.exists("output/passport.json"):
+# Ensure carbon numeric mapping & sync directly to output/passport.json baseline (40.693 t)
+passport_carbon_map = {}
+if os.path.exists("output/passport.json"):
     try:
         with open("output/passport.json", "r", encoding="utf-8") as f:
             p_list = json.load(f)
-            p_dict = {str(r["boq_item_no"]): r.get("embodied_carbon_a1_a3_kg_co2e") or 0.0 for r in p_list}
-            df["carbon_kg"] = df["boq_item_no"].astype(str).map(p_dict).fillna(0.0)
+            passport_carbon_map = {str(r["boq_item_no"]): (r.get("embodied_carbon_a1_a3_kg_co2e") or 0.0) for r in p_list}
     except Exception:
         pass
 
+if not df.empty and "boq_item_no" in df.columns and passport_carbon_map:
+    df["carbon_kg"] = df["boq_item_no"].astype(str).map(passport_carbon_map).fillna(0.0)
+elif "embodied_carbon_a1_a3_kg_co2e" in df.columns:
+    df["carbon_kg"] = pd.to_numeric(df["embodied_carbon_a1_a3_kg_co2e"], errors="coerce").fillna(0.0)
+else:
+    df["carbon_kg"] = 0.0
+
 # 6. Sidebar Filters & Downloads
+if st.sidebar.button("🔄 Re-sync Baseline Cache", use_container_width=True):
+    for k in ["consensus_data", "comparison_matrix"]:
+        if k in st.session_state:
+            del st.session_state[k]
+    st.rerun()
+
 st.sidebar.subheader("3. Filter Dataset")
+
 categories = ["All Categories"] + sorted(list(df["material_category"].dropna().unique())) if not df.empty else ["All Categories"]
 selected_category = st.sidebar.selectbox("Material Category", categories)
 

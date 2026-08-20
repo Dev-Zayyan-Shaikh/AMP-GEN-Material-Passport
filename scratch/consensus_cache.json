@@ -1,0 +1,5314 @@
+[
+  {
+    "gmap_id": "AMP-GEN-001",
+    "boq_item_no": "1",
+    "description": "Earth work in excavation in foundation trenches or drains not exceeding 1.5 m in width or 10 Sq.m on plan including dressing of sides and ramming of bottoms lift upto 1.5 m including getting out the excavated earth and disposal of surplus excavated soil as directed within lead of 50 m. All types of soil except rocks.",
+    "quantity": 32.0,
+    "unit": "cum",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "2.8",
+    "material_product": "Earthwork in excavation",
+    "material_category": "Earthwork",
+    "discipline": "Civil & Sitework",
+    "grade": null,
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": null,
+    "density_kg_m3": null,
+    "comment": "[EXCLUDED] Earthwork and site excavation involve pure machinery/labour services without permanent material embodied carbon.",
+    "page_number": 2,
+    "source_bbox": [
+      50,
+      20,
+      110,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 32.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 32.0,
+          "OpenAI": 32.0,
+          "Gemini": 32.0
+        }
+      },
+      "unit": {
+        "consensus": "cum",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "cum",
+          "OpenAI": "cum",
+          "Gemini": "cum"
+        }
+      },
+      "material_category": {
+        "consensus": "Earthwork",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Earthwork",
+          "OpenAI": "Earthwork",
+          "Gemini": "Earthwork"
+        }
+      },
+      "discipline": {
+        "consensus": "Civil & Sitework",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Civil & Sitework",
+          "OpenAI": "Civil & Sitework",
+          "Gemini": "Civil & Sitework"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "2.8",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "2.8",
+          "OpenAI": "2.8",
+          "Gemini": "2.8"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-002",
+    "boq_item_no": "2",
+    "description": "Filling available excavated earth (excluding rock) in trenches, plinth, sides of foundations etc. in layers not exceeding 20 cm in depth consolidating each deposited layer by ramming and watering, lead upto 50 m and lift upto 1.5 m.",
+    "quantity": 12.0,
+    "unit": "cum",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "2.26",
+    "material_product": "Plinth & Trench Earth / Sand Filling",
+    "material_category": "Earthwork",
+    "discipline": "Civil & Sitework",
+    "grade": null,
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": null,
+    "density_kg_m3": null,
+    "comment": "[EXCLUDED] Earthwork and site excavation involve pure machinery/labour services without permanent material embodied carbon.",
+    "page_number": 2,
+    "source_bbox": [
+      115,
+      20,
+      175,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 12.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 12.0,
+          "OpenAI": 12.0,
+          "Gemini": 12.0
+        }
+      },
+      "unit": {
+        "consensus": "cum",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "cum",
+          "OpenAI": "cum",
+          "Gemini": "cum"
+        }
+      },
+      "material_category": {
+        "consensus": "Earthwork",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Earthwork",
+          "OpenAI": "Earthwork",
+          "Gemini": "Earthwork"
+        }
+      },
+      "discipline": {
+        "consensus": "Civil & Sitework",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Civil & Sitework",
+          "OpenAI": "Civil & Sitework",
+          "Gemini": "Civil & Sitework"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "2.26",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "2.26",
+          "OpenAI": "2.26",
+          "Gemini": "2.26"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-003",
+    "boq_item_no": "3",
+    "description": "Filling the plinth with fine sand under floors including watering, ramming consolidating and dressing complete.",
+    "quantity": 11.0,
+    "unit": "cum",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "2.28",
+    "material_product": "Plinth & Trench Earth / Sand Filling",
+    "material_category": "Earthwork",
+    "discipline": "Civil & Sitework",
+    "grade": null,
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": null,
+    "density_kg_m3": null,
+    "comment": "[EXCLUDED] Earthwork and site excavation involve pure machinery/labour services without permanent material embodied carbon.",
+    "page_number": 2,
+    "source_bbox": [
+      180,
+      20,
+      240,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 11.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 11.0,
+          "OpenAI": 11.0,
+          "Gemini": 11.0
+        }
+      },
+      "unit": {
+        "consensus": "cum",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "cum",
+          "OpenAI": "cum",
+          "Gemini": "cum"
+        }
+      },
+      "material_category": {
+        "consensus": "Earthwork",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Earthwork",
+          "OpenAI": "Earthwork",
+          "Gemini": "Earthwork"
+        }
+      },
+      "discipline": {
+        "consensus": "Civil & Sitework",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Civil & Sitework",
+          "OpenAI": "Civil & Sitework",
+          "Gemini": "Civil & Sitework"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "2.28",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "2.28",
+          "OpenAI": "2.28",
+          "Gemini": "2.28"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-004",
+    "boq_item_no": "4",
+    "description": "Surface dressing of the ground including removing vegetation, and inequalities not exceeding 15 cm deep and disposal of rubbish, lead upto 50 m and lift upto 1.5 m in soft/loose soil.",
+    "quantity": 5.4,
+    "unit": "sqm",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "2.29.1",
+    "material_product": "Surface Dressing of Ground",
+    "material_category": "Earthwork",
+    "discipline": "Civil & Sitework",
+    "grade": null,
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": null,
+    "density_kg_m3": null,
+    "comment": "[EXCLUDED] Earthwork and site excavation involve pure machinery/labour services without permanent material embodied carbon.",
+    "page_number": 2,
+    "source_bbox": [
+      245,
+      20,
+      305,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 5.4,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 5.4,
+          "OpenAI": 5.4,
+          "Gemini": 5.4
+        }
+      },
+      "unit": {
+        "consensus": "sqm",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "sqm",
+          "OpenAI": "sqm",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Earthwork",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Earthwork",
+          "OpenAI": "Earthwork",
+          "Gemini": "Earthwork"
+        }
+      },
+      "discipline": {
+        "consensus": "Civil & Sitework",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Civil & Sitework",
+          "OpenAI": "Civil & Sitework",
+          "Gemini": "Civil & Sitework"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "2.29.1",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "2.29.1",
+          "OpenAI": "2.29.1",
+          "Gemini": "2.29.1"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-005",
+    "boq_item_no": "5",
+    "description": "Providing and injecting chemical emulsion for PRECONSTRUCTIONAL anti termite treatment and creating chemical barrier under and allround the column pits, wall trenches, basement excavation, top surface of plinth filling, junction of wall and floor, along the external perimetre of building, expansion joints, surroundings of pipes, conduits etc. complete (plinth area of the building at ground floor only shall be measured) with Aldrin Emulsifiable Concentrate (0.5%).",
+    "quantity": 90.6,
+    "unit": "sqm",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "2.35.2",
+    "material_product": "Chemical Anti-Termite Treatment",
+    "material_category": "Earthwork",
+    "discipline": "Civil & Sitework",
+    "grade": null,
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": null,
+    "density_kg_m3": null,
+    "comment": "[EXCLUDED] Earthwork and site excavation involve pure machinery/labour services without permanent material embodied carbon.",
+    "page_number": 2,
+    "source_bbox": [
+      310,
+      20,
+      370,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 90.6,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 90.6,
+          "OpenAI": 90.6,
+          "Gemini": 90.6
+        }
+      },
+      "unit": {
+        "consensus": "sqm",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "sqm",
+          "OpenAI": "sqm",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Earthwork",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Earthwork",
+          "OpenAI": "Earthwork",
+          "Gemini": "Earthwork"
+        }
+      },
+      "discipline": {
+        "consensus": "Civil & Sitework",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Civil & Sitework",
+          "OpenAI": "Civil & Sitework",
+          "Gemini": "Civil & Sitework"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "2.35.2",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "2.35.2",
+          "OpenAI": "2.35.2",
+          "Gemini": "2.35.2"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-006",
+    "boq_item_no": "6",
+    "description": "Providing and laying cement concrete in footings and bases for columns, excluding the cost of centring and shuttering with 1:5:10 (1 cement : 5 fine sand : 10 graded stone aggregate 40 mm nominal size).",
+    "quantity": 8.0,
+    "unit": "cum",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "4.5.10",
+    "material_product": "Plain Cement Concrete 1:5:10",
+    "material_category": "Concrete",
+    "discipline": "Structural",
+    "grade": "M-15",
+    "mix_ratio": "1:5:10",
+    "embodied_carbon_a1_a3_kg_co2e": 2444.0,
+    "gwp_per_kg": 0.13,
+    "density_kg_m3": 2350.0,
+    "comment": "GWP: 0.13 kg CO2e/kg, Density: 2350.0 kg/m³ | Source: ICE Database v3.0 (Concrete 15/20 MPa).",
+    "page_number": 2,
+    "source_bbox": [
+      375,
+      20,
+      440,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 8.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 8.0,
+          "OpenAI": 8.0,
+          "Gemini": 8.0
+        }
+      },
+      "unit": {
+        "consensus": "cum",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "cum",
+          "OpenAI": "cum",
+          "Gemini": "cum"
+        }
+      },
+      "material_category": {
+        "consensus": "Concrete",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Concrete",
+          "OpenAI": "Concrete",
+          "Gemini": "Concrete"
+        }
+      },
+      "discipline": {
+        "consensus": "Structural",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Structural",
+          "OpenAI": "Structural",
+          "Gemini": "Structural"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "4.5.10",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "4.5.10",
+          "OpenAI": "4.5.10",
+          "Gemini": "4.5.10"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-007",
+    "boq_item_no": "7",
+    "description": "Providing and laying cement concrete in retaining walls, return walls, walls (any thickness) including attached pilasters, buttresses, plinth, string courses, fillets etc. upto floor two level, excluding the cost of centring and shuttering with 1:5:10 (1 cement : 5 fine sand : 10 graded stone aggregate 40 mm nominal size).",
+    "quantity": 7.3,
+    "unit": "cum",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "4.6.11",
+    "material_product": "Plain Cement Concrete 1:5:10",
+    "material_category": "Concrete",
+    "discipline": "Structural",
+    "grade": "M-15",
+    "mix_ratio": "1:5:10",
+    "embodied_carbon_a1_a3_kg_co2e": 2230.15,
+    "gwp_per_kg": 0.13,
+    "density_kg_m3": 2350.0,
+    "comment": "GWP: 0.13 kg CO2e/kg, Density: 2350.0 kg/m³ | Source: ICE Database v3.0 (Concrete 15/20 MPa).",
+    "page_number": 3,
+    "source_bbox": [
+      50,
+      20,
+      110,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 7.3,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 7.3,
+          "OpenAI": 7.3,
+          "Gemini": 7.3
+        }
+      },
+      "unit": {
+        "consensus": "cum",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "cum",
+          "OpenAI": "cum",
+          "Gemini": "cum"
+        }
+      },
+      "material_category": {
+        "consensus": "Concrete",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Concrete",
+          "OpenAI": "Concrete",
+          "Gemini": "Concrete"
+        }
+      },
+      "discipline": {
+        "consensus": "Structural",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Structural",
+          "OpenAI": "Structural",
+          "Gemini": "Structural"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "4.6.11",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "4.6.11",
+          "OpenAI": "4.6.11",
+          "Gemini": "4.6.11"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-008",
+    "boq_item_no": "8",
+    "description": "Providing and laying cement concrete in string or lacing courses, parapets, copings, bed blocks, anchor blocks, plain window sills etc. upto floor two level excluding centring and shuttering, with 1:2:4 (1 cement : 2 coarse sand : 4 graded stone aggregate 20 mm nominal size).",
+    "quantity": 0.1,
+    "unit": "cum",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "4.11.1",
+    "material_product": "Plain Cement Concrete 1:2:4",
+    "material_category": "Concrete",
+    "discipline": "Structural",
+    "grade": "M-15",
+    "mix_ratio": "1:2:4",
+    "embodied_carbon_a1_a3_kg_co2e": 30.55,
+    "gwp_per_kg": 0.13,
+    "density_kg_m3": 2350.0,
+    "comment": "GWP: 0.13 kg CO2e/kg, Density: 2350.0 kg/m³ | Source: ICE Database v3.0 (Concrete 15/20 MPa).",
+    "page_number": 3,
+    "source_bbox": [
+      115,
+      20,
+      175,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 0.1,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 0.1,
+          "OpenAI": 0.1,
+          "Gemini": 0.1
+        }
+      },
+      "unit": {
+        "consensus": "cum",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "cum",
+          "OpenAI": "cum",
+          "Gemini": "cum"
+        }
+      },
+      "material_category": {
+        "consensus": "Concrete",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Concrete",
+          "OpenAI": "Concrete",
+          "Gemini": "Concrete"
+        }
+      },
+      "discipline": {
+        "consensus": "Structural",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Structural",
+          "OpenAI": "Structural",
+          "Gemini": "Structural"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "4.11.1",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "4.11.1",
+          "OpenAI": "4.11.1",
+          "Gemini": "4.11.1"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-009",
+    "boq_item_no": "9",
+    "description": "Providing and laying damp-proof course 40 mm thick with cement concrete 1:2:4 (1 cement : 2 coarse sand : 4 graded stone aggregate 12.5 mm nominal size).",
+    "quantity": 14.4,
+    "unit": "sqm",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "4.24",
+    "material_product": "Damp-Proof Course (DPC) 40mm 1:2:4",
+    "material_category": "Waterproofing / Bitumen",
+    "discipline": "Structural",
+    "grade": null,
+    "mix_ratio": "1:2:4",
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": null,
+    "density_kg_m3": null,
+    "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
+    "page_number": 3,
+    "source_bbox": [
+      180,
+      20,
+      240,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 14.4,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 14.4,
+          "OpenAI": 14.4,
+          "Gemini": 14.4
+        }
+      },
+      "unit": {
+        "consensus": "sqm",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "sqm",
+          "OpenAI": "sqm",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Waterproofing / Bitumen",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Waterproofing / Bitumen",
+          "OpenAI": "Waterproofing / Bitumen",
+          "Gemini": "Waterproofing / Bitumen"
+        }
+      },
+      "discipline": {
+        "consensus": "Structural",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Structural",
+          "OpenAI": "Structural",
+          "Gemini": "Structural"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "4.24",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "4.24",
+          "OpenAI": "4.24",
+          "Gemini": "4.24"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-010",
+    "boq_item_no": "10",
+    "description": "Applying coat of residual petroleum bitumen of penetration 80/100 of approved quality using 1.7 Kg. per square metre on damp proof course after cleaning the surface with brushes and finally with piece of cloth lightly soaked in kerosene oil.",
+    "quantity": 14.4,
+    "unit": "sqm",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "4.27",
+    "material_product": "Residual Petroleum Bitumen 80/100",
+    "material_category": "Waterproofing / Bitumen",
+    "discipline": "Structural",
+    "grade": "80/100",
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": null,
+    "density_kg_m3": null,
+    "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
+    "page_number": 3,
+    "source_bbox": [
+      245,
+      20,
+      305,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 14.4,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 14.4,
+          "OpenAI": 14.4,
+          "Gemini": 14.4
+        }
+      },
+      "unit": {
+        "consensus": "sqm",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "sqm",
+          "OpenAI": "sqm",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Waterproofing / Bitumen",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Waterproofing / Bitumen",
+          "OpenAI": "Waterproofing / Bitumen",
+          "Gemini": "Waterproofing / Bitumen"
+        }
+      },
+      "discipline": {
+        "consensus": "Structural",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Structural",
+          "OpenAI": "Structural",
+          "Gemini": "Structural"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "4.27",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "4.27",
+          "OpenAI": "4.27",
+          "Gemini": "4.27"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-011",
+    "boq_item_no": "11",
+    "description": "Reinforced cement concrete work in suspended floors, roofs, landings and balconies upto floor two level excluding cost of centring, shuttering, finishing and reinforcement with 1:2:4 (1 cement : 2 coarse sand : 4 graded stone aggregate 20 mm nominal size).",
+    "quantity": 11.3,
+    "unit": "cum",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "5.3",
+    "material_product": "Reinforced Cement Concrete 1:2:4",
+    "material_category": "Concrete",
+    "discipline": "Structural",
+    "grade": "M-20",
+    "mix_ratio": "1:2:4",
+    "embodied_carbon_a1_a3_kg_co2e": 4203.6,
+    "gwp_per_kg": 0.155,
+    "density_kg_m3": 2400.0,
+    "comment": "GWP: 0.155 kg CO2e/kg, Density: 2400.0 kg/m³ | Source: ICE Database v3.0 (Concrete 25/30 MPa).",
+    "page_number": 3,
+    "source_bbox": [
+      310,
+      20,
+      370,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 11.3,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 11.3,
+          "OpenAI": 11.3,
+          "Gemini": 11.3
+        }
+      },
+      "unit": {
+        "consensus": "cum",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "cum",
+          "OpenAI": "cum",
+          "Gemini": "cum"
+        }
+      },
+      "material_category": {
+        "consensus": "Concrete",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Concrete",
+          "OpenAI": "Concrete",
+          "Gemini": "Concrete"
+        }
+      },
+      "discipline": {
+        "consensus": "Structural",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Structural",
+          "OpenAI": "Structural",
+          "Gemini": "Structural"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "5.3",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "5.3",
+          "OpenAI": "5.3",
+          "Gemini": "5.3"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-012",
+    "boq_item_no": "12",
+    "description": "Reinforced cement concrete work in shelves upto floor two level excluding the cost of centering and shuttering and reinforcement with 1:2:4 (1 cement : 2 coarse sand : 4 graded stone aggregate 20 mm nominal size).",
+    "quantity": 1.0,
+    "unit": "cum",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "5.4",
+    "material_product": "Reinforced Cement Concrete 1:2:4",
+    "material_category": "Concrete",
+    "discipline": "Structural",
+    "grade": "M-20",
+    "mix_ratio": "1:2:4",
+    "embodied_carbon_a1_a3_kg_co2e": 372.0,
+    "gwp_per_kg": 0.155,
+    "density_kg_m3": 2400.0,
+    "comment": "GWP: 0.155 kg CO2e/kg, Density: 2400.0 kg/m³ | Source: ICE Database v3.0 (Concrete 25/30 MPa).",
+    "page_number": 3,
+    "source_bbox": [
+      375,
+      20,
+      440,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 1.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 1.0,
+          "OpenAI": 1.0,
+          "Gemini": 1.0
+        }
+      },
+      "unit": {
+        "consensus": "cum",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "cum",
+          "OpenAI": "cum",
+          "Gemini": "cum"
+        }
+      },
+      "material_category": {
+        "consensus": "Concrete",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Concrete",
+          "OpenAI": "Concrete",
+          "Gemini": "Concrete"
+        }
+      },
+      "discipline": {
+        "consensus": "Structural",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Structural",
+          "OpenAI": "Structural",
+          "Gemini": "Structural"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "5.4",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "5.4",
+          "OpenAI": "5.4",
+          "Gemini": "5.4"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-013",
+    "boq_item_no": "13",
+    "description": "Reinforced cement concrete work in chajjas, facias and gutters upto floor two level including throating of plastered drip and moulding excluding cost of centring, shuttering, finishing and reinforcement with 1:2:4 (1 cement : 2 coarse sand : 4 graded stone aggregate 20 mm nominal size).",
+    "quantity": 0.6,
+    "unit": "cum",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "5.5",
+    "material_product": "Reinforced Cement Concrete 1:2:4",
+    "material_category": "Concrete",
+    "discipline": "Structural",
+    "grade": "M-20",
+    "mix_ratio": "1:2:4",
+    "embodied_carbon_a1_a3_kg_co2e": 223.2,
+    "gwp_per_kg": 0.155,
+    "density_kg_m3": 2400.0,
+    "comment": "GWP: 0.155 kg CO2e/kg, Density: 2400.0 kg/m³ | Source: ICE Database v3.0 (Concrete 25/30 MPa).",
+    "page_number": 4,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 0.6,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 0.6,
+          "OpenAI": 0.6,
+          "Gemini": 0.6
+        }
+      },
+      "unit": {
+        "consensus": "cum",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "cum",
+          "OpenAI": "cum",
+          "Gemini": "cum"
+        }
+      },
+      "material_category": {
+        "consensus": "Concrete",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Concrete",
+          "OpenAI": "Concrete",
+          "Gemini": "Concrete"
+        }
+      },
+      "discipline": {
+        "consensus": "Structural",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Structural",
+          "OpenAI": "Structural",
+          "Gemini": "Structural"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "5.5",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "5.5",
+          "OpenAI": "5.5",
+          "Gemini": "5.5"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-014",
+    "boq_item_no": "14",
+    "description": "Reinforced cement concrete work in lintels, beams, plinth beams and bresummers upto floor two level excluding the cost of centring, shuttering, finishing and reinforcement with 1:2:4 (1 cement : 2 coarse sand : 4 graded stone aggregate 20 mm nominal size). [Continued from Page 3 to Page 4]",
+    "quantity": 1.7,
+    "unit": "cum",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "5.6.3",
+    "material_product": "Reinforced Cement Concrete 1:2:4",
+    "material_category": "Concrete",
+    "discipline": "Structural",
+    "grade": "M-20",
+    "mix_ratio": "1:2:4",
+    "embodied_carbon_a1_a3_kg_co2e": 632.4,
+    "gwp_per_kg": 0.155,
+    "density_kg_m3": 2400.0,
+    "comment": "GWP: 0.155 kg CO2e/kg, Density: 2400.0 kg/m³ | Source: ICE Database v3.0 (Concrete 25/30 MPa).",
+    "page_number": 4,
+    "source_bbox": [
+      125,
+      20,
+      210,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 1.7,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 1.7,
+          "OpenAI": 1.7,
+          "Gemini": 1.7
+        }
+      },
+      "unit": {
+        "consensus": "cum",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "cum",
+          "OpenAI": "cum",
+          "Gemini": "cum"
+        }
+      },
+      "material_category": {
+        "consensus": "Concrete",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Concrete",
+          "OpenAI": "Concrete",
+          "Gemini": "Concrete"
+        }
+      },
+      "discipline": {
+        "consensus": "Structural",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Structural",
+          "OpenAI": "Structural",
+          "Gemini": "Structural"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "5.6.3",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "5.6.3",
+          "OpenAI": "5.6.3",
+          "Gemini": "5.6.3"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-015",
+    "boq_item_no": "15",
+    "description": "Reinforced cement concrete work in columns, pillars, piers, abutments, posts and struts upto floor two level excluding the cost of centring, shuttering, finishing and reinforcement with 1:2:4 (1 cement : 2 coarse sand : 4 graded stone aggregate 20 mm nominal size).",
+    "quantity": 0.1,
+    "unit": "cum",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "5.7.3",
+    "material_product": "Reinforced Cement Concrete 1:2:4",
+    "material_category": "Concrete",
+    "discipline": "Structural",
+    "grade": "M-20",
+    "mix_ratio": "1:2:4",
+    "embodied_carbon_a1_a3_kg_co2e": 37.2,
+    "gwp_per_kg": 0.155,
+    "density_kg_m3": 2400.0,
+    "comment": "GWP: 0.155 kg CO2e/kg, Density: 2400.0 kg/m³ | Source: ICE Database v3.0 (Concrete 25/30 MPa).",
+    "page_number": 4,
+    "source_bbox": [
+      215,
+      20,
+      285,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 0.1,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 0.1,
+          "OpenAI": 0.1,
+          "Gemini": 0.1
+        }
+      },
+      "unit": {
+        "consensus": "cum",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "cum",
+          "OpenAI": "cum",
+          "Gemini": "cum"
+        }
+      },
+      "material_category": {
+        "consensus": "Concrete",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Concrete",
+          "OpenAI": "Concrete",
+          "Gemini": "Concrete"
+        }
+      },
+      "discipline": {
+        "consensus": "Structural",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Structural",
+          "OpenAI": "Structural",
+          "Gemini": "Structural"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "5.7.3",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "5.7.3",
+          "OpenAI": "5.7.3",
+          "Gemini": "5.7.3"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-016",
+    "boq_item_no": "16",
+    "description": "Centring and shuttering including strutting, propping etc. and removal of form work for: i) Suspended floors, roofs, landings, balconies and chajjas (108.0 Sq.m); ii) Shelves (17.0 Sq.m); iii) Lintels, beams, plinth beams, girders, bresummers and cantilever (19.0 Sq.m); iv) Columns, pillars, posts and struts (2.0 Sq.m); v) Vertical and horizontal fins individually or forming box louvers, beams and facias (9.0 Sq.m). Total Area = 155.0 Sq.m.",
+    "quantity": 155.0,
+    "unit": "sqm",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "5.14",
+    "material_product": "Centring & Formwork Shuttering",
+    "material_category": "Wood",
+    "discipline": "Structural",
+    "grade": null,
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": 0.45,
+    "density_kg_m3": 650.0,
+    "comment": "GWP: 0.450 kg CO2e/kg, Density: 650 kg/m³ | Source: ICE Database v3.0 (Sawn Timber, fossil GWP A1-A3).",
+    "page_number": 4,
+    "source_bbox": [
+      290,
+      20,
+      365,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 155.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 155.0,
+          "OpenAI": 155.0,
+          "Gemini": 155.0
+        }
+      },
+      "unit": {
+        "consensus": "sqm",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "sqm",
+          "OpenAI": "sqm",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Wood",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Wood",
+          "OpenAI": "Wood",
+          "Gemini": "Wood"
+        }
+      },
+      "discipline": {
+        "consensus": "Structural",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Structural",
+          "OpenAI": "Structural",
+          "Gemini": "Structural"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "5.14",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "5.14",
+          "OpenAI": "5.14",
+          "Gemini": "5.14"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-017",
+    "boq_item_no": "17",
+    "description": "Reinforcement for RCC work including bending, binding and placing in position complete: i) Mild steel and medium tensile steel bars (100.0 Kg); ii) Cold twisted bars / TMT reinforcement steel bars (1375.0 Kg for Zone I-IV / 1500.0 Kg for Zone V).",
+    "quantity": 1475.0,
+    "unit": "kg",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "5.29",
+    "material_product": "Steel Reinforcement (TMT / Mild Steel)",
+    "material_category": "Reinf",
+    "discipline": "Structural",
+    "grade": "Fe-415 / Fe-500D",
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": 3485.43,
+    "gwp_per_kg": 2.363,
+    "density_kg_m3": 7850.0,
+    "comment": "Source notation: 100 kg (Mild steel) + 1375/1500 kg (Cold twisted bars for Zone I-IV / Zone V). GWP: 2.363 kg CO2e/kg, Density: 7850 kg/m³ | Source: ICE Database v3.0 (Steel - Rebar / Rod / Structural).",
+    "page_number": 4,
+    "source_bbox": [
+      370,
+      20,
+      445,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 1475.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 1475.0,
+          "OpenAI": 1475.0,
+          "Gemini": 1475.0
+        }
+      },
+      "unit": {
+        "consensus": "kg",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "kg",
+          "OpenAI": "kg",
+          "Gemini": "kg"
+        }
+      },
+      "material_category": {
+        "consensus": "Reinf",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Reinf",
+          "OpenAI": "Reinf",
+          "Gemini": "Reinf"
+        }
+      },
+      "discipline": {
+        "consensus": "Structural",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Structural",
+          "OpenAI": "Structural",
+          "Gemini": "Structural"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "5.29",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "5.29",
+          "OpenAI": "5.29",
+          "Gemini": "5.29"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-018",
+    "boq_item_no": "18",
+    "description": "Providing and laying upto floor two level RCC in string courses, bands, copings, bed plates, anchor blocks, plain window sills and the like excluding the cost of centering, shuttering, finishing and reinforcement with 1:2:4 (1 cement : 2 coarse sand : 4 graded stone aggregate 20 mm nominal size).",
+    "quantity": 0.8,
+    "unit": "cum",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "5.16",
+    "material_product": "Reinforced Cement Concrete 1:2:4",
+    "material_category": "Concrete",
+    "discipline": "Structural",
+    "grade": "M-20",
+    "mix_ratio": "1:2:4",
+    "embodied_carbon_a1_a3_kg_co2e": 297.6,
+    "gwp_per_kg": 0.155,
+    "density_kg_m3": 2400.0,
+    "comment": "GWP: 0.155 kg CO2e/kg, Density: 2400.0 kg/m³ | Source: ICE Database v3.0 (Concrete 25/30 MPa).",
+    "page_number": 5,
+    "source_bbox": [
+      50,
+      20,
+      110,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 0.8,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 0.8,
+          "OpenAI": 0.8,
+          "Gemini": 0.8
+        }
+      },
+      "unit": {
+        "consensus": "cum",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "cum",
+          "OpenAI": "cum",
+          "Gemini": "cum"
+        }
+      },
+      "material_category": {
+        "consensus": "Concrete",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Concrete",
+          "OpenAI": "Concrete",
+          "Gemini": "Concrete"
+        }
+      },
+      "discipline": {
+        "consensus": "Structural",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Structural",
+          "OpenAI": "Structural",
+          "Gemini": "Structural"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "5.16",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "5.16",
+          "OpenAI": "5.16",
+          "Gemini": "5.16"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-019",
+    "boq_item_no": "19",
+    "description": "Brick work with bricks of class designation 50 in foundation and plinth in cement mortar 1:6 (1 cement : 6 coarse sand).",
+    "quantity": 17.0,
+    "unit": "cum",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "6.1.14/6.5.1/6.5.2",
+    "material_product": "Burnt Clay Brick Masonry (1:6)",
+    "material_category": "Masonry",
+    "discipline": "Structural",
+    "grade": "CLASS DESIGNATION 50",
+    "mix_ratio": "1:6",
+    "embodied_carbon_a1_a3_kg_co2e": 7752.0,
+    "gwp_per_kg": 0.24,
+    "density_kg_m3": 1900.0,
+    "comment": "GWP: 0.240 kg CO2e/kg, Density: 1900 kg/m³ | Source: ICE Database v3.0 / Indian LCA literature (Burnt Clay Bricks & Mortar).",
+    "page_number": 5,
+    "source_bbox": [
+      115,
+      20,
+      175,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 17.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 17.0,
+          "OpenAI": 17.0,
+          "Gemini": 17.0
+        }
+      },
+      "unit": {
+        "consensus": "cum",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "cum",
+          "OpenAI": "cum",
+          "Gemini": "cum"
+        }
+      },
+      "material_category": {
+        "consensus": "Masonry",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Masonry",
+          "OpenAI": "Masonry",
+          "Gemini": "Masonry"
+        }
+      },
+      "discipline": {
+        "consensus": "Structural",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Structural",
+          "OpenAI": "Structural",
+          "Gemini": "Structural"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "6.1.14/6.5.1/6.5.2",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "6.1.14/6.5.1/6.5.2",
+          "OpenAI": "6.1.14/6.5.1/6.5.2",
+          "Gemini": "6.1.14/6.5.1/6.5.2"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-020",
+    "boq_item_no": "20",
+    "description": "Brick work with bricks of class designation 50 in super structure above plinth upto floor two level in cement mortar 1:6 (1 cement : 6 coarse sand).",
+    "quantity": 40.3,
+    "unit": "cum",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "6.1.14/6.3/6.5.1/6.5.2",
+    "material_product": "Burnt Clay Brick Masonry (1:6)",
+    "material_category": "Masonry",
+    "discipline": "Structural",
+    "grade": "CLASS DESIGNATION 50",
+    "mix_ratio": "1:6",
+    "embodied_carbon_a1_a3_kg_co2e": 18376.8,
+    "gwp_per_kg": 0.24,
+    "density_kg_m3": 1900.0,
+    "comment": "GWP: 0.240 kg CO2e/kg, Density: 1900 kg/m³ | Source: ICE Database v3.0 / Indian LCA literature (Burnt Clay Bricks & Mortar).",
+    "page_number": 5,
+    "source_bbox": [
+      180,
+      20,
+      240,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 40.3,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 40.3,
+          "OpenAI": 40.3,
+          "Gemini": 40.3
+        }
+      },
+      "unit": {
+        "consensus": "cum",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "cum",
+          "OpenAI": "cum",
+          "Gemini": "cum"
+        }
+      },
+      "material_category": {
+        "consensus": "Masonry",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Masonry",
+          "OpenAI": "Masonry",
+          "Gemini": "Masonry"
+        }
+      },
+      "discipline": {
+        "consensus": "Structural",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Structural",
+          "OpenAI": "Structural",
+          "Gemini": "Structural"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "6.1.14/6.3/6.5.1/6.5.2",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "6.1.14/6.3/6.5.1/6.5.2",
+          "OpenAI": "6.1.14/6.3/6.5.1/6.5.2",
+          "Gemini": "6.1.14/6.3/6.5.1/6.5.2"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-021",
+    "boq_item_no": "21",
+    "description": "Brick work 7 cm thick with bricks of class designation in super structure upto floor two level in cement mortar 1:3 (1 cement : 3 coarse sand).",
+    "quantity": 0.9,
+    "unit": "sqm",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "6.13/6.21/6.5.1/6.5.2",
+    "material_product": "Burnt Clay Brick Masonry (1:3)",
+    "material_category": "Masonry",
+    "discipline": "Structural",
+    "grade": "Class Designation 50 / 75",
+    "mix_ratio": "1:3",
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": 0.24,
+    "density_kg_m3": 1900.0,
+    "comment": "GWP: 0.240 kg CO2e/kg, Density: 1900 kg/m³ | Source: ICE Database v3.0 / Indian LCA literature (Burnt Clay Bricks & Mortar).",
+    "page_number": 5,
+    "source_bbox": [
+      245,
+      20,
+      305,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 0.9,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 0.9,
+          "OpenAI": 0.9,
+          "Gemini": 0.9
+        }
+      },
+      "unit": {
+        "consensus": "sqm",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "sqm",
+          "OpenAI": "sqm",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Masonry",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Masonry",
+          "OpenAI": "Masonry",
+          "Gemini": "Masonry"
+        }
+      },
+      "discipline": {
+        "consensus": "Structural",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Structural",
+          "OpenAI": "Structural",
+          "Gemini": "Structural"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "6.13/6.21/6.5.1/6.5.2",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "6.13/6.21/6.5.1/6.5.2",
+          "OpenAI": "6.13/6.21/6.5.1/6.5.2",
+          "Gemini": "6.13/6.21/6.5.1/6.5.2"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-022",
+    "boq_item_no": "22",
+    "description": "Half brick masonry with bricks of class designation in foundation and plinth in cement mortar 1:4 (1 cement : 4 coarse sand).",
+    "quantity": 4.8,
+    "unit": "sqm",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "6.18.4/6.21",
+    "material_product": "Burnt Clay Brick Masonry (1:4)",
+    "material_category": "Masonry",
+    "discipline": "Structural",
+    "grade": "Class Designation 50 / 75",
+    "mix_ratio": "1:4",
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": 0.24,
+    "density_kg_m3": 1900.0,
+    "comment": "GWP: 0.240 kg CO2e/kg, Density: 1900 kg/m³ | Source: ICE Database v3.0 / Indian LCA literature (Burnt Clay Bricks & Mortar).",
+    "page_number": 5,
+    "source_bbox": [
+      310,
+      20,
+      370,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 4.8,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 4.8,
+          "OpenAI": 4.8,
+          "Gemini": 4.8
+        }
+      },
+      "unit": {
+        "consensus": "sqm",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "sqm",
+          "OpenAI": "sqm",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Masonry",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Masonry",
+          "OpenAI": "Masonry",
+          "Gemini": "Masonry"
+        }
+      },
+      "discipline": {
+        "consensus": "Structural",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Structural",
+          "OpenAI": "Structural",
+          "Gemini": "Structural"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "6.18.4/6.21",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "6.18.4/6.21",
+          "OpenAI": "6.18.4/6.21",
+          "Gemini": "6.18.4/6.21"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-023",
+    "boq_item_no": "23",
+    "description": "Half brick masonry with bricks of class designation in super structure upto floor two level in cement mortar 1:4 (1 cement : 4 coarse sand).",
+    "quantity": 18.0,
+    "unit": "sqm",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "6.18.4/6.19.1/6.20/6.21.1/6.21.2",
+    "material_product": "Burnt Clay Brick Masonry (1:4)",
+    "material_category": "Masonry",
+    "discipline": "Structural",
+    "grade": "Class Designation 50 / 75",
+    "mix_ratio": "1:4",
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": 0.24,
+    "density_kg_m3": 1900.0,
+    "comment": "GWP: 0.240 kg CO2e/kg, Density: 1900 kg/m³ | Source: ICE Database v3.0 / Indian LCA literature (Burnt Clay Bricks & Mortar).",
+    "page_number": 5,
+    "source_bbox": [
+      375,
+      20,
+      440,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 18.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 18.0,
+          "OpenAI": 18.0,
+          "Gemini": 18.0
+        }
+      },
+      "unit": {
+        "consensus": "sqm",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "sqm",
+          "OpenAI": "sqm",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Masonry",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Masonry",
+          "OpenAI": "Masonry",
+          "Gemini": "Masonry"
+        }
+      },
+      "discipline": {
+        "consensus": "Structural",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Structural",
+          "OpenAI": "Structural",
+          "Gemini": "Structural"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "6.18.4/6.19.1/6.20/6.21.1/6.21.2",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "6.18.4/6.19.1/6.20/6.21.1/6.21.2",
+          "OpenAI": "6.18.4/6.19.1/6.20/6.21.1/6.21.2",
+          "Gemini": "6.18.4/6.19.1/6.20/6.21.1/6.21.2"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-024",
+    "boq_item_no": "24",
+    "description": "Providing wood work in frames of doors, windows, clerestory windows and other frames, wrought framed and fixed in position. [Note: 3.5 in 10 cubic decimetre = 35 dm³ = 0.035 m³]",
+    "quantity": 3.5,
+    "unit": "cum",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "9.1.2",
+    "material_product": "Timber Wood Frames / Flush Door Shutters",
+    "material_category": "Wood",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": 10.24,
+    "gwp_per_kg": 0.45,
+    "density_kg_m3": 650.0,
+    "comment": "Normalized 3.5 x 10 cubic decimetre (dm³) to 0.035 m³ (cum) per template instructions. GWP: 0.450 kg CO2e/kg, Density: 650 kg/m³ | Source: ICE Database v3.0 (Sawn Timber, fossil GWP A1-A3).",
+    "page_number": 6,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 3.5,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 3.5,
+          "OpenAI": 3.5,
+          "Gemini": 3.5
+        }
+      },
+      "unit": {
+        "consensus": "cum",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "cum",
+          "OpenAI": "cum",
+          "Gemini": "cum"
+        }
+      },
+      "material_category": {
+        "consensus": "Wood",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Wood",
+          "OpenAI": "Wood",
+          "Gemini": "Wood"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "9.1.2",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "9.1.2",
+          "OpenAI": "9.1.2",
+          "Gemini": "9.1.2"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-025",
+    "boq_item_no": "25",
+    "description": "Providing and fixing 35 mm thick battended and framed door shutters of 2nd class teak wood including bright finished MS butt hinges with necessary screws.",
+    "quantity": 18.0,
+    "unit": "sqm",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "9.7.2/9.9",
+    "material_product": "Timber Wood Frames / Flush Door Shutters",
+    "material_category": "Wood",
+    "discipline": "Architectural & Finishes",
+    "grade": "2ND CLASS",
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": 0.45,
+    "density_kg_m3": 650.0,
+    "comment": "GWP: 0.450 kg CO2e/kg, Density: 650 kg/m³ | Source: ICE Database v3.0 (Sawn Timber, fossil GWP A1-A3).",
+    "page_number": 6,
+    "source_bbox": [
+      125,
+      20,
+      195,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 18.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 18.0,
+          "OpenAI": 18.0,
+          "Gemini": 18.0
+        }
+      },
+      "unit": {
+        "consensus": "sqm",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "sqm",
+          "OpenAI": "sqm",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Wood",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Wood",
+          "OpenAI": "Wood",
+          "Gemini": "Wood"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "9.7.2/9.9",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "9.7.2/9.9",
+          "OpenAI": "9.7.2/9.9",
+          "Gemini": "9.7.2/9.9"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-026",
+    "boq_item_no": "26",
+    "description": "Providing and fixing 25 mm thick flush door shutters (for cupboard) block board core 1st class hard wood construction with frame of 1st class teak ply veneer or cross bands and face veneer on one face and commercial ply veneering on other face including nickel plated piano hinges. [Continued from Page 5 to Page 6]",
+    "quantity": 4.7,
+    "unit": "sqm",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "9.26.4",
+    "material_product": "Timber Wood Frames / Flush Door Shutters",
+    "material_category": "Wood",
+    "discipline": "Architectural & Finishes",
+    "grade": "1ST CLASS",
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": 0.45,
+    "density_kg_m3": 650.0,
+    "comment": "GWP: 0.450 kg CO2e/kg, Density: 650 kg/m³ | Source: ICE Database v3.0 (Sawn Timber, fossil GWP A1-A3).",
+    "page_number": 6,
+    "source_bbox": [
+      200,
+      20,
+      280,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 4.7,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 4.7,
+          "OpenAI": 4.7,
+          "Gemini": 4.7
+        }
+      },
+      "unit": {
+        "consensus": "sqm",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "sqm",
+          "OpenAI": "sqm",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Wood",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Wood",
+          "OpenAI": "Wood",
+          "Gemini": "Wood"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "9.26.4",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "9.26.4",
+          "OpenAI": "9.26.4",
+          "Gemini": "9.26.4"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-027",
+    "boq_item_no": "27",
+    "description": "Providing 50x50x50 mm 2nd class Teak wood plugs including cutting brick work and fixing in cement mortar 1:3 (1 cement : 3 fine sand) and making good the walls etc.",
+    "quantity": 20.0,
+    "unit": "nos",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "9.51",
+    "material_product": "Teak Wood Plugs",
+    "material_category": "Wood",
+    "discipline": "Architectural & Finishes",
+    "grade": "2ND CLASS",
+    "mix_ratio": "1:3",
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": 0.45,
+    "density_kg_m3": 650.0,
+    "comment": "GWP: 0.450 kg CO2e/kg, Density: 650 kg/m³ | Source: ICE Database v3.0 (Sawn Timber, fossil GWP A1-A3).",
+    "page_number": 6,
+    "source_bbox": [
+      285,
+      20,
+      360,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 20.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 20.0,
+          "OpenAI": 20.0,
+          "Gemini": 20.0
+        }
+      },
+      "unit": {
+        "consensus": "nos",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "nos",
+          "OpenAI": "nos",
+          "Gemini": "nos"
+        }
+      },
+      "material_category": {
+        "consensus": "Wood",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Wood",
+          "OpenAI": "Wood",
+          "Gemini": "Wood"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "9.51",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "9.51",
+          "OpenAI": "9.51",
+          "Gemini": "9.51"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-028",
+    "boq_item_no": "28",
+    "description": "Providing and fixing M.S oxidised fan light ventilator catch with necessary screws etc. complete.",
+    "quantity": 6.0,
+    "unit": "nos",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "9.127.3",
+    "material_product": "Oxidised MS Fanlight Ventilator Catch",
+    "material_category": "Steel",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": 2.363,
+    "density_kg_m3": 7850.0,
+    "comment": "GWP: 2.363 kg CO2e/kg, Density: 7850 kg/m³ | Source: ICE Database v3.0 (Steel - Rebar / Rod / Structural).",
+    "page_number": 6,
+    "source_bbox": [
+      365,
+      20,
+      440,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "MEDIUM",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 6.0,
+        "vote_count": 2,
+        "total_engines": 3,
+        "values": {
+          "OCR": 6.0,
+          "OpenAI": 6.0,
+          "Gemini": 9.0
+        }
+      },
+      "unit": {
+        "consensus": "nos",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "nos",
+          "OpenAI": "nos",
+          "Gemini": "nos"
+        }
+      },
+      "material_category": {
+        "consensus": "Steel",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Steel",
+          "OpenAI": "Steel",
+          "Gemini": "Steel"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "9.127.3",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "9.127.3",
+          "OpenAI": "9.127.3",
+          "Gemini": "9.127.3"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-029",
+    "boq_item_no": "29",
+    "description": "Providing and fixing 90 mm oxidised M.S. hasp and staple (safety type) with necessary screws etc. complete.",
+    "quantity": 2.0,
+    "unit": "nos",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "9.218.1",
+    "material_product": "Oxidised MS Hasp & Staple",
+    "material_category": "Steel",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": 2.363,
+    "density_kg_m3": 7850.0,
+    "comment": "GWP: 2.363 kg CO2e/kg, Density: 7850 kg/m³ | Source: ICE Database v3.0 (Steel - Rebar / Rod / Structural).",
+    "page_number": 7,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 2.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 2.0,
+          "OpenAI": 2.0,
+          "Gemini": 2.0
+        }
+      },
+      "unit": {
+        "consensus": "nos",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "nos",
+          "OpenAI": "nos",
+          "Gemini": "nos"
+        }
+      },
+      "material_category": {
+        "consensus": "Steel",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Steel",
+          "OpenAI": "Steel",
+          "Gemini": "Steel"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "9.218.1",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "9.218.1",
+          "OpenAI": "9.218.1",
+          "Gemini": "9.218.1"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-030",
+    "boq_item_no": "30",
+    "description": "Providing and fixing aluminium sliding door bolts 300x16 mm anodised transparent or dyed to required colour with nuts and screws etc. complete.",
+    "quantity": 10.0,
+    "unit": "nos",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "9.218",
+    "material_product": "Extruded Aluminium Section / Hardware",
+    "material_category": "Aluminium",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": 8.9,
+    "density_kg_m3": 2700.0,
+    "comment": "GWP: 8.90 kg CO2e/kg, Density: 2700 kg/m³ | Source: ICE Database v3.0 (Extruded Aluminium).",
+    "page_number": 7,
+    "source_bbox": [
+      125,
+      20,
+      195,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 10.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 10.0,
+          "OpenAI": 10.0,
+          "Gemini": 10.0
+        }
+      },
+      "unit": {
+        "consensus": "nos",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "nos",
+          "OpenAI": "nos",
+          "Gemini": "nos"
+        }
+      },
+      "material_category": {
+        "consensus": "Aluminium",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Aluminium",
+          "OpenAI": "Aluminium",
+          "Gemini": "Aluminium"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "9.218",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "9.218",
+          "OpenAI": "9.218",
+          "Gemini": "9.218"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-031",
+    "boq_item_no": "31",
+    "description": "Providing and fixing aluminium tower bolts anodised transparent or dyed to required colour or shade with necessary screws: i) 200x10 mm (10 Nos); ii) 100x10 mm (8 Nos). Total Count = 18 Nos.",
+    "quantity": 18.0,
+    "unit": "nos",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "9.219.3/9.219.5",
+    "material_product": "Extruded Aluminium Section / Hardware",
+    "material_category": "Aluminium",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": 8.9,
+    "density_kg_m3": 2700.0,
+    "comment": "GWP: 8.90 kg CO2e/kg, Density: 2700 kg/m³ | Source: ICE Database v3.0 (Extruded Aluminium).",
+    "page_number": 7,
+    "source_bbox": [
+      200,
+      20,
+      270,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 18.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 18.0,
+          "OpenAI": 18.0,
+          "Gemini": 18.0
+        }
+      },
+      "unit": {
+        "consensus": "nos",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "nos",
+          "OpenAI": "nos",
+          "Gemini": "nos"
+        }
+      },
+      "material_category": {
+        "consensus": "Aluminium",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Aluminium",
+          "OpenAI": "Aluminium",
+          "Gemini": "Aluminium"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "9.219.3/9.219.5",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "9.219.3/9.219.5",
+          "OpenAI": "9.219.3/9.219.5",
+          "Gemini": "9.219.3/9.219.5"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-032",
+    "boq_item_no": "32",
+    "description": "Providing and fixing aluminium handles anodised transparent or dyed to required colour or shade with necessary screws etc. complete: i) 100 mm (20 Nos); ii) 75 mm (4 Nos). Total Count = 24 Nos. [Continued from Page 6 to Page 7]",
+    "quantity": 24.0,
+    "unit": "nos",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "9.222.2/9.222.3",
+    "material_product": "Extruded Aluminium Section / Hardware",
+    "material_category": "Aluminium",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": 8.9,
+    "density_kg_m3": 2700.0,
+    "comment": "GWP: 8.90 kg CO2e/kg, Density: 2700 kg/m³ | Source: ICE Database v3.0 (Extruded Aluminium).",
+    "page_number": 7,
+    "source_bbox": [
+      275,
+      20,
+      355,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 24.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 24.0,
+          "OpenAI": 24.0,
+          "Gemini": 24.0
+        }
+      },
+      "unit": {
+        "consensus": "nos",
+        "vote_count": 2,
+        "total_engines": 3,
+        "values": {
+          "OCR": "nos",
+          "OpenAI": "nos",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Aluminium",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Aluminium",
+          "OpenAI": "Aluminium",
+          "Gemini": "Aluminium"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "9.222.2/9.222.3",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "9.222.2/9.222.3",
+          "OpenAI": "9.222.2/9.222.3",
+          "Gemini": "9.222.2/9.222.3"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-033",
+    "boq_item_no": "33",
+    "description": "Providing and fixing aluminium hanging floor door stopper anodised transparent or dyed to required colour or shade with necessary screws etc. complete.",
+    "quantity": 10.0,
+    "unit": "nos",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "9.223",
+    "material_product": "Extruded Aluminium Section / Hardware",
+    "material_category": "Aluminium",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": 8.9,
+    "density_kg_m3": 2700.0,
+    "comment": "GWP: 8.90 kg CO2e/kg, Density: 2700 kg/m³ | Source: ICE Database v3.0 (Extruded Aluminium).",
+    "page_number": 7,
+    "source_bbox": [
+      360,
+      20,
+      435,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 10.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 10.0,
+          "OpenAI": 10.0,
+          "Gemini": 10.0
+        }
+      },
+      "unit": {
+        "consensus": "nos",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "nos",
+          "OpenAI": "nos",
+          "Gemini": "nos"
+        }
+      },
+      "material_category": {
+        "consensus": "Aluminium",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Aluminium",
+          "OpenAI": "Aluminium",
+          "Gemini": "Aluminium"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "9.223",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "9.223",
+          "OpenAI": "9.223",
+          "Gemini": "9.223"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-034",
+    "boq_item_no": "34",
+    "description": "Providing and fixing steel glazed doors, windows and ventilators of standard rolled steel sections, joints mitred and welded with 15x3 mm lugs, 10 cm long, embedded in cement concrete blocks 15x10x10 cm of 1:3:6 including 3mm glass panes, glazing clips and steel primer: i) Windows side hung (11.3 Sq.m); ii) Ventilators centre hung (1.0 Sq.m). Total Area = 12.3 Sq.m.",
+    "quantity": 12.3,
+    "unit": "sqm",
+    "schedule": "Non-Schedule Item",
+    "schedule_item_code": "N.S.I.",
+    "material_product": "Rolled Steel Sections / Iron Frames / Hardware",
+    "material_category": "Steel",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": "1:3:6",
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": 2.363,
+    "density_kg_m3": 7850.0,
+    "comment": "GWP: 2.363 kg CO2e/kg, Density: 7850 kg/m³ | Source: ICE Database v3.0 (Steel - Rebar / Rod / Structural).",
+    "page_number": 8,
+    "source_bbox": [
+      50,
+      20,
+      110,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 12.3,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 12.3,
+          "OpenAI": 12.3,
+          "Gemini": 12.3
+        }
+      },
+      "unit": {
+        "consensus": "sqm",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "sqm",
+          "OpenAI": "sqm",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Steel",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Steel",
+          "OpenAI": "Steel",
+          "Gemini": "Steel"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "N.S.I.",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "N.S.I.",
+          "OpenAI": "N.S.I.",
+          "Gemini": "N.S.I."
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-035",
+    "boq_item_no": "35",
+    "description": "Providing and fixing oxidised mild steel casement window fasteners of minimum weight 200 grams for side hung steel windows with necessary welding and machine screws etc. complete.",
+    "quantity": 21.0,
+    "unit": "nos",
+    "schedule": "Non-Schedule Item",
+    "schedule_item_code": "N.S.I.",
+    "material_product": "Rolled Steel Sections / Iron Frames / Hardware",
+    "material_category": "Steel",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": 2.363,
+    "density_kg_m3": 7850.0,
+    "comment": "GWP: 2.363 kg CO2e/kg, Density: 7850 kg/m³ | Source: ICE Database v3.0 (Steel - Rebar / Rod / Structural).",
+    "page_number": 8,
+    "source_bbox": [
+      115,
+      20,
+      175,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 21.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 21.0,
+          "OpenAI": 21.0,
+          "Gemini": 21.0
+        }
+      },
+      "unit": {
+        "consensus": "nos",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "nos",
+          "OpenAI": "nos",
+          "Gemini": "nos"
+        }
+      },
+      "material_category": {
+        "consensus": "Steel",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Steel",
+          "OpenAI": "Steel",
+          "Gemini": "Steel"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "N.S.I.",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "N.S.I.",
+          "OpenAI": "N.S.I.",
+          "Gemini": "N.S.I."
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-036",
+    "boq_item_no": "36",
+    "description": "Providing and fixing aluminium casement stays anodised transparent or dyed to required colour and shade with necessary welding and machine screws etc. complete.",
+    "quantity": 21.0,
+    "unit": "nos",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "9.224",
+    "material_product": "Extruded Aluminium Section / Hardware",
+    "material_category": "Aluminium",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": 8.9,
+    "density_kg_m3": 2700.0,
+    "comment": "GWP: 8.90 kg CO2e/kg, Density: 2700 kg/m³ | Source: ICE Database v3.0 (Extruded Aluminium).",
+    "page_number": 8,
+    "source_bbox": [
+      180,
+      20,
+      240,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 21.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 21.0,
+          "OpenAI": 21.0,
+          "Gemini": 21.0
+        }
+      },
+      "unit": {
+        "consensus": "nos",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "nos",
+          "OpenAI": "nos",
+          "Gemini": "nos"
+        }
+      },
+      "material_category": {
+        "consensus": "Aluminium",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Aluminium",
+          "OpenAI": "Aluminium",
+          "Gemini": "Aluminium"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "9.224",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "9.224",
+          "OpenAI": "9.224",
+          "Gemini": "9.224"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-037",
+    "boq_item_no": "37",
+    "description": "Providing and welding 20x4 mm M.S. Guard Flats 10 cm c/c in steel windows of standard rolled steel section including coat of steel primer as per drawing and specification complete.",
+    "quantity": 66.0,
+    "unit": "kg",
+    "schedule": "Non-Schedule Item",
+    "schedule_item_code": "N.S.I.",
+    "material_product": "Rolled Steel Sections / Iron Frames / Hardware",
+    "material_category": "Steel",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": 155.96,
+    "gwp_per_kg": 2.363,
+    "density_kg_m3": 7850.0,
+    "comment": "GWP: 2.363 kg CO2e/kg, Density: 7850 kg/m³ | Source: ICE Database v3.0 (Steel - Rebar / Rod / Structural).",
+    "page_number": 8,
+    "source_bbox": [
+      245,
+      20,
+      305,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 66.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 66.0,
+          "OpenAI": 66.0,
+          "Gemini": 66.0
+        }
+      },
+      "unit": {
+        "consensus": "kg",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "kg",
+          "OpenAI": "kg",
+          "Gemini": "kg"
+        }
+      },
+      "material_category": {
+        "consensus": "Steel",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Steel",
+          "OpenAI": "Steel",
+          "Gemini": "Steel"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "N.S.I.",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "N.S.I.",
+          "OpenAI": "N.S.I.",
+          "Gemini": "N.S.I."
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-038",
+    "boq_item_no": "38",
+    "description": "Providing and fixing Iron frames for doors, windows and ventilators of Mild steel Tee sections joints mitred and welded with 15x3 mm lugs 10 cm long embedded in cement concrete blocks 15x10x10 cm of 1:3:6 or with wooden plugs/rawl plugs/bolts including hinges and steel primer coat.",
+    "quantity": 187.0,
+    "unit": "kg",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "10.14",
+    "material_product": "Rolled Steel Sections / Iron Frames / Hardware",
+    "material_category": "Steel",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": "1:3:6",
+    "embodied_carbon_a1_a3_kg_co2e": 441.88,
+    "gwp_per_kg": 2.363,
+    "density_kg_m3": 7850.0,
+    "comment": "GWP: 2.363 kg CO2e/kg, Density: 7850 kg/m³ | Source: ICE Database v3.0 (Steel - Rebar / Rod / Structural).",
+    "page_number": 8,
+    "source_bbox": [
+      310,
+      20,
+      370,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 187.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 187.0,
+          "OpenAI": 187.0,
+          "Gemini": 187.0
+        }
+      },
+      "unit": {
+        "consensus": "kg",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "kg",
+          "OpenAI": "kg",
+          "Gemini": "kg"
+        }
+      },
+      "material_category": {
+        "consensus": "Steel",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Steel",
+          "OpenAI": "Steel",
+          "Gemini": "Steel"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "10.14",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "10.14",
+          "OpenAI": "10.14",
+          "Gemini": "10.14"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-039",
+    "boq_item_no": "39",
+    "description": "Providing and fixing MS fan clamp type of 16 mm dia MS bar bent to shape with hooked ends in RCC slabs during laying including painting exposed portion of loop.",
+    "quantity": 5.0,
+    "unit": "nos",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "10.19",
+    "material_product": "Rolled Steel Sections / Iron Frames / Hardware",
+    "material_category": "Steel",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": 2.363,
+    "density_kg_m3": 7850.0,
+    "comment": "GWP: 2.363 kg CO2e/kg, Density: 7850 kg/m³ | Source: ICE Database v3.0 (Steel - Rebar / Rod / Structural).",
+    "page_number": 8,
+    "source_bbox": [
+      375,
+      20,
+      440,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 5.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 5.0,
+          "OpenAI": 5.0,
+          "Gemini": 5.0
+        }
+      },
+      "unit": {
+        "consensus": "nos",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "nos",
+          "OpenAI": "nos",
+          "Gemini": "nos"
+        }
+      },
+      "material_category": {
+        "consensus": "Steel",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Steel",
+          "OpenAI": "Steel",
+          "Gemini": "Steel"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "10.19",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "10.19",
+          "OpenAI": "10.19",
+          "Gemini": "10.19"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-040",
+    "boq_item_no": "40",
+    "description": "40 mm thick cement concrete flooring 1:2:4 (1 cement : 2 coarse sand : 4 graded stone aggregate 20 mm nominal size) finished with a floating coat of neat cement including cement slurry, rounding off edges and strips complete.",
+    "quantity": 68.0,
+    "unit": "sqm",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "11.4.2",
+    "material_product": "Cement Concrete Flooring 40mm 1:2:4",
+    "material_category": "Flooring",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": "1:2:4",
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": 0.155,
+    "density_kg_m3": 2400.0,
+    "comment": "GWP: 0.155 kg CO2e/kg, Density: 2400.0 kg/m³ | Source: ICE Database v3.0 (Concrete 25/30 MPa).",
+    "page_number": 9,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 68.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 68.0,
+          "OpenAI": 68.0,
+          "Gemini": 68.0
+        }
+      },
+      "unit": {
+        "consensus": "sqm",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "sqm",
+          "OpenAI": "sqm",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Flooring",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Flooring",
+          "OpenAI": "Flooring",
+          "Gemini": "Flooring"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "11.4.2",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "11.4.2",
+          "OpenAI": "11.4.2",
+          "Gemini": "11.4.2"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-041",
+    "boq_item_no": "41",
+    "description": "18 mm thick cement plaster skirting (upto 30 cm height) with cement mortar 1:3 (1 cement : 3 coarse sand) finished with a floating coat of neat cement including rounding of junctions with floors.",
+    "quantity": 11.0,
+    "unit": "sqm",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "11.10.1",
+    "material_product": "Cement Plaster Skirting 18mm 1:3",
+    "material_category": "Plaster",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": "1:3",
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": 0.18,
+    "density_kg_m3": 2000.0,
+    "comment": "GWP: 0.180 kg CO2e/kg, Density: 2000 kg/m³ | Source: ICE Database v3.0 (Cement Mortar / Plaster).",
+    "page_number": 9,
+    "source_bbox": [
+      125,
+      20,
+      195,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 11.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 11.0,
+          "OpenAI": 11.0,
+          "Gemini": 11.0
+        }
+      },
+      "unit": {
+        "consensus": "sqm",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "sqm",
+          "OpenAI": "sqm",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Plaster",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Plaster",
+          "OpenAI": "Plaster",
+          "Gemini": "Plaster"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "11.10.1",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "11.10.1",
+          "OpenAI": "11.10.1",
+          "Gemini": "11.10.1"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-042",
+    "boq_item_no": "42",
+    "description": "40 mm thick marble chips flooring, rubbed and polished to granolithic finish, under layer 31 mm thick cement concrete 1:2:4 and top layer 9 mm thick with marble chips laid in cement marble powder mix 3:1.",
+    "quantity": 9.0,
+    "unit": "sqm",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "11.16.1",
+    "material_product": "Marble Chips Terrazzo Flooring 40mm",
+    "material_category": "Flooring",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": "1:2:4",
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": null,
+    "density_kg_m3": null,
+    "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
+    "page_number": 9,
+    "source_bbox": [
+      200,
+      20,
+      270,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 9.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 9.0,
+          "OpenAI": 9.0,
+          "Gemini": 9.0
+        }
+      },
+      "unit": {
+        "consensus": "sqm",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "sqm",
+          "OpenAI": "sqm",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Flooring",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Flooring",
+          "OpenAI": "Flooring",
+          "Gemini": "Flooring"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "11.16.1",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "11.16.1",
+          "OpenAI": "11.16.1",
+          "Gemini": "11.16.1"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-043",
+    "boq_item_no": "43",
+    "description": "Providing and fixing glass strips in joints of terrazzo/cement concrete floors 40 mm wide and 6 mm thick.",
+    "quantity": 18.0,
+    "unit": "m",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "11.20.2",
+    "material_product": "Glass Strips in Flooring Joints",
+    "material_category": "Flooring",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": null,
+    "density_kg_m3": null,
+    "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
+    "page_number": 9,
+    "source_bbox": [
+      275,
+      20,
+      345,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 18.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 18.0,
+          "OpenAI": 18.0,
+          "Gemini": 18.0
+        }
+      },
+      "unit": {
+        "consensus": "m",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "m",
+          "OpenAI": "m",
+          "Gemini": "m"
+        }
+      },
+      "material_category": {
+        "consensus": "Flooring",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Flooring",
+          "OpenAI": "Flooring",
+          "Gemini": "Flooring"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "11.20.2",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "11.20.2",
+          "OpenAI": "11.20.2",
+          "Gemini": "11.20.2"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-044",
+    "boq_item_no": "44",
+    "description": "Painting top of roofs with bitumen of approved quality at 17 Kg. per 10 square metre impregnated with coat of coarse sand at 60 dm³ per 10 sqm including cleaning slab surface complete with residual petroleum bitumen 80/100.",
+    "quantity": 65.0,
+    "unit": "sqm",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "12.29.1",
+    "material_product": "Bitumen Water-Proofing Membrane",
+    "material_category": "Waterproofing / Bitumen",
+    "discipline": "Architectural & Finishes",
+    "grade": "80/100",
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": null,
+    "density_kg_m3": null,
+    "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
+    "page_number": 9,
+    "source_bbox": [
+      350,
+      20,
+      430,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 65.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 65.0,
+          "OpenAI": 65.0,
+          "Gemini": 65.0
+        }
+      },
+      "unit": {
+        "consensus": "sqm",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "sqm",
+          "OpenAI": "sqm",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Waterproofing / Bitumen",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Waterproofing / Bitumen",
+          "OpenAI": "Waterproofing / Bitumen",
+          "Gemini": "Waterproofing / Bitumen"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "12.29.1",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "12.29.1",
+          "OpenAI": "12.29.1",
+          "Gemini": "12.29.1"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-045",
+    "boq_item_no": "45",
+    "description": "Lime concrete terracing on roofs, thickness 10 cm laid to fall with 25 mm average size brick aggregate and 50% lime mortar 1:2 (1 lime putty : 2 surkhi) rammed and covered with flat FPS brick tiles of class designation 100 grouted with cement mortar 1:3 mixed with 5% crude oil over 12 mm layer of CM 1:3 and finished neat. [Continued from Page 9 to Page 10]",
+    "quantity": 65.0,
+    "unit": "sqm",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "12.35.2",
+    "material_product": "Lime Concrete Terracing 10cm",
+    "material_category": "Waterproofing / Bitumen",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": "1:3",
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": null,
+    "density_kg_m3": null,
+    "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
+    "page_number": 10,
+    "source_bbox": [
+      50,
+      20,
+      140,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "MEDIUM",
+    "status": "NEEDS_REVIEW",
+    "field_votes": {
+      "quantity": {
+        "consensus": 65.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 65.0,
+          "OpenAI": 65.0,
+          "Gemini": 65.0
+        }
+      },
+      "unit": {
+        "consensus": "sqm",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "sqm",
+          "OpenAI": "sqm",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Waterproofing / Bitumen",
+        "vote_count": 1,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Waterproofing / Bitumen",
+          "OpenAI": "Doors & Windows",
+          "Gemini": "Joinery & Woodwork"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "12.35.2",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "12.35.2",
+          "OpenAI": "12.35.2",
+          "Gemini": "12.35.2"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-046",
+    "boq_item_no": "46",
+    "description": "Providing and laying 25 mm thick burnt clay tiles 250x250x25 mm of approved quality over roofs with joints grouted with CM 1:3 over 15 mm thick bed of cement mortar 1:3 and finished neat.",
+    "quantity": 32.0,
+    "unit": "sqm",
+    "schedule": "Non-Schedule Item",
+    "schedule_item_code": "N.S.I.",
+    "material_product": "Burnt Clay Tile Roof Covering 25mm",
+    "material_category": "Waterproofing / Bitumen",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": "1:3",
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": null,
+    "density_kg_m3": null,
+    "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
+    "page_number": 10,
+    "source_bbox": [
+      145,
+      20,
+      215,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 32.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 32.0,
+          "OpenAI": 32.0,
+          "Gemini": 32.0
+        }
+      },
+      "unit": {
+        "consensus": "sqm",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "sqm",
+          "OpenAI": "sqm",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Waterproofing / Bitumen",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Waterproofing / Bitumen",
+          "OpenAI": "Waterproofing / Bitumen",
+          "Gemini": "Waterproofing / Bitumen"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "N.S.I.",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "N.S.I.",
+          "OpenAI": "N.S.I.",
+          "Gemini": "N.S.I."
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-047",
+    "boq_item_no": "47",
+    "description": "Providing gola 15x15 cm in size in cement concrete mix 1:3:6 (1 cement : 3 coarse sand : 6 graded stone aggregate 20 mm nominal size) covered with brick tiles in CM 1:3 as per drawing and specifications complete.",
+    "quantity": 46.0,
+    "unit": "m",
+    "schedule": "Non-Schedule Item",
+    "schedule_item_code": "N.S.I.",
+    "material_product": "Cement Concrete Gola 15x15cm",
+    "material_category": "Waterproofing / Bitumen",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": "1:3:6",
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": 0.155,
+    "density_kg_m3": 2400.0,
+    "comment": "GWP: 0.155 kg CO2e/kg, Density: 2400.0 kg/m³ | Source: ICE Database v3.0 (Concrete 25/30 MPa).",
+    "page_number": 10,
+    "source_bbox": [
+      220,
+      20,
+      290,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 46.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 46.0,
+          "OpenAI": 46.0,
+          "Gemini": 46.0
+        }
+      },
+      "unit": {
+        "consensus": "m",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "m",
+          "OpenAI": "m",
+          "Gemini": "m"
+        }
+      },
+      "material_category": {
+        "consensus": "Waterproofing / Bitumen",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Waterproofing / Bitumen",
+          "OpenAI": "Waterproofing / Bitumen",
+          "Gemini": "Waterproofing / Bitumen"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "N.S.I.",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "N.S.I.",
+          "OpenAI": "N.S.I.",
+          "Gemini": "N.S.I."
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-048",
+    "boq_item_no": "48",
+    "description": "Making khurras 45x45 cm with average minimum thickness of 5 cm cement concrete 1:2:4 over PVC sheet 1x1 m 400 micron, finished with 12 mm cement plaster 1:3 and coat of neat cement round edges.",
+    "quantity": 3.0,
+    "unit": "nos",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "12.39",
+    "material_product": "Concrete Khurras 45x45cm",
+    "material_category": "Waterproofing / Bitumen",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": "1:2:4",
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": null,
+    "density_kg_m3": null,
+    "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
+    "page_number": 10,
+    "source_bbox": [
+      295,
+      20,
+      365,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 3.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 3.0,
+          "OpenAI": 3.0,
+          "Gemini": 3.0
+        }
+      },
+      "unit": {
+        "consensus": "nos",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "nos",
+          "OpenAI": "nos",
+          "Gemini": "nos"
+        }
+      },
+      "material_category": {
+        "consensus": "Waterproofing / Bitumen",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Waterproofing / Bitumen",
+          "OpenAI": "Waterproofing / Bitumen",
+          "Gemini": "Waterproofing / Bitumen"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "12.39",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "12.39",
+          "OpenAI": "12.39",
+          "Gemini": "12.39"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-049",
+    "boq_item_no": "49",
+    "description": "Providing and fixing on wallface 100 mm diameter CI rain water pipe including filling joints with spun yarn soaked in neat cement slurry and cement mortar 1:2.",
+    "quantity": 10.0,
+    "unit": "m",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "12.69.2",
+    "material_product": "Wallface CI Rainwater Pipe",
+    "material_category": "Plumbing",
+    "discipline": "Plumbing & Drainage",
+    "grade": null,
+    "mix_ratio": "1:2",
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": 2.03,
+    "density_kg_m3": 7150.0,
+    "comment": "GWP: 2.030 kg CO2e/kg, Density: 7150 kg/m³ | Source: ICE Database v3.0 (Cast Iron / Drainage Pipework).",
+    "page_number": 10,
+    "source_bbox": [
+      370,
+      20,
+      440,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 10.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 10.0,
+          "OpenAI": 10.0,
+          "Gemini": 10.0
+        }
+      },
+      "unit": {
+        "consensus": "m",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "m",
+          "OpenAI": "m",
+          "Gemini": "m"
+        }
+      },
+      "material_category": {
+        "consensus": "Plumbing",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Plumbing",
+          "OpenAI": "Plumbing",
+          "Gemini": "Plumbing"
+        }
+      },
+      "discipline": {
+        "consensus": "Plumbing & Drainage",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Plumbing & Drainage",
+          "OpenAI": "Plumbing & Drainage",
+          "Gemini": "Plumbing & Drainage"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "12.69.2",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "12.69.2",
+          "OpenAI": "12.69.2",
+          "Gemini": "12.69.2"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-050",
+    "boq_item_no": "50",
+    "description": "Providing and fixing 100 mm dia MS holderbat clamps of approved design for CI or SCI rain water pipes embedded in cement concrete blocks 10x10x10 cm of 1:2:4 and cost of cutting holes and making good walls. [Continued from Page 10 to Page 11]",
+    "quantity": 9.0,
+    "unit": "nos",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "12.71.2",
+    "material_product": "Cast Iron Holderbat Clamps",
+    "material_category": "Plumbing",
+    "discipline": "Plumbing & Drainage",
+    "grade": null,
+    "mix_ratio": "1:2:4",
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": 2.03,
+    "density_kg_m3": 7150.0,
+    "comment": "GWP: 2.030 kg CO2e/kg, Density: 7150 kg/m³ | Source: ICE Database v3.0 (Cast Iron / Drainage Pipework).",
+    "page_number": 11,
+    "source_bbox": [
+      40,
+      20,
+      120,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 9.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 9.0,
+          "OpenAI": 9.0,
+          "Gemini": 9.0
+        }
+      },
+      "unit": {
+        "consensus": "nos",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "nos",
+          "OpenAI": "nos",
+          "Gemini": "nos"
+        }
+      },
+      "material_category": {
+        "consensus": "Plumbing",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Plumbing",
+          "OpenAI": "Plumbing",
+          "Gemini": "Plumbing"
+        }
+      },
+      "discipline": {
+        "consensus": "Plumbing & Drainage",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Plumbing & Drainage",
+          "OpenAI": "Plumbing & Drainage",
+          "Gemini": "Plumbing & Drainage"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "12.71.2",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "12.71.2",
+          "OpenAI": "12.71.2",
+          "Gemini": "12.71.2"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-051",
+    "boq_item_no": "51",
+    "description": "Providing and fixing on wall face CI accessories for rain water pipes including filling joints with spun yarn soaked in neat cement slurry and CM 1:2: i) CI Plain head 100 mm dia (3 Nos); ii) CI Plain shoe 100 mm dia (3 Nos); iii) CI Plain bend 100 mm dia (3 Nos). Total Count = 9 Nos.",
+    "quantity": 9.0,
+    "unit": "nos",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "12.72.2.2/12.72.3.2/12.72.1.2",
+    "material_product": "Rainwater Pipe Accessories",
+    "material_category": "Plumbing",
+    "discipline": "Plumbing & Drainage",
+    "grade": null,
+    "mix_ratio": "1:2",
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": 2.03,
+    "density_kg_m3": 7150.0,
+    "comment": "GWP: 2.030 kg CO2e/kg, Density: 7150 kg/m³ | Source: ICE Database v3.0 (Cast Iron / Drainage Pipework).",
+    "page_number": 11,
+    "source_bbox": [
+      125,
+      20,
+      185,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 9.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 9.0,
+          "OpenAI": 9.0,
+          "Gemini": 9.0
+        }
+      },
+      "unit": {
+        "consensus": "nos",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "nos",
+          "OpenAI": "nos",
+          "Gemini": "nos"
+        }
+      },
+      "material_category": {
+        "consensus": "Plumbing",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Plumbing",
+          "OpenAI": "Plumbing",
+          "Gemini": "Plumbing"
+        }
+      },
+      "discipline": {
+        "consensus": "Plumbing & Drainage",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Plumbing & Drainage",
+          "OpenAI": "Plumbing & Drainage",
+          "Gemini": "Plumbing & Drainage"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "12.72.2.2/12.72.3.2/12.72.1.2",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "12.72.2.2/12.72.3.2/12.72.1.2",
+          "OpenAI": "12.72.2.2/12.72.3.2/12.72.1.2",
+          "Gemini": "12.72.2.2/12.72.3.2/12.72.1.2"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-052",
+    "boq_item_no": "52",
+    "description": "12 mm cement plaster of mix 1:6 (1 cement : 6 fine sand).",
+    "quantity": 220.0,
+    "unit": "sqm",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "13.8.4",
+    "material_product": "Cement Plaster (1:6)",
+    "material_category": "Plaster",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": "1:6",
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": 0.18,
+    "density_kg_m3": 2000.0,
+    "comment": "GWP: 0.180 kg CO2e/kg, Density: 2000 kg/m³ | Source: ICE Database v3.0 (Cement Mortar / Plaster).",
+    "page_number": 11,
+    "source_bbox": [
+      190,
+      20,
+      250,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 220.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 220.0,
+          "OpenAI": 220.0,
+          "Gemini": 220.0
+        }
+      },
+      "unit": {
+        "consensus": "sqm",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "sqm",
+          "OpenAI": "sqm",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Plaster",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Plaster",
+          "OpenAI": "Plaster",
+          "Gemini": "Plaster"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "13.8.4",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "13.8.4",
+          "OpenAI": "13.8.4",
+          "Gemini": "13.8.4"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-053",
+    "boq_item_no": "53",
+    "description": "15 mm cement plaster on the rough side of single or half brick wall of mix 1:6 (1 cement : 6 fine sand).",
+    "quantity": 220.0,
+    "unit": "sqm",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "13.9.4",
+    "material_product": "15 mm Cement Plaster 1:6",
+    "material_category": "Plaster",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": "1:6",
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": 0.18,
+    "density_kg_m3": 2000.0,
+    "comment": "GWP: 0.180 kg CO2e/kg, Density: 2000 kg/m³ | Source: ICE Database v3.0 (Cement Mortar / Plaster).",
+    "page_number": 11,
+    "source_bbox": [
+      255,
+      20,
+      315,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 220.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 220.0,
+          "OpenAI": 220.0,
+          "Gemini": 220.0
+        }
+      },
+      "unit": {
+        "consensus": "sqm",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "sqm",
+          "OpenAI": "sqm",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Plaster",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Plaster",
+          "OpenAI": "Plaster",
+          "Gemini": "Plaster"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "13.9.4",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "13.9.4",
+          "OpenAI": "13.9.4",
+          "Gemini": "13.9.4"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-054",
+    "boq_item_no": "54",
+    "description": "6 mm cement plaster of mix 1:3 (1 cement : 3 fine sand) finished with floating coat of neat cement and thick coat of lime wash on top walls when dry for bearing of RCC slabs and beams.",
+    "quantity": 19.0,
+    "unit": "sqm",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "13.25",
+    "material_product": "Cement Plaster (1:3)",
+    "material_category": "Plaster",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": "1:3",
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": 0.18,
+    "density_kg_m3": 2000.0,
+    "comment": "GWP: 0.180 kg CO2e/kg, Density: 2000 kg/m³ | Source: ICE Database v3.0 (Cement Mortar / Plaster).",
+    "page_number": 11,
+    "source_bbox": [
+      320,
+      20,
+      380,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 19.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 19.0,
+          "OpenAI": 19.0,
+          "Gemini": 19.0
+        }
+      },
+      "unit": {
+        "consensus": "sqm",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "sqm",
+          "OpenAI": "sqm",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Plaster",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Plaster",
+          "OpenAI": "Plaster",
+          "Gemini": "Plaster"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "13.25",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "13.25",
+          "OpenAI": "13.25",
+          "Gemini": "13.25"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-055",
+    "boq_item_no": "55",
+    "description": "18 mm plastering with terrazzo finish for dado rubbed and polished complete, under layer 12 mm thick cement plaster 1:3 and top layer 6 mm thick white, black, chocolate, grey, yellow or Baroda green marble chips. [Continued from Page 11 to Page 12]",
+    "quantity": 20.0,
+    "unit": "sqm",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "13.41",
+    "material_product": "Cement Plaster (1:3)",
+    "material_category": "Plaster",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": "1:3",
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": 0.18,
+    "density_kg_m3": 2000.0,
+    "comment": "GWP: 0.180 kg CO2e/kg, Density: 2000 kg/m³ | Source: ICE Database v3.0 (Cement Mortar / Plaster).",
+    "page_number": 12,
+    "source_bbox": [
+      50,
+      20,
+      140,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 20.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 20.0,
+          "OpenAI": 20.0,
+          "Gemini": 20.0
+        }
+      },
+      "unit": {
+        "consensus": "sqm",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "sqm",
+          "OpenAI": "sqm",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Plaster",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Plaster",
+          "OpenAI": "Plaster",
+          "Gemini": "Plaster"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "13.41",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "13.41",
+          "OpenAI": "13.41",
+          "Gemini": "13.41"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-056",
+    "boq_item_no": "56",
+    "description": "Finishing and plastering the exposed surface of RCC with cement mortar 1:3 to give an even shade.",
+    "quantity": 155.0,
+    "unit": "sqm",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "5.31/13.24.1",
+    "material_product": "Cement Plaster (1:3)",
+    "material_category": "Plaster",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": "1:3",
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": 0.18,
+    "density_kg_m3": 2000.0,
+    "comment": "GWP: 0.180 kg CO2e/kg, Density: 2000 kg/m³ | Source: ICE Database v3.0 (Cement Mortar / Plaster).",
+    "page_number": 12,
+    "source_bbox": [
+      145,
+      20,
+      215,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 155.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 155.0,
+          "OpenAI": 155.0,
+          "Gemini": 155.0
+        }
+      },
+      "unit": {
+        "consensus": "sqm",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "sqm",
+          "OpenAI": "sqm",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Plaster",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Plaster",
+          "OpenAI": "Plaster",
+          "Gemini": "Plaster"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "5.31/13.24.1",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "5.31/13.24.1",
+          "OpenAI": "5.31/13.24.1",
+          "Gemini": "5.31/13.24.1"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-057",
+    "boq_item_no": "57",
+    "description": "White washing with lime to give an even shade on new work (three or more coats).",
+    "quantity": 285.0,
+    "unit": "sqm",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "13.70.1",
+    "material_product": "White Wash (Lime)",
+    "material_category": "Paint / Finish",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": null,
+    "density_kg_m3": null,
+    "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
+    "page_number": 12,
+    "source_bbox": [
+      220,
+      20,
+      290,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 285.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 285.0,
+          "OpenAI": 285.0,
+          "Gemini": 285.0
+        }
+      },
+      "unit": {
+        "consensus": "sqm",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "sqm",
+          "OpenAI": "sqm",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Paint / Finish",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Paint / Finish",
+          "OpenAI": "Paint / Finish",
+          "Gemini": "Paint / Finish"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "13.70.1",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "13.70.1",
+          "OpenAI": "13.70.1",
+          "Gemini": "13.70.1"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-058",
+    "boq_item_no": "58",
+    "description": "Colour washing such as green, blue or buff to give an even shade on new work (two or more coats) with base coat of white lime wash.",
+    "quantity": 285.0,
+    "unit": "sqm",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "13.73.1",
+    "material_product": "White Wash (Lime)",
+    "material_category": "Paint / Finish",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": null,
+    "density_kg_m3": null,
+    "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
+    "page_number": 12,
+    "source_bbox": [
+      295,
+      20,
+      365,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 285.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 285.0,
+          "OpenAI": 285.0,
+          "Gemini": 285.0
+        }
+      },
+      "unit": {
+        "consensus": "sqm",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "sqm",
+          "OpenAI": "sqm",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Paint / Finish",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Paint / Finish",
+          "OpenAI": "Paint / Finish",
+          "Gemini": "Paint / Finish"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "13.73.1",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "13.73.1",
+          "OpenAI": "13.73.1",
+          "Gemini": "13.73.1"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-059",
+    "boq_item_no": "59",
+    "description": "Applying priming coat with ready mixed pink or gray primer of approved brand and manufacture on wood work (hard and soft wood).",
+    "quantity": 47.0,
+    "unit": "sqm",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "13.81.1",
+    "material_product": "Priming Coat Paint (Pink/Gray/Zinc Chromate)",
+    "material_category": "Paint / Finish",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": null,
+    "density_kg_m3": null,
+    "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
+    "page_number": 12,
+    "source_bbox": [
+      370,
+      20,
+      440,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 47.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 47.0,
+          "OpenAI": 47.0,
+          "Gemini": 47.0
+        }
+      },
+      "unit": {
+        "consensus": "sqm",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "sqm",
+          "OpenAI": "sqm",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Paint / Finish",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Paint / Finish",
+          "OpenAI": "Paint / Finish",
+          "Gemini": "Paint / Finish"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "13.81.1",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "13.81.1",
+          "OpenAI": "13.81.1",
+          "Gemini": "13.81.1"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-060",
+    "boq_item_no": "60",
+    "description": "Applying priming coat with ready mixed zinc chromate primer of approved brand and manufacture on steelwork (second coat).",
+    "quantity": 30.0,
+    "unit": "sqm",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "13.81.4",
+    "material_product": "Priming Coat Paint (Pink/Gray/Zinc Chromate)",
+    "material_category": "Paint / Finish",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": null,
+    "density_kg_m3": null,
+    "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
+    "page_number": 13,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 30.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 30.0,
+          "OpenAI": 30.0,
+          "Gemini": 30.0
+        }
+      },
+      "unit": {
+        "consensus": "sqm",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "sqm",
+          "OpenAI": "sqm",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Paint / Finish",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Paint / Finish",
+          "OpenAI": "Paint / Finish",
+          "Gemini": "Paint / Finish"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "13.81.4",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "13.81.4",
+          "OpenAI": "13.81.4",
+          "Gemini": "13.81.4"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-061",
+    "boq_item_no": "61",
+    "description": "Painting (two or more coats) on rain water, soil, waste and vent pipes with black anti-corrosive bitumastic paint of approved brand including priming coat of ready mixed zinc chromate yellow primer on 100 mm diameter pipes.",
+    "quantity": 10.0,
+    "unit": "m",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "13.84.3",
+    "material_product": "Priming Coat Paint (Pink/Gray/Zinc Chromate)",
+    "material_category": "Paint / Finish",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": null,
+    "density_kg_m3": null,
+    "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
+    "page_number": 13,
+    "source_bbox": [
+      125,
+      20,
+      195,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 10.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 10.0,
+          "OpenAI": 10.0,
+          "Gemini": 10.0
+        }
+      },
+      "unit": {
+        "consensus": "m",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "m",
+          "OpenAI": "m",
+          "Gemini": "m"
+        }
+      },
+      "material_category": {
+        "consensus": "Paint / Finish",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Paint / Finish",
+          "OpenAI": "Paint / Finish",
+          "Gemini": "Paint / Finish"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "13.84.3",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "13.84.3",
+          "OpenAI": "13.84.3",
+          "Gemini": "13.84.3"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-062",
+    "boq_item_no": "62",
+    "description": "Painting with synthetic enamel paint of approved brand and manufacture to give an even shade in two or more coats on new work in black or chocolate shade over an undercoat of suitable shade.",
+    "quantity": 77.0,
+    "unit": "sqm",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "13.94.1",
+    "material_product": "Synthetic Enamel Paint",
+    "material_category": "Paint / Finish",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": null,
+    "density_kg_m3": null,
+    "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
+    "page_number": 13,
+    "source_bbox": [
+      200,
+      20,
+      270,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 77.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 77.0,
+          "OpenAI": 77.0,
+          "Gemini": 77.0
+        }
+      },
+      "unit": {
+        "consensus": "sqm",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "sqm",
+          "OpenAI": "sqm",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Paint / Finish",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Paint / Finish",
+          "OpenAI": "Paint / Finish",
+          "Gemini": "Paint / Finish"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "13.94.1",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "13.94.1",
+          "OpenAI": "13.94.1",
+          "Gemini": "13.94.1"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-063",
+    "boq_item_no": "63",
+    "description": "French spirit polishing two or more coats on new works including coat of wood filler.",
+    "quantity": 13.0,
+    "unit": "sqm",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "13.101.1",
+    "material_product": "French Spirit Wood Polish",
+    "material_category": "Paint / Finish",
+    "discipline": "Architectural & Finishes",
+    "grade": null,
+    "mix_ratio": null,
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": null,
+    "density_kg_m3": null,
+    "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
+    "page_number": 13,
+    "source_bbox": [
+      275,
+      20,
+      345,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 13.0,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 13.0,
+          "OpenAI": 13.0,
+          "Gemini": 13.0
+        }
+      },
+      "unit": {
+        "consensus": "sqm",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "sqm",
+          "OpenAI": "sqm",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Paint / Finish",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Paint / Finish",
+          "OpenAI": "Paint / Finish",
+          "Gemini": "Paint / Finish"
+        }
+      },
+      "discipline": {
+        "consensus": "Architectural & Finishes",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Architectural & Finishes",
+          "OpenAI": "Architectural & Finishes",
+          "Gemini": "Architectural & Finishes"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "13.101.1",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "13.101.1",
+          "OpenAI": "13.101.1",
+          "Gemini": "13.101.1"
+        }
+      }
+    }
+  },
+  {
+    "gmap_id": "AMP-GEN-064",
+    "boq_item_no": "64",
+    "description": "Making plinth protection 50 mm thick of cement concrete 1:3:6 (1 cement : 3 coarse sand : 6 graded stone aggregate 20 mm nominal size) over 75 mm bed of dry brick ballast 40 mm nominal size well rammed and consolidated and grouted with fine sand including finishing top smooth.",
+    "quantity": 34.6,
+    "unit": "sqm",
+    "schedule": "DSR 1989",
+    "schedule_item_code": "16.1",
+    "material_product": "Plinth Protection 50mm CC 1:3:6",
+    "material_category": "Concrete",
+    "discipline": "Civil & Sitework",
+    "grade": null,
+    "mix_ratio": "1:3:6",
+    "embodied_carbon_a1_a3_kg_co2e": null,
+    "gwp_per_kg": 0.155,
+    "density_kg_m3": 2400.0,
+    "comment": "GWP: 0.155 kg CO2e/kg, Density: 2400.0 kg/m³ | Source: ICE Database v3.0 (Concrete 25/30 MPa).",
+    "page_number": 13,
+    "source_bbox": [
+      350,
+      20,
+      430,
+      590
+    ],
+    "confidence": 0.95,
+    "engine": "OCR",
+    "human_reviewed": false,
+    "engine_candidates": {},
+    "confidence_level": "HIGH",
+    "status": "PASS",
+    "field_votes": {
+      "quantity": {
+        "consensus": 34.6,
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": 34.6,
+          "OpenAI": 34.6,
+          "Gemini": 34.6
+        }
+      },
+      "unit": {
+        "consensus": "sqm",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "sqm",
+          "OpenAI": "sqm",
+          "Gemini": "sqm"
+        }
+      },
+      "material_category": {
+        "consensus": "Concrete",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Concrete",
+          "OpenAI": "Concrete",
+          "Gemini": "Concrete"
+        }
+      },
+      "discipline": {
+        "consensus": "Civil & Sitework",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "Civil & Sitework",
+          "OpenAI": "Civil & Sitework",
+          "Gemini": "Civil & Sitework"
+        }
+      },
+      "schedule_item_code": {
+        "consensus": "16.1",
+        "vote_count": 3,
+        "total_engines": 3,
+        "values": {
+          "OCR": "16.1",
+          "OpenAI": "16.1",
+          "Gemini": "16.1"
+        }
+      }
+    }
+  }
+]

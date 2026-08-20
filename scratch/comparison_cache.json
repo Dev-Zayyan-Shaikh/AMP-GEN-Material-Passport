@@ -1,0 +1,5442 @@
+[
+  {
+    "boq_item_no": 1,
+    "field": "quantity",
+    "OCR": 32.0,
+    "OpenAI": 32.0,
+    "Gemini": 32.0,
+    "consensus": 32.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      50,
+      20,
+      110,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 1,
+    "field": "unit",
+    "OCR": "cum",
+    "OpenAI": "cum",
+    "Gemini": "cum",
+    "consensus": "cum",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      50,
+      20,
+      110,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 1,
+    "field": "material_category",
+    "OCR": "Earthwork",
+    "OpenAI": "Earthwork",
+    "Gemini": "Earthwork",
+    "consensus": "Earthwork",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      50,
+      20,
+      110,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 1,
+    "field": "discipline",
+    "OCR": "Civil & Sitework",
+    "OpenAI": "Civil & Sitework",
+    "Gemini": "Civil & Sitework",
+    "consensus": "Civil & Sitework",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      50,
+      20,
+      110,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 1,
+    "field": "schedule_item_code",
+    "OCR": "2.8",
+    "OpenAI": "2.8",
+    "Gemini": "2.8",
+    "consensus": "2.8",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      50,
+      20,
+      110,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 2,
+    "field": "quantity",
+    "OCR": 12.0,
+    "OpenAI": 12.0,
+    "Gemini": 12.0,
+    "consensus": 12.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      115,
+      20,
+      175,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 2,
+    "field": "unit",
+    "OCR": "cum",
+    "OpenAI": "cum",
+    "Gemini": "cum",
+    "consensus": "cum",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      115,
+      20,
+      175,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 2,
+    "field": "material_category",
+    "OCR": "Earthwork",
+    "OpenAI": "Earthwork",
+    "Gemini": "Earthwork",
+    "consensus": "Earthwork",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      115,
+      20,
+      175,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 2,
+    "field": "discipline",
+    "OCR": "Civil & Sitework",
+    "OpenAI": "Civil & Sitework",
+    "Gemini": "Civil & Sitework",
+    "consensus": "Civil & Sitework",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      115,
+      20,
+      175,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 2,
+    "field": "schedule_item_code",
+    "OCR": "2.26",
+    "OpenAI": "2.26",
+    "Gemini": "2.26",
+    "consensus": "2.26",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      115,
+      20,
+      175,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 3,
+    "field": "quantity",
+    "OCR": 11.0,
+    "OpenAI": 11.0,
+    "Gemini": 11.0,
+    "consensus": 11.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      180,
+      20,
+      240,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 3,
+    "field": "unit",
+    "OCR": "cum",
+    "OpenAI": "cum",
+    "Gemini": "cum",
+    "consensus": "cum",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      180,
+      20,
+      240,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 3,
+    "field": "material_category",
+    "OCR": "Earthwork",
+    "OpenAI": "Earthwork",
+    "Gemini": "Earthwork",
+    "consensus": "Earthwork",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      180,
+      20,
+      240,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 3,
+    "field": "discipline",
+    "OCR": "Civil & Sitework",
+    "OpenAI": "Civil & Sitework",
+    "Gemini": "Civil & Sitework",
+    "consensus": "Civil & Sitework",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      180,
+      20,
+      240,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 3,
+    "field": "schedule_item_code",
+    "OCR": "2.28",
+    "OpenAI": "2.28",
+    "Gemini": "2.28",
+    "consensus": "2.28",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      180,
+      20,
+      240,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 4,
+    "field": "quantity",
+    "OCR": 5.4,
+    "OpenAI": 5.4,
+    "Gemini": 5.4,
+    "consensus": 5.4,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      245,
+      20,
+      305,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 4,
+    "field": "unit",
+    "OCR": "sqm",
+    "OpenAI": "sqm",
+    "Gemini": "sqm",
+    "consensus": "sqm",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      245,
+      20,
+      305,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 4,
+    "field": "material_category",
+    "OCR": "Earthwork",
+    "OpenAI": "Earthwork",
+    "Gemini": "Earthwork",
+    "consensus": "Earthwork",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      245,
+      20,
+      305,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 4,
+    "field": "discipline",
+    "OCR": "Civil & Sitework",
+    "OpenAI": "Civil & Sitework",
+    "Gemini": "Civil & Sitework",
+    "consensus": "Civil & Sitework",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      245,
+      20,
+      305,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 4,
+    "field": "schedule_item_code",
+    "OCR": "2.29.1",
+    "OpenAI": "2.29.1",
+    "Gemini": "2.29.1",
+    "consensus": "2.29.1",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      245,
+      20,
+      305,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 5,
+    "field": "quantity",
+    "OCR": 90.6,
+    "OpenAI": 90.6,
+    "Gemini": 90.6,
+    "consensus": 90.6,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      310,
+      20,
+      370,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 5,
+    "field": "unit",
+    "OCR": "sqm",
+    "OpenAI": "sqm",
+    "Gemini": "sqm",
+    "consensus": "sqm",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      310,
+      20,
+      370,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 5,
+    "field": "material_category",
+    "OCR": "Earthwork",
+    "OpenAI": "Earthwork",
+    "Gemini": "Earthwork",
+    "consensus": "Earthwork",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      310,
+      20,
+      370,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 5,
+    "field": "discipline",
+    "OCR": "Civil & Sitework",
+    "OpenAI": "Civil & Sitework",
+    "Gemini": "Civil & Sitework",
+    "consensus": "Civil & Sitework",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      310,
+      20,
+      370,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 5,
+    "field": "schedule_item_code",
+    "OCR": "2.35.2",
+    "OpenAI": "2.35.2",
+    "Gemini": "2.35.2",
+    "consensus": "2.35.2",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      310,
+      20,
+      370,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 6,
+    "field": "quantity",
+    "OCR": 8.0,
+    "OpenAI": 8.0,
+    "Gemini": 8.0,
+    "consensus": 8.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      375,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 6,
+    "field": "unit",
+    "OCR": "cum",
+    "OpenAI": "cum",
+    "Gemini": "cum",
+    "consensus": "cum",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      375,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 6,
+    "field": "material_category",
+    "OCR": "Concrete",
+    "OpenAI": "Concrete",
+    "Gemini": "Concrete",
+    "consensus": "Concrete",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      375,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 6,
+    "field": "discipline",
+    "OCR": "Structural",
+    "OpenAI": "Structural",
+    "Gemini": "Structural",
+    "consensus": "Structural",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      375,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 6,
+    "field": "schedule_item_code",
+    "OCR": "4.5.10",
+    "OpenAI": "4.5.10",
+    "Gemini": "4.5.10",
+    "consensus": "4.5.10",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 2,
+    "source_bbox": [
+      375,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 7,
+    "field": "quantity",
+    "OCR": 7.3,
+    "OpenAI": 7.3,
+    "Gemini": 7.3,
+    "consensus": 7.3,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      50,
+      20,
+      110,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 7,
+    "field": "unit",
+    "OCR": "cum",
+    "OpenAI": "cum",
+    "Gemini": "cum",
+    "consensus": "cum",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      50,
+      20,
+      110,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 7,
+    "field": "material_category",
+    "OCR": "Concrete",
+    "OpenAI": "Concrete",
+    "Gemini": "Concrete",
+    "consensus": "Concrete",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      50,
+      20,
+      110,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 7,
+    "field": "discipline",
+    "OCR": "Structural",
+    "OpenAI": "Structural",
+    "Gemini": "Structural",
+    "consensus": "Structural",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      50,
+      20,
+      110,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 7,
+    "field": "schedule_item_code",
+    "OCR": "4.6.11",
+    "OpenAI": "4.6.11",
+    "Gemini": "4.6.11",
+    "consensus": "4.6.11",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      50,
+      20,
+      110,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 8,
+    "field": "quantity",
+    "OCR": 0.1,
+    "OpenAI": 0.1,
+    "Gemini": 0.1,
+    "consensus": 0.1,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      115,
+      20,
+      175,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 8,
+    "field": "unit",
+    "OCR": "cum",
+    "OpenAI": "cum",
+    "Gemini": "cum",
+    "consensus": "cum",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      115,
+      20,
+      175,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 8,
+    "field": "material_category",
+    "OCR": "Concrete",
+    "OpenAI": "Concrete",
+    "Gemini": "Concrete",
+    "consensus": "Concrete",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      115,
+      20,
+      175,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 8,
+    "field": "discipline",
+    "OCR": "Structural",
+    "OpenAI": "Structural",
+    "Gemini": "Structural",
+    "consensus": "Structural",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      115,
+      20,
+      175,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 8,
+    "field": "schedule_item_code",
+    "OCR": "4.11.1",
+    "OpenAI": "4.11.1",
+    "Gemini": "4.11.1",
+    "consensus": "4.11.1",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      115,
+      20,
+      175,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 9,
+    "field": "quantity",
+    "OCR": 14.4,
+    "OpenAI": 14.4,
+    "Gemini": 14.4,
+    "consensus": 14.4,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      180,
+      20,
+      240,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 9,
+    "field": "unit",
+    "OCR": "sqm",
+    "OpenAI": "sqm",
+    "Gemini": "sqm",
+    "consensus": "sqm",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      180,
+      20,
+      240,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 9,
+    "field": "material_category",
+    "OCR": "Waterproofing / Bitumen",
+    "OpenAI": "Waterproofing / Bitumen",
+    "Gemini": "Waterproofing / Bitumen",
+    "consensus": "Waterproofing / Bitumen",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      180,
+      20,
+      240,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 9,
+    "field": "discipline",
+    "OCR": "Structural",
+    "OpenAI": "Structural",
+    "Gemini": "Structural",
+    "consensus": "Structural",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      180,
+      20,
+      240,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 9,
+    "field": "schedule_item_code",
+    "OCR": "4.24",
+    "OpenAI": "4.24",
+    "Gemini": "4.24",
+    "consensus": "4.24",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      180,
+      20,
+      240,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 10,
+    "field": "quantity",
+    "OCR": 14.4,
+    "OpenAI": 14.4,
+    "Gemini": 14.4,
+    "consensus": 14.4,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      245,
+      20,
+      305,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 10,
+    "field": "unit",
+    "OCR": "sqm",
+    "OpenAI": "sqm",
+    "Gemini": "sqm",
+    "consensus": "sqm",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      245,
+      20,
+      305,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 10,
+    "field": "material_category",
+    "OCR": "Waterproofing / Bitumen",
+    "OpenAI": "Waterproofing / Bitumen",
+    "Gemini": "Waterproofing / Bitumen",
+    "consensus": "Waterproofing / Bitumen",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      245,
+      20,
+      305,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 10,
+    "field": "discipline",
+    "OCR": "Structural",
+    "OpenAI": "Structural",
+    "Gemini": "Structural",
+    "consensus": "Structural",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      245,
+      20,
+      305,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 10,
+    "field": "schedule_item_code",
+    "OCR": "4.27",
+    "OpenAI": "4.27",
+    "Gemini": "4.27",
+    "consensus": "4.27",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      245,
+      20,
+      305,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 11,
+    "field": "quantity",
+    "OCR": 11.3,
+    "OpenAI": 11.3,
+    "Gemini": 11.3,
+    "consensus": 11.3,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      310,
+      20,
+      370,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 11,
+    "field": "unit",
+    "OCR": "cum",
+    "OpenAI": "cum",
+    "Gemini": "cum",
+    "consensus": "cum",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      310,
+      20,
+      370,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 11,
+    "field": "material_category",
+    "OCR": "Concrete",
+    "OpenAI": "Concrete",
+    "Gemini": "Concrete",
+    "consensus": "Concrete",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      310,
+      20,
+      370,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 11,
+    "field": "discipline",
+    "OCR": "Structural",
+    "OpenAI": "Structural",
+    "Gemini": "Structural",
+    "consensus": "Structural",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      310,
+      20,
+      370,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 11,
+    "field": "schedule_item_code",
+    "OCR": "5.3",
+    "OpenAI": "5.3",
+    "Gemini": "5.3",
+    "consensus": "5.3",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      310,
+      20,
+      370,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 12,
+    "field": "quantity",
+    "OCR": 1.0,
+    "OpenAI": 1.0,
+    "Gemini": 1.0,
+    "consensus": 1.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      375,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 12,
+    "field": "unit",
+    "OCR": "cum",
+    "OpenAI": "cum",
+    "Gemini": "cum",
+    "consensus": "cum",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      375,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 12,
+    "field": "material_category",
+    "OCR": "Concrete",
+    "OpenAI": "Concrete",
+    "Gemini": "Concrete",
+    "consensus": "Concrete",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      375,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 12,
+    "field": "discipline",
+    "OCR": "Structural",
+    "OpenAI": "Structural",
+    "Gemini": "Structural",
+    "consensus": "Structural",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      375,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 12,
+    "field": "schedule_item_code",
+    "OCR": "5.4",
+    "OpenAI": "5.4",
+    "Gemini": "5.4",
+    "consensus": "5.4",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 3,
+    "source_bbox": [
+      375,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 13,
+    "field": "quantity",
+    "OCR": 0.6,
+    "OpenAI": 0.6,
+    "Gemini": 0.6,
+    "consensus": 0.6,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 4,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 13,
+    "field": "unit",
+    "OCR": "cum",
+    "OpenAI": "cum",
+    "Gemini": "cum",
+    "consensus": "cum",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 4,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 13,
+    "field": "material_category",
+    "OCR": "Concrete",
+    "OpenAI": "Concrete",
+    "Gemini": "Concrete",
+    "consensus": "Concrete",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 4,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 13,
+    "field": "discipline",
+    "OCR": "Structural",
+    "OpenAI": "Structural",
+    "Gemini": "Structural",
+    "consensus": "Structural",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 4,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 13,
+    "field": "schedule_item_code",
+    "OCR": "5.5",
+    "OpenAI": "5.5",
+    "Gemini": "5.5",
+    "consensus": "5.5",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 4,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 14,
+    "field": "quantity",
+    "OCR": 1.7,
+    "OpenAI": 1.7,
+    "Gemini": 1.7,
+    "consensus": 1.7,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 4,
+    "source_bbox": [
+      125,
+      20,
+      210,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 14,
+    "field": "unit",
+    "OCR": "cum",
+    "OpenAI": "cum",
+    "Gemini": "cum",
+    "consensus": "cum",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 4,
+    "source_bbox": [
+      125,
+      20,
+      210,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 14,
+    "field": "material_category",
+    "OCR": "Concrete",
+    "OpenAI": "Concrete",
+    "Gemini": "Concrete",
+    "consensus": "Concrete",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 4,
+    "source_bbox": [
+      125,
+      20,
+      210,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 14,
+    "field": "discipline",
+    "OCR": "Structural",
+    "OpenAI": "Structural",
+    "Gemini": "Structural",
+    "consensus": "Structural",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 4,
+    "source_bbox": [
+      125,
+      20,
+      210,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 14,
+    "field": "schedule_item_code",
+    "OCR": "5.6.3",
+    "OpenAI": "5.6.3",
+    "Gemini": "5.6.3",
+    "consensus": "5.6.3",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 4,
+    "source_bbox": [
+      125,
+      20,
+      210,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 15,
+    "field": "quantity",
+    "OCR": 0.1,
+    "OpenAI": 0.1,
+    "Gemini": 0.1,
+    "consensus": 0.1,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 4,
+    "source_bbox": [
+      215,
+      20,
+      285,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 15,
+    "field": "unit",
+    "OCR": "cum",
+    "OpenAI": "cum",
+    "Gemini": "cum",
+    "consensus": "cum",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 4,
+    "source_bbox": [
+      215,
+      20,
+      285,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 15,
+    "field": "material_category",
+    "OCR": "Concrete",
+    "OpenAI": "Concrete",
+    "Gemini": "Concrete",
+    "consensus": "Concrete",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 4,
+    "source_bbox": [
+      215,
+      20,
+      285,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 15,
+    "field": "discipline",
+    "OCR": "Structural",
+    "OpenAI": "Structural",
+    "Gemini": "Structural",
+    "consensus": "Structural",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 4,
+    "source_bbox": [
+      215,
+      20,
+      285,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 15,
+    "field": "schedule_item_code",
+    "OCR": "5.7.3",
+    "OpenAI": "5.7.3",
+    "Gemini": "5.7.3",
+    "consensus": "5.7.3",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 4,
+    "source_bbox": [
+      215,
+      20,
+      285,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 16,
+    "field": "quantity",
+    "OCR": 155.0,
+    "OpenAI": 155.0,
+    "Gemini": 155.0,
+    "consensus": 155.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 4,
+    "source_bbox": [
+      290,
+      20,
+      365,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 16,
+    "field": "unit",
+    "OCR": "sqm",
+    "OpenAI": "sqm",
+    "Gemini": "sqm",
+    "consensus": "sqm",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 4,
+    "source_bbox": [
+      290,
+      20,
+      365,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 16,
+    "field": "material_category",
+    "OCR": "Wood",
+    "OpenAI": "Wood",
+    "Gemini": "Wood",
+    "consensus": "Wood",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 4,
+    "source_bbox": [
+      290,
+      20,
+      365,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 16,
+    "field": "discipline",
+    "OCR": "Structural",
+    "OpenAI": "Structural",
+    "Gemini": "Structural",
+    "consensus": "Structural",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 4,
+    "source_bbox": [
+      290,
+      20,
+      365,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 16,
+    "field": "schedule_item_code",
+    "OCR": "5.14",
+    "OpenAI": "5.14",
+    "Gemini": "5.14",
+    "consensus": "5.14",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 4,
+    "source_bbox": [
+      290,
+      20,
+      365,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 17,
+    "field": "quantity",
+    "OCR": 1475.0,
+    "OpenAI": 1475.0,
+    "Gemini": 1475.0,
+    "consensus": 1475.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 4,
+    "source_bbox": [
+      370,
+      20,
+      445,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 17,
+    "field": "unit",
+    "OCR": "kg",
+    "OpenAI": "kg",
+    "Gemini": "kg",
+    "consensus": "kg",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 4,
+    "source_bbox": [
+      370,
+      20,
+      445,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 17,
+    "field": "material_category",
+    "OCR": "Reinf",
+    "OpenAI": "Reinf",
+    "Gemini": "Reinf",
+    "consensus": "Reinf",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 4,
+    "source_bbox": [
+      370,
+      20,
+      445,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 17,
+    "field": "discipline",
+    "OCR": "Structural",
+    "OpenAI": "Structural",
+    "Gemini": "Structural",
+    "consensus": "Structural",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 4,
+    "source_bbox": [
+      370,
+      20,
+      445,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 17,
+    "field": "schedule_item_code",
+    "OCR": "5.29",
+    "OpenAI": "5.29",
+    "Gemini": "5.29",
+    "consensus": "5.29",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 4,
+    "source_bbox": [
+      370,
+      20,
+      445,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 18,
+    "field": "quantity",
+    "OCR": 0.8,
+    "OpenAI": 0.8,
+    "Gemini": 0.8,
+    "consensus": 0.8,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      50,
+      20,
+      110,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 18,
+    "field": "unit",
+    "OCR": "cum",
+    "OpenAI": "cum",
+    "Gemini": "cum",
+    "consensus": "cum",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      50,
+      20,
+      110,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 18,
+    "field": "material_category",
+    "OCR": "Concrete",
+    "OpenAI": "Concrete",
+    "Gemini": "Concrete",
+    "consensus": "Concrete",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      50,
+      20,
+      110,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 18,
+    "field": "discipline",
+    "OCR": "Structural",
+    "OpenAI": "Structural",
+    "Gemini": "Structural",
+    "consensus": "Structural",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      50,
+      20,
+      110,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 18,
+    "field": "schedule_item_code",
+    "OCR": "5.16",
+    "OpenAI": "5.16",
+    "Gemini": "5.16",
+    "consensus": "5.16",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      50,
+      20,
+      110,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 19,
+    "field": "quantity",
+    "OCR": 17.0,
+    "OpenAI": 17.0,
+    "Gemini": 17.0,
+    "consensus": 17.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      115,
+      20,
+      175,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 19,
+    "field": "unit",
+    "OCR": "cum",
+    "OpenAI": "cum",
+    "Gemini": "cum",
+    "consensus": "cum",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      115,
+      20,
+      175,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 19,
+    "field": "material_category",
+    "OCR": "Masonry",
+    "OpenAI": "Masonry",
+    "Gemini": "Masonry",
+    "consensus": "Masonry",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      115,
+      20,
+      175,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 19,
+    "field": "discipline",
+    "OCR": "Structural",
+    "OpenAI": "Structural",
+    "Gemini": "Structural",
+    "consensus": "Structural",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      115,
+      20,
+      175,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 19,
+    "field": "schedule_item_code",
+    "OCR": "6.1.14/6.5.1/6.5.2",
+    "OpenAI": "6.1.14/6.5.1/6.5.2",
+    "Gemini": "6.1.14/6.5.1/6.5.2",
+    "consensus": "6.1.14/6.5.1/6.5.2",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      115,
+      20,
+      175,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 20,
+    "field": "quantity",
+    "OCR": 40.3,
+    "OpenAI": 40.3,
+    "Gemini": 40.3,
+    "consensus": 40.3,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      180,
+      20,
+      240,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 20,
+    "field": "unit",
+    "OCR": "cum",
+    "OpenAI": "cum",
+    "Gemini": "cum",
+    "consensus": "cum",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      180,
+      20,
+      240,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 20,
+    "field": "material_category",
+    "OCR": "Masonry",
+    "OpenAI": "Masonry",
+    "Gemini": "Masonry",
+    "consensus": "Masonry",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      180,
+      20,
+      240,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 20,
+    "field": "discipline",
+    "OCR": "Structural",
+    "OpenAI": "Structural",
+    "Gemini": "Structural",
+    "consensus": "Structural",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      180,
+      20,
+      240,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 20,
+    "field": "schedule_item_code",
+    "OCR": "6.1.14/6.3/6.5.1/6.5.2",
+    "OpenAI": "6.1.14/6.3/6.5.1/6.5.2",
+    "Gemini": "6.1.14/6.3/6.5.1/6.5.2",
+    "consensus": "6.1.14/6.3/6.5.1/6.5.2",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      180,
+      20,
+      240,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 21,
+    "field": "quantity",
+    "OCR": 0.9,
+    "OpenAI": 0.9,
+    "Gemini": 0.9,
+    "consensus": 0.9,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      245,
+      20,
+      305,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 21,
+    "field": "unit",
+    "OCR": "sqm",
+    "OpenAI": "sqm",
+    "Gemini": "sqm",
+    "consensus": "sqm",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      245,
+      20,
+      305,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 21,
+    "field": "material_category",
+    "OCR": "Masonry",
+    "OpenAI": "Masonry",
+    "Gemini": "Masonry",
+    "consensus": "Masonry",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      245,
+      20,
+      305,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 21,
+    "field": "discipline",
+    "OCR": "Structural",
+    "OpenAI": "Structural",
+    "Gemini": "Structural",
+    "consensus": "Structural",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      245,
+      20,
+      305,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 21,
+    "field": "schedule_item_code",
+    "OCR": "6.13/6.21/6.5.1/6.5.2",
+    "OpenAI": "6.13/6.21/6.5.1/6.5.2",
+    "Gemini": "6.13/6.21/6.5.1/6.5.2",
+    "consensus": "6.13/6.21/6.5.1/6.5.2",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      245,
+      20,
+      305,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 22,
+    "field": "quantity",
+    "OCR": 4.8,
+    "OpenAI": 4.8,
+    "Gemini": 4.8,
+    "consensus": 4.8,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      310,
+      20,
+      370,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 22,
+    "field": "unit",
+    "OCR": "sqm",
+    "OpenAI": "sqm",
+    "Gemini": "sqm",
+    "consensus": "sqm",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      310,
+      20,
+      370,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 22,
+    "field": "material_category",
+    "OCR": "Masonry",
+    "OpenAI": "Masonry",
+    "Gemini": "Masonry",
+    "consensus": "Masonry",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      310,
+      20,
+      370,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 22,
+    "field": "discipline",
+    "OCR": "Structural",
+    "OpenAI": "Structural",
+    "Gemini": "Structural",
+    "consensus": "Structural",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      310,
+      20,
+      370,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 22,
+    "field": "schedule_item_code",
+    "OCR": "6.18.4/6.21",
+    "OpenAI": "6.18.4/6.21",
+    "Gemini": "6.18.4/6.21",
+    "consensus": "6.18.4/6.21",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      310,
+      20,
+      370,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 23,
+    "field": "quantity",
+    "OCR": 18.0,
+    "OpenAI": 18.0,
+    "Gemini": 18.0,
+    "consensus": 18.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      375,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 23,
+    "field": "unit",
+    "OCR": "sqm",
+    "OpenAI": "sqm",
+    "Gemini": "sqm",
+    "consensus": "sqm",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      375,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 23,
+    "field": "material_category",
+    "OCR": "Masonry",
+    "OpenAI": "Masonry",
+    "Gemini": "Masonry",
+    "consensus": "Masonry",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      375,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 23,
+    "field": "discipline",
+    "OCR": "Structural",
+    "OpenAI": "Structural",
+    "Gemini": "Structural",
+    "consensus": "Structural",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      375,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 23,
+    "field": "schedule_item_code",
+    "OCR": "6.18.4/6.19.1/6.20/6.21.1/6.21.2",
+    "OpenAI": "6.18.4/6.19.1/6.20/6.21.1/6.21.2",
+    "Gemini": "6.18.4/6.19.1/6.20/6.21.1/6.21.2",
+    "consensus": "6.18.4/6.19.1/6.20/6.21.1/6.21.2",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 5,
+    "source_bbox": [
+      375,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 24,
+    "field": "quantity",
+    "OCR": 3.5,
+    "OpenAI": 3.5,
+    "Gemini": 3.5,
+    "consensus": 3.5,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 6,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 24,
+    "field": "unit",
+    "OCR": "cum",
+    "OpenAI": "cum",
+    "Gemini": "cum",
+    "consensus": "cum",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 6,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 24,
+    "field": "material_category",
+    "OCR": "Wood",
+    "OpenAI": "Wood",
+    "Gemini": "Wood",
+    "consensus": "Wood",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 6,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 24,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 6,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 24,
+    "field": "schedule_item_code",
+    "OCR": "9.1.2",
+    "OpenAI": "9.1.2",
+    "Gemini": "9.1.2",
+    "consensus": "9.1.2",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 6,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 25,
+    "field": "quantity",
+    "OCR": 18.0,
+    "OpenAI": 18.0,
+    "Gemini": 18.0,
+    "consensus": 18.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 6,
+    "source_bbox": [
+      125,
+      20,
+      195,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 25,
+    "field": "unit",
+    "OCR": "sqm",
+    "OpenAI": "sqm",
+    "Gemini": "sqm",
+    "consensus": "sqm",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 6,
+    "source_bbox": [
+      125,
+      20,
+      195,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 25,
+    "field": "material_category",
+    "OCR": "Wood",
+    "OpenAI": "Wood",
+    "Gemini": "Wood",
+    "consensus": "Wood",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 6,
+    "source_bbox": [
+      125,
+      20,
+      195,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 25,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 6,
+    "source_bbox": [
+      125,
+      20,
+      195,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 25,
+    "field": "schedule_item_code",
+    "OCR": "9.7.2/9.9",
+    "OpenAI": "9.7.2/9.9",
+    "Gemini": "9.7.2/9.9",
+    "consensus": "9.7.2/9.9",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 6,
+    "source_bbox": [
+      125,
+      20,
+      195,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 26,
+    "field": "quantity",
+    "OCR": 4.7,
+    "OpenAI": 4.7,
+    "Gemini": 4.7,
+    "consensus": 4.7,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 6,
+    "source_bbox": [
+      200,
+      20,
+      280,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 26,
+    "field": "unit",
+    "OCR": "sqm",
+    "OpenAI": "sqm",
+    "Gemini": "sqm",
+    "consensus": "sqm",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 6,
+    "source_bbox": [
+      200,
+      20,
+      280,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 26,
+    "field": "material_category",
+    "OCR": "Wood",
+    "OpenAI": "Wood",
+    "Gemini": "Wood",
+    "consensus": "Wood",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 6,
+    "source_bbox": [
+      200,
+      20,
+      280,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 26,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 6,
+    "source_bbox": [
+      200,
+      20,
+      280,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 26,
+    "field": "schedule_item_code",
+    "OCR": "9.26.4",
+    "OpenAI": "9.26.4",
+    "Gemini": "9.26.4",
+    "consensus": "9.26.4",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 6,
+    "source_bbox": [
+      200,
+      20,
+      280,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 27,
+    "field": "quantity",
+    "OCR": 20.0,
+    "OpenAI": 20.0,
+    "Gemini": 20.0,
+    "consensus": 20.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 6,
+    "source_bbox": [
+      285,
+      20,
+      360,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 27,
+    "field": "unit",
+    "OCR": "nos",
+    "OpenAI": "nos",
+    "Gemini": "nos",
+    "consensus": "nos",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 6,
+    "source_bbox": [
+      285,
+      20,
+      360,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 27,
+    "field": "material_category",
+    "OCR": "Wood",
+    "OpenAI": "Wood",
+    "Gemini": "Wood",
+    "consensus": "Wood",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 6,
+    "source_bbox": [
+      285,
+      20,
+      360,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 27,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 6,
+    "source_bbox": [
+      285,
+      20,
+      360,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 27,
+    "field": "schedule_item_code",
+    "OCR": "9.51",
+    "OpenAI": "9.51",
+    "Gemini": "9.51",
+    "consensus": "9.51",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 6,
+    "source_bbox": [
+      285,
+      20,
+      360,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 28,
+    "field": "quantity",
+    "OCR": 6.0,
+    "OpenAI": 6.0,
+    "Gemini": 9.0,
+    "consensus": 6.0,
+    "vote_ratio": "2/3",
+    "status": "PASS",
+    "page_number": 6,
+    "source_bbox": [
+      365,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 28,
+    "field": "unit",
+    "OCR": "nos",
+    "OpenAI": "nos",
+    "Gemini": "nos",
+    "consensus": "nos",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 6,
+    "source_bbox": [
+      365,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 28,
+    "field": "material_category",
+    "OCR": "Steel",
+    "OpenAI": "Steel",
+    "Gemini": "Steel",
+    "consensus": "Steel",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 6,
+    "source_bbox": [
+      365,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 28,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 6,
+    "source_bbox": [
+      365,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 28,
+    "field": "schedule_item_code",
+    "OCR": "9.127.3",
+    "OpenAI": "9.127.3",
+    "Gemini": "9.127.3",
+    "consensus": "9.127.3",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 6,
+    "source_bbox": [
+      365,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 29,
+    "field": "quantity",
+    "OCR": 2.0,
+    "OpenAI": 2.0,
+    "Gemini": 2.0,
+    "consensus": 2.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 7,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 29,
+    "field": "unit",
+    "OCR": "nos",
+    "OpenAI": "nos",
+    "Gemini": "nos",
+    "consensus": "nos",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 7,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 29,
+    "field": "material_category",
+    "OCR": "Steel",
+    "OpenAI": "Steel",
+    "Gemini": "Steel",
+    "consensus": "Steel",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 7,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 29,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 7,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 29,
+    "field": "schedule_item_code",
+    "OCR": "9.218.1",
+    "OpenAI": "9.218.1",
+    "Gemini": "9.218.1",
+    "consensus": "9.218.1",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 7,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 30,
+    "field": "quantity",
+    "OCR": 10.0,
+    "OpenAI": 10.0,
+    "Gemini": 10.0,
+    "consensus": 10.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 7,
+    "source_bbox": [
+      125,
+      20,
+      195,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 30,
+    "field": "unit",
+    "OCR": "nos",
+    "OpenAI": "nos",
+    "Gemini": "nos",
+    "consensus": "nos",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 7,
+    "source_bbox": [
+      125,
+      20,
+      195,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 30,
+    "field": "material_category",
+    "OCR": "Aluminium",
+    "OpenAI": "Aluminium",
+    "Gemini": "Aluminium",
+    "consensus": "Aluminium",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 7,
+    "source_bbox": [
+      125,
+      20,
+      195,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 30,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 7,
+    "source_bbox": [
+      125,
+      20,
+      195,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 30,
+    "field": "schedule_item_code",
+    "OCR": "9.218",
+    "OpenAI": "9.218",
+    "Gemini": "9.218",
+    "consensus": "9.218",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 7,
+    "source_bbox": [
+      125,
+      20,
+      195,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 31,
+    "field": "quantity",
+    "OCR": 18.0,
+    "OpenAI": 18.0,
+    "Gemini": 18.0,
+    "consensus": 18.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 7,
+    "source_bbox": [
+      200,
+      20,
+      270,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 31,
+    "field": "unit",
+    "OCR": "nos",
+    "OpenAI": "nos",
+    "Gemini": "nos",
+    "consensus": "nos",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 7,
+    "source_bbox": [
+      200,
+      20,
+      270,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 31,
+    "field": "material_category",
+    "OCR": "Aluminium",
+    "OpenAI": "Aluminium",
+    "Gemini": "Aluminium",
+    "consensus": "Aluminium",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 7,
+    "source_bbox": [
+      200,
+      20,
+      270,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 31,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 7,
+    "source_bbox": [
+      200,
+      20,
+      270,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 31,
+    "field": "schedule_item_code",
+    "OCR": "9.219.3/9.219.5",
+    "OpenAI": "9.219.3/9.219.5",
+    "Gemini": "9.219.3/9.219.5",
+    "consensus": "9.219.3/9.219.5",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 7,
+    "source_bbox": [
+      200,
+      20,
+      270,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 32,
+    "field": "quantity",
+    "OCR": 24.0,
+    "OpenAI": 24.0,
+    "Gemini": 24.0,
+    "consensus": 24.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 7,
+    "source_bbox": [
+      275,
+      20,
+      355,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 32,
+    "field": "unit",
+    "OCR": "nos",
+    "OpenAI": "nos",
+    "Gemini": "sqm",
+    "consensus": "nos",
+    "vote_ratio": "2/3",
+    "status": "PASS",
+    "page_number": 7,
+    "source_bbox": [
+      275,
+      20,
+      355,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 32,
+    "field": "material_category",
+    "OCR": "Aluminium",
+    "OpenAI": "Aluminium",
+    "Gemini": "Aluminium",
+    "consensus": "Aluminium",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 7,
+    "source_bbox": [
+      275,
+      20,
+      355,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 32,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 7,
+    "source_bbox": [
+      275,
+      20,
+      355,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 32,
+    "field": "schedule_item_code",
+    "OCR": "9.222.2/9.222.3",
+    "OpenAI": "9.222.2/9.222.3",
+    "Gemini": "9.222.2/9.222.3",
+    "consensus": "9.222.2/9.222.3",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 7,
+    "source_bbox": [
+      275,
+      20,
+      355,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 33,
+    "field": "quantity",
+    "OCR": 10.0,
+    "OpenAI": 10.0,
+    "Gemini": 10.0,
+    "consensus": 10.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 7,
+    "source_bbox": [
+      360,
+      20,
+      435,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 33,
+    "field": "unit",
+    "OCR": "nos",
+    "OpenAI": "nos",
+    "Gemini": "nos",
+    "consensus": "nos",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 7,
+    "source_bbox": [
+      360,
+      20,
+      435,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 33,
+    "field": "material_category",
+    "OCR": "Aluminium",
+    "OpenAI": "Aluminium",
+    "Gemini": "Aluminium",
+    "consensus": "Aluminium",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 7,
+    "source_bbox": [
+      360,
+      20,
+      435,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 33,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 7,
+    "source_bbox": [
+      360,
+      20,
+      435,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 33,
+    "field": "schedule_item_code",
+    "OCR": "9.223",
+    "OpenAI": "9.223",
+    "Gemini": "9.223",
+    "consensus": "9.223",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 7,
+    "source_bbox": [
+      360,
+      20,
+      435,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 34,
+    "field": "quantity",
+    "OCR": 12.3,
+    "OpenAI": 12.3,
+    "Gemini": 12.3,
+    "consensus": 12.3,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      50,
+      20,
+      110,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 34,
+    "field": "unit",
+    "OCR": "sqm",
+    "OpenAI": "sqm",
+    "Gemini": "sqm",
+    "consensus": "sqm",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      50,
+      20,
+      110,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 34,
+    "field": "material_category",
+    "OCR": "Steel",
+    "OpenAI": "Steel",
+    "Gemini": "Steel",
+    "consensus": "Steel",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      50,
+      20,
+      110,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 34,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      50,
+      20,
+      110,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 34,
+    "field": "schedule_item_code",
+    "OCR": "N.S.I.",
+    "OpenAI": "N.S.I.",
+    "Gemini": "N.S.I.",
+    "consensus": "N.S.I.",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      50,
+      20,
+      110,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 35,
+    "field": "quantity",
+    "OCR": 21.0,
+    "OpenAI": 21.0,
+    "Gemini": 21.0,
+    "consensus": 21.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      115,
+      20,
+      175,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 35,
+    "field": "unit",
+    "OCR": "nos",
+    "OpenAI": "nos",
+    "Gemini": "nos",
+    "consensus": "nos",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      115,
+      20,
+      175,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 35,
+    "field": "material_category",
+    "OCR": "Steel",
+    "OpenAI": "Steel",
+    "Gemini": "Steel",
+    "consensus": "Steel",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      115,
+      20,
+      175,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 35,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      115,
+      20,
+      175,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 35,
+    "field": "schedule_item_code",
+    "OCR": "N.S.I.",
+    "OpenAI": "N.S.I.",
+    "Gemini": "N.S.I.",
+    "consensus": "N.S.I.",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      115,
+      20,
+      175,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 36,
+    "field": "quantity",
+    "OCR": 21.0,
+    "OpenAI": 21.0,
+    "Gemini": 21.0,
+    "consensus": 21.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      180,
+      20,
+      240,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 36,
+    "field": "unit",
+    "OCR": "nos",
+    "OpenAI": "nos",
+    "Gemini": "nos",
+    "consensus": "nos",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      180,
+      20,
+      240,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 36,
+    "field": "material_category",
+    "OCR": "Aluminium",
+    "OpenAI": "Aluminium",
+    "Gemini": "Aluminium",
+    "consensus": "Aluminium",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      180,
+      20,
+      240,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 36,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      180,
+      20,
+      240,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 36,
+    "field": "schedule_item_code",
+    "OCR": "9.224",
+    "OpenAI": "9.224",
+    "Gemini": "9.224",
+    "consensus": "9.224",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      180,
+      20,
+      240,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 37,
+    "field": "quantity",
+    "OCR": 66.0,
+    "OpenAI": 66.0,
+    "Gemini": 66.0,
+    "consensus": 66.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      245,
+      20,
+      305,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 37,
+    "field": "unit",
+    "OCR": "kg",
+    "OpenAI": "kg",
+    "Gemini": "kg",
+    "consensus": "kg",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      245,
+      20,
+      305,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 37,
+    "field": "material_category",
+    "OCR": "Steel",
+    "OpenAI": "Steel",
+    "Gemini": "Steel",
+    "consensus": "Steel",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      245,
+      20,
+      305,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 37,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      245,
+      20,
+      305,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 37,
+    "field": "schedule_item_code",
+    "OCR": "N.S.I.",
+    "OpenAI": "N.S.I.",
+    "Gemini": "N.S.I.",
+    "consensus": "N.S.I.",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      245,
+      20,
+      305,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 38,
+    "field": "quantity",
+    "OCR": 187.0,
+    "OpenAI": 187.0,
+    "Gemini": 187.0,
+    "consensus": 187.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      310,
+      20,
+      370,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 38,
+    "field": "unit",
+    "OCR": "kg",
+    "OpenAI": "kg",
+    "Gemini": "kg",
+    "consensus": "kg",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      310,
+      20,
+      370,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 38,
+    "field": "material_category",
+    "OCR": "Steel",
+    "OpenAI": "Steel",
+    "Gemini": "Steel",
+    "consensus": "Steel",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      310,
+      20,
+      370,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 38,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      310,
+      20,
+      370,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 38,
+    "field": "schedule_item_code",
+    "OCR": "10.14",
+    "OpenAI": "10.14",
+    "Gemini": "10.14",
+    "consensus": "10.14",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      310,
+      20,
+      370,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 39,
+    "field": "quantity",
+    "OCR": 5.0,
+    "OpenAI": 5.0,
+    "Gemini": 5.0,
+    "consensus": 5.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      375,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 39,
+    "field": "unit",
+    "OCR": "nos",
+    "OpenAI": "nos",
+    "Gemini": "nos",
+    "consensus": "nos",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      375,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 39,
+    "field": "material_category",
+    "OCR": "Steel",
+    "OpenAI": "Steel",
+    "Gemini": "Steel",
+    "consensus": "Steel",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      375,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 39,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      375,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 39,
+    "field": "schedule_item_code",
+    "OCR": "10.19",
+    "OpenAI": "10.19",
+    "Gemini": "10.19",
+    "consensus": "10.19",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 8,
+    "source_bbox": [
+      375,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 40,
+    "field": "quantity",
+    "OCR": 68.0,
+    "OpenAI": 68.0,
+    "Gemini": 68.0,
+    "consensus": 68.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 9,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 40,
+    "field": "unit",
+    "OCR": "sqm",
+    "OpenAI": "sqm",
+    "Gemini": "sqm",
+    "consensus": "sqm",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 9,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 40,
+    "field": "material_category",
+    "OCR": "Flooring",
+    "OpenAI": "Flooring",
+    "Gemini": "Flooring",
+    "consensus": "Flooring",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 9,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 40,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 9,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 40,
+    "field": "schedule_item_code",
+    "OCR": "11.4.2",
+    "OpenAI": "11.4.2",
+    "Gemini": "11.4.2",
+    "consensus": "11.4.2",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 9,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 41,
+    "field": "quantity",
+    "OCR": 11.0,
+    "OpenAI": 11.0,
+    "Gemini": 11.0,
+    "consensus": 11.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 9,
+    "source_bbox": [
+      125,
+      20,
+      195,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 41,
+    "field": "unit",
+    "OCR": "sqm",
+    "OpenAI": "sqm",
+    "Gemini": "sqm",
+    "consensus": "sqm",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 9,
+    "source_bbox": [
+      125,
+      20,
+      195,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 41,
+    "field": "material_category",
+    "OCR": "Plaster",
+    "OpenAI": "Plaster",
+    "Gemini": "Plaster",
+    "consensus": "Plaster",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 9,
+    "source_bbox": [
+      125,
+      20,
+      195,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 41,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 9,
+    "source_bbox": [
+      125,
+      20,
+      195,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 41,
+    "field": "schedule_item_code",
+    "OCR": "11.10.1",
+    "OpenAI": "11.10.1",
+    "Gemini": "11.10.1",
+    "consensus": "11.10.1",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 9,
+    "source_bbox": [
+      125,
+      20,
+      195,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 42,
+    "field": "quantity",
+    "OCR": 9.0,
+    "OpenAI": 9.0,
+    "Gemini": 9.0,
+    "consensus": 9.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 9,
+    "source_bbox": [
+      200,
+      20,
+      270,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 42,
+    "field": "unit",
+    "OCR": "sqm",
+    "OpenAI": "sqm",
+    "Gemini": "sqm",
+    "consensus": "sqm",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 9,
+    "source_bbox": [
+      200,
+      20,
+      270,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 42,
+    "field": "material_category",
+    "OCR": "Flooring",
+    "OpenAI": "Flooring",
+    "Gemini": "Flooring",
+    "consensus": "Flooring",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 9,
+    "source_bbox": [
+      200,
+      20,
+      270,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 42,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 9,
+    "source_bbox": [
+      200,
+      20,
+      270,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 42,
+    "field": "schedule_item_code",
+    "OCR": "11.16.1",
+    "OpenAI": "11.16.1",
+    "Gemini": "11.16.1",
+    "consensus": "11.16.1",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 9,
+    "source_bbox": [
+      200,
+      20,
+      270,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 43,
+    "field": "quantity",
+    "OCR": 18.0,
+    "OpenAI": 18.0,
+    "Gemini": 18.0,
+    "consensus": 18.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 9,
+    "source_bbox": [
+      275,
+      20,
+      345,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 43,
+    "field": "unit",
+    "OCR": "m",
+    "OpenAI": "m",
+    "Gemini": "m",
+    "consensus": "m",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 9,
+    "source_bbox": [
+      275,
+      20,
+      345,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 43,
+    "field": "material_category",
+    "OCR": "Flooring",
+    "OpenAI": "Flooring",
+    "Gemini": "Flooring",
+    "consensus": "Flooring",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 9,
+    "source_bbox": [
+      275,
+      20,
+      345,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 43,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 9,
+    "source_bbox": [
+      275,
+      20,
+      345,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 43,
+    "field": "schedule_item_code",
+    "OCR": "11.20.2",
+    "OpenAI": "11.20.2",
+    "Gemini": "11.20.2",
+    "consensus": "11.20.2",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 9,
+    "source_bbox": [
+      275,
+      20,
+      345,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 44,
+    "field": "quantity",
+    "OCR": 65.0,
+    "OpenAI": 65.0,
+    "Gemini": 65.0,
+    "consensus": 65.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 9,
+    "source_bbox": [
+      350,
+      20,
+      430,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 44,
+    "field": "unit",
+    "OCR": "sqm",
+    "OpenAI": "sqm",
+    "Gemini": "sqm",
+    "consensus": "sqm",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 9,
+    "source_bbox": [
+      350,
+      20,
+      430,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 44,
+    "field": "material_category",
+    "OCR": "Waterproofing / Bitumen",
+    "OpenAI": "Waterproofing / Bitumen",
+    "Gemini": "Waterproofing / Bitumen",
+    "consensus": "Waterproofing / Bitumen",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 9,
+    "source_bbox": [
+      350,
+      20,
+      430,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 44,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 9,
+    "source_bbox": [
+      350,
+      20,
+      430,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 44,
+    "field": "schedule_item_code",
+    "OCR": "12.29.1",
+    "OpenAI": "12.29.1",
+    "Gemini": "12.29.1",
+    "consensus": "12.29.1",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 9,
+    "source_bbox": [
+      350,
+      20,
+      430,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 45,
+    "field": "quantity",
+    "OCR": 65.0,
+    "OpenAI": 65.0,
+    "Gemini": 65.0,
+    "consensus": 65.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 10,
+    "source_bbox": [
+      50,
+      20,
+      140,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 45,
+    "field": "unit",
+    "OCR": "sqm",
+    "OpenAI": "sqm",
+    "Gemini": "sqm",
+    "consensus": "sqm",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 10,
+    "source_bbox": [
+      50,
+      20,
+      140,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 45,
+    "field": "material_category",
+    "OCR": "Waterproofing / Bitumen",
+    "OpenAI": "Doors & Windows",
+    "Gemini": "Joinery & Woodwork",
+    "consensus": "Waterproofing / Bitumen",
+    "vote_ratio": "1/3",
+    "status": "NEEDS_REVIEW",
+    "page_number": 10,
+    "source_bbox": [
+      50,
+      20,
+      140,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 45,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 10,
+    "source_bbox": [
+      50,
+      20,
+      140,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 45,
+    "field": "schedule_item_code",
+    "OCR": "12.35.2",
+    "OpenAI": "12.35.2",
+    "Gemini": "12.35.2",
+    "consensus": "12.35.2",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 10,
+    "source_bbox": [
+      50,
+      20,
+      140,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 46,
+    "field": "quantity",
+    "OCR": 32.0,
+    "OpenAI": 32.0,
+    "Gemini": 32.0,
+    "consensus": 32.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 10,
+    "source_bbox": [
+      145,
+      20,
+      215,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 46,
+    "field": "unit",
+    "OCR": "sqm",
+    "OpenAI": "sqm",
+    "Gemini": "sqm",
+    "consensus": "sqm",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 10,
+    "source_bbox": [
+      145,
+      20,
+      215,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 46,
+    "field": "material_category",
+    "OCR": "Waterproofing / Bitumen",
+    "OpenAI": "Waterproofing / Bitumen",
+    "Gemini": "Waterproofing / Bitumen",
+    "consensus": "Waterproofing / Bitumen",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 10,
+    "source_bbox": [
+      145,
+      20,
+      215,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 46,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 10,
+    "source_bbox": [
+      145,
+      20,
+      215,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 46,
+    "field": "schedule_item_code",
+    "OCR": "N.S.I.",
+    "OpenAI": "N.S.I.",
+    "Gemini": "N.S.I.",
+    "consensus": "N.S.I.",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 10,
+    "source_bbox": [
+      145,
+      20,
+      215,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 47,
+    "field": "quantity",
+    "OCR": 46.0,
+    "OpenAI": 46.0,
+    "Gemini": 46.0,
+    "consensus": 46.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 10,
+    "source_bbox": [
+      220,
+      20,
+      290,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 47,
+    "field": "unit",
+    "OCR": "m",
+    "OpenAI": "m",
+    "Gemini": "m",
+    "consensus": "m",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 10,
+    "source_bbox": [
+      220,
+      20,
+      290,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 47,
+    "field": "material_category",
+    "OCR": "Waterproofing / Bitumen",
+    "OpenAI": "Waterproofing / Bitumen",
+    "Gemini": "Waterproofing / Bitumen",
+    "consensus": "Waterproofing / Bitumen",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 10,
+    "source_bbox": [
+      220,
+      20,
+      290,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 47,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 10,
+    "source_bbox": [
+      220,
+      20,
+      290,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 47,
+    "field": "schedule_item_code",
+    "OCR": "N.S.I.",
+    "OpenAI": "N.S.I.",
+    "Gemini": "N.S.I.",
+    "consensus": "N.S.I.",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 10,
+    "source_bbox": [
+      220,
+      20,
+      290,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 48,
+    "field": "quantity",
+    "OCR": 3.0,
+    "OpenAI": 3.0,
+    "Gemini": 3.0,
+    "consensus": 3.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 10,
+    "source_bbox": [
+      295,
+      20,
+      365,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 48,
+    "field": "unit",
+    "OCR": "nos",
+    "OpenAI": "nos",
+    "Gemini": "nos",
+    "consensus": "nos",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 10,
+    "source_bbox": [
+      295,
+      20,
+      365,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 48,
+    "field": "material_category",
+    "OCR": "Waterproofing / Bitumen",
+    "OpenAI": "Waterproofing / Bitumen",
+    "Gemini": "Waterproofing / Bitumen",
+    "consensus": "Waterproofing / Bitumen",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 10,
+    "source_bbox": [
+      295,
+      20,
+      365,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 48,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 10,
+    "source_bbox": [
+      295,
+      20,
+      365,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 48,
+    "field": "schedule_item_code",
+    "OCR": "12.39",
+    "OpenAI": "12.39",
+    "Gemini": "12.39",
+    "consensus": "12.39",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 10,
+    "source_bbox": [
+      295,
+      20,
+      365,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 49,
+    "field": "quantity",
+    "OCR": 10.0,
+    "OpenAI": 10.0,
+    "Gemini": 10.0,
+    "consensus": 10.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 10,
+    "source_bbox": [
+      370,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 49,
+    "field": "unit",
+    "OCR": "m",
+    "OpenAI": "m",
+    "Gemini": "m",
+    "consensus": "m",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 10,
+    "source_bbox": [
+      370,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 49,
+    "field": "material_category",
+    "OCR": "Plumbing",
+    "OpenAI": "Plumbing",
+    "Gemini": "Plumbing",
+    "consensus": "Plumbing",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 10,
+    "source_bbox": [
+      370,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 49,
+    "field": "discipline",
+    "OCR": "Plumbing & Drainage",
+    "OpenAI": "Plumbing & Drainage",
+    "Gemini": "Plumbing & Drainage",
+    "consensus": "Plumbing & Drainage",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 10,
+    "source_bbox": [
+      370,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 49,
+    "field": "schedule_item_code",
+    "OCR": "12.69.2",
+    "OpenAI": "12.69.2",
+    "Gemini": "12.69.2",
+    "consensus": "12.69.2",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 10,
+    "source_bbox": [
+      370,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 50,
+    "field": "quantity",
+    "OCR": 9.0,
+    "OpenAI": 9.0,
+    "Gemini": 9.0,
+    "consensus": 9.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 11,
+    "source_bbox": [
+      40,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 50,
+    "field": "unit",
+    "OCR": "nos",
+    "OpenAI": "nos",
+    "Gemini": "nos",
+    "consensus": "nos",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 11,
+    "source_bbox": [
+      40,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 50,
+    "field": "material_category",
+    "OCR": "Plumbing",
+    "OpenAI": "Plumbing",
+    "Gemini": "Plumbing",
+    "consensus": "Plumbing",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 11,
+    "source_bbox": [
+      40,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 50,
+    "field": "discipline",
+    "OCR": "Plumbing & Drainage",
+    "OpenAI": "Plumbing & Drainage",
+    "Gemini": "Plumbing & Drainage",
+    "consensus": "Plumbing & Drainage",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 11,
+    "source_bbox": [
+      40,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 50,
+    "field": "schedule_item_code",
+    "OCR": "12.71.2",
+    "OpenAI": "12.71.2",
+    "Gemini": "12.71.2",
+    "consensus": "12.71.2",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 11,
+    "source_bbox": [
+      40,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 51,
+    "field": "quantity",
+    "OCR": 9.0,
+    "OpenAI": 9.0,
+    "Gemini": 9.0,
+    "consensus": 9.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 11,
+    "source_bbox": [
+      125,
+      20,
+      185,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 51,
+    "field": "unit",
+    "OCR": "nos",
+    "OpenAI": "nos",
+    "Gemini": "nos",
+    "consensus": "nos",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 11,
+    "source_bbox": [
+      125,
+      20,
+      185,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 51,
+    "field": "material_category",
+    "OCR": "Plumbing",
+    "OpenAI": "Plumbing",
+    "Gemini": "Plumbing",
+    "consensus": "Plumbing",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 11,
+    "source_bbox": [
+      125,
+      20,
+      185,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 51,
+    "field": "discipline",
+    "OCR": "Plumbing & Drainage",
+    "OpenAI": "Plumbing & Drainage",
+    "Gemini": "Plumbing & Drainage",
+    "consensus": "Plumbing & Drainage",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 11,
+    "source_bbox": [
+      125,
+      20,
+      185,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 51,
+    "field": "schedule_item_code",
+    "OCR": "12.72.2.2/12.72.3.2/12.72.1.2",
+    "OpenAI": "12.72.2.2/12.72.3.2/12.72.1.2",
+    "Gemini": "12.72.2.2/12.72.3.2/12.72.1.2",
+    "consensus": "12.72.2.2/12.72.3.2/12.72.1.2",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 11,
+    "source_bbox": [
+      125,
+      20,
+      185,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 52,
+    "field": "quantity",
+    "OCR": 220.0,
+    "OpenAI": 220.0,
+    "Gemini": 220.0,
+    "consensus": 220.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 11,
+    "source_bbox": [
+      190,
+      20,
+      250,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 52,
+    "field": "unit",
+    "OCR": "sqm",
+    "OpenAI": "sqm",
+    "Gemini": "sqm",
+    "consensus": "sqm",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 11,
+    "source_bbox": [
+      190,
+      20,
+      250,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 52,
+    "field": "material_category",
+    "OCR": "Plaster",
+    "OpenAI": "Plaster",
+    "Gemini": "Plaster",
+    "consensus": "Plaster",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 11,
+    "source_bbox": [
+      190,
+      20,
+      250,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 52,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 11,
+    "source_bbox": [
+      190,
+      20,
+      250,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 52,
+    "field": "schedule_item_code",
+    "OCR": "13.8.4",
+    "OpenAI": "13.8.4",
+    "Gemini": "13.8.4",
+    "consensus": "13.8.4",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 11,
+    "source_bbox": [
+      190,
+      20,
+      250,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 53,
+    "field": "quantity",
+    "OCR": 220.0,
+    "OpenAI": 220.0,
+    "Gemini": 220.0,
+    "consensus": 220.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 11,
+    "source_bbox": [
+      255,
+      20,
+      315,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 53,
+    "field": "unit",
+    "OCR": "sqm",
+    "OpenAI": "sqm",
+    "Gemini": "sqm",
+    "consensus": "sqm",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 11,
+    "source_bbox": [
+      255,
+      20,
+      315,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 53,
+    "field": "material_category",
+    "OCR": "Plaster",
+    "OpenAI": "Plaster",
+    "Gemini": "Plaster",
+    "consensus": "Plaster",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 11,
+    "source_bbox": [
+      255,
+      20,
+      315,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 53,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 11,
+    "source_bbox": [
+      255,
+      20,
+      315,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 53,
+    "field": "schedule_item_code",
+    "OCR": "13.9.4",
+    "OpenAI": "13.9.4",
+    "Gemini": "13.9.4",
+    "consensus": "13.9.4",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 11,
+    "source_bbox": [
+      255,
+      20,
+      315,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 54,
+    "field": "quantity",
+    "OCR": 19.0,
+    "OpenAI": 19.0,
+    "Gemini": 19.0,
+    "consensus": 19.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 11,
+    "source_bbox": [
+      320,
+      20,
+      380,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 54,
+    "field": "unit",
+    "OCR": "sqm",
+    "OpenAI": "sqm",
+    "Gemini": "sqm",
+    "consensus": "sqm",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 11,
+    "source_bbox": [
+      320,
+      20,
+      380,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 54,
+    "field": "material_category",
+    "OCR": "Plaster",
+    "OpenAI": "Plaster",
+    "Gemini": "Plaster",
+    "consensus": "Plaster",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 11,
+    "source_bbox": [
+      320,
+      20,
+      380,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 54,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 11,
+    "source_bbox": [
+      320,
+      20,
+      380,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 54,
+    "field": "schedule_item_code",
+    "OCR": "13.25",
+    "OpenAI": "13.25",
+    "Gemini": "13.25",
+    "consensus": "13.25",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 11,
+    "source_bbox": [
+      320,
+      20,
+      380,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 55,
+    "field": "quantity",
+    "OCR": 20.0,
+    "OpenAI": 20.0,
+    "Gemini": 20.0,
+    "consensus": 20.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 12,
+    "source_bbox": [
+      50,
+      20,
+      140,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 55,
+    "field": "unit",
+    "OCR": "sqm",
+    "OpenAI": "sqm",
+    "Gemini": "sqm",
+    "consensus": "sqm",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 12,
+    "source_bbox": [
+      50,
+      20,
+      140,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 55,
+    "field": "material_category",
+    "OCR": "Plaster",
+    "OpenAI": "Plaster",
+    "Gemini": "Plaster",
+    "consensus": "Plaster",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 12,
+    "source_bbox": [
+      50,
+      20,
+      140,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 55,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 12,
+    "source_bbox": [
+      50,
+      20,
+      140,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 55,
+    "field": "schedule_item_code",
+    "OCR": "13.41",
+    "OpenAI": "13.41",
+    "Gemini": "13.41",
+    "consensus": "13.41",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 12,
+    "source_bbox": [
+      50,
+      20,
+      140,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 56,
+    "field": "quantity",
+    "OCR": 155.0,
+    "OpenAI": 155.0,
+    "Gemini": 155.0,
+    "consensus": 155.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 12,
+    "source_bbox": [
+      145,
+      20,
+      215,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 56,
+    "field": "unit",
+    "OCR": "sqm",
+    "OpenAI": "sqm",
+    "Gemini": "sqm",
+    "consensus": "sqm",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 12,
+    "source_bbox": [
+      145,
+      20,
+      215,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 56,
+    "field": "material_category",
+    "OCR": "Plaster",
+    "OpenAI": "Plaster",
+    "Gemini": "Plaster",
+    "consensus": "Plaster",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 12,
+    "source_bbox": [
+      145,
+      20,
+      215,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 56,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 12,
+    "source_bbox": [
+      145,
+      20,
+      215,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 56,
+    "field": "schedule_item_code",
+    "OCR": "5.31/13.24.1",
+    "OpenAI": "5.31/13.24.1",
+    "Gemini": "5.31/13.24.1",
+    "consensus": "5.31/13.24.1",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 12,
+    "source_bbox": [
+      145,
+      20,
+      215,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 57,
+    "field": "quantity",
+    "OCR": 285.0,
+    "OpenAI": 285.0,
+    "Gemini": 285.0,
+    "consensus": 285.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 12,
+    "source_bbox": [
+      220,
+      20,
+      290,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 57,
+    "field": "unit",
+    "OCR": "sqm",
+    "OpenAI": "sqm",
+    "Gemini": "sqm",
+    "consensus": "sqm",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 12,
+    "source_bbox": [
+      220,
+      20,
+      290,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 57,
+    "field": "material_category",
+    "OCR": "Paint / Finish",
+    "OpenAI": "Paint / Finish",
+    "Gemini": "Paint / Finish",
+    "consensus": "Paint / Finish",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 12,
+    "source_bbox": [
+      220,
+      20,
+      290,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 57,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 12,
+    "source_bbox": [
+      220,
+      20,
+      290,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 57,
+    "field": "schedule_item_code",
+    "OCR": "13.70.1",
+    "OpenAI": "13.70.1",
+    "Gemini": "13.70.1",
+    "consensus": "13.70.1",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 12,
+    "source_bbox": [
+      220,
+      20,
+      290,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 58,
+    "field": "quantity",
+    "OCR": 285.0,
+    "OpenAI": 285.0,
+    "Gemini": 285.0,
+    "consensus": 285.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 12,
+    "source_bbox": [
+      295,
+      20,
+      365,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 58,
+    "field": "unit",
+    "OCR": "sqm",
+    "OpenAI": "sqm",
+    "Gemini": "sqm",
+    "consensus": "sqm",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 12,
+    "source_bbox": [
+      295,
+      20,
+      365,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 58,
+    "field": "material_category",
+    "OCR": "Paint / Finish",
+    "OpenAI": "Paint / Finish",
+    "Gemini": "Paint / Finish",
+    "consensus": "Paint / Finish",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 12,
+    "source_bbox": [
+      295,
+      20,
+      365,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 58,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 12,
+    "source_bbox": [
+      295,
+      20,
+      365,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 58,
+    "field": "schedule_item_code",
+    "OCR": "13.73.1",
+    "OpenAI": "13.73.1",
+    "Gemini": "13.73.1",
+    "consensus": "13.73.1",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 12,
+    "source_bbox": [
+      295,
+      20,
+      365,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 59,
+    "field": "quantity",
+    "OCR": 47.0,
+    "OpenAI": 47.0,
+    "Gemini": 47.0,
+    "consensus": 47.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 12,
+    "source_bbox": [
+      370,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 59,
+    "field": "unit",
+    "OCR": "sqm",
+    "OpenAI": "sqm",
+    "Gemini": "sqm",
+    "consensus": "sqm",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 12,
+    "source_bbox": [
+      370,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 59,
+    "field": "material_category",
+    "OCR": "Paint / Finish",
+    "OpenAI": "Paint / Finish",
+    "Gemini": "Paint / Finish",
+    "consensus": "Paint / Finish",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 12,
+    "source_bbox": [
+      370,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 59,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 12,
+    "source_bbox": [
+      370,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 59,
+    "field": "schedule_item_code",
+    "OCR": "13.81.1",
+    "OpenAI": "13.81.1",
+    "Gemini": "13.81.1",
+    "consensus": "13.81.1",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 12,
+    "source_bbox": [
+      370,
+      20,
+      440,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 60,
+    "field": "quantity",
+    "OCR": 30.0,
+    "OpenAI": 30.0,
+    "Gemini": 30.0,
+    "consensus": 30.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 13,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 60,
+    "field": "unit",
+    "OCR": "sqm",
+    "OpenAI": "sqm",
+    "Gemini": "sqm",
+    "consensus": "sqm",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 13,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 60,
+    "field": "material_category",
+    "OCR": "Paint / Finish",
+    "OpenAI": "Paint / Finish",
+    "Gemini": "Paint / Finish",
+    "consensus": "Paint / Finish",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 13,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 60,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 13,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 60,
+    "field": "schedule_item_code",
+    "OCR": "13.81.4",
+    "OpenAI": "13.81.4",
+    "Gemini": "13.81.4",
+    "consensus": "13.81.4",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 13,
+    "source_bbox": [
+      50,
+      20,
+      120,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 61,
+    "field": "quantity",
+    "OCR": 10.0,
+    "OpenAI": 10.0,
+    "Gemini": 10.0,
+    "consensus": 10.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 13,
+    "source_bbox": [
+      125,
+      20,
+      195,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 61,
+    "field": "unit",
+    "OCR": "m",
+    "OpenAI": "m",
+    "Gemini": "m",
+    "consensus": "m",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 13,
+    "source_bbox": [
+      125,
+      20,
+      195,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 61,
+    "field": "material_category",
+    "OCR": "Paint / Finish",
+    "OpenAI": "Paint / Finish",
+    "Gemini": "Paint / Finish",
+    "consensus": "Paint / Finish",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 13,
+    "source_bbox": [
+      125,
+      20,
+      195,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 61,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 13,
+    "source_bbox": [
+      125,
+      20,
+      195,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 61,
+    "field": "schedule_item_code",
+    "OCR": "13.84.3",
+    "OpenAI": "13.84.3",
+    "Gemini": "13.84.3",
+    "consensus": "13.84.3",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 13,
+    "source_bbox": [
+      125,
+      20,
+      195,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 62,
+    "field": "quantity",
+    "OCR": 77.0,
+    "OpenAI": 77.0,
+    "Gemini": 77.0,
+    "consensus": 77.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 13,
+    "source_bbox": [
+      200,
+      20,
+      270,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 62,
+    "field": "unit",
+    "OCR": "sqm",
+    "OpenAI": "sqm",
+    "Gemini": "sqm",
+    "consensus": "sqm",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 13,
+    "source_bbox": [
+      200,
+      20,
+      270,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 62,
+    "field": "material_category",
+    "OCR": "Paint / Finish",
+    "OpenAI": "Paint / Finish",
+    "Gemini": "Paint / Finish",
+    "consensus": "Paint / Finish",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 13,
+    "source_bbox": [
+      200,
+      20,
+      270,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 62,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 13,
+    "source_bbox": [
+      200,
+      20,
+      270,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 62,
+    "field": "schedule_item_code",
+    "OCR": "13.94.1",
+    "OpenAI": "13.94.1",
+    "Gemini": "13.94.1",
+    "consensus": "13.94.1",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 13,
+    "source_bbox": [
+      200,
+      20,
+      270,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 63,
+    "field": "quantity",
+    "OCR": 13.0,
+    "OpenAI": 13.0,
+    "Gemini": 13.0,
+    "consensus": 13.0,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 13,
+    "source_bbox": [
+      275,
+      20,
+      345,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 63,
+    "field": "unit",
+    "OCR": "sqm",
+    "OpenAI": "sqm",
+    "Gemini": "sqm",
+    "consensus": "sqm",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 13,
+    "source_bbox": [
+      275,
+      20,
+      345,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 63,
+    "field": "material_category",
+    "OCR": "Paint / Finish",
+    "OpenAI": "Paint / Finish",
+    "Gemini": "Paint / Finish",
+    "consensus": "Paint / Finish",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 13,
+    "source_bbox": [
+      275,
+      20,
+      345,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 63,
+    "field": "discipline",
+    "OCR": "Architectural & Finishes",
+    "OpenAI": "Architectural & Finishes",
+    "Gemini": "Architectural & Finishes",
+    "consensus": "Architectural & Finishes",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 13,
+    "source_bbox": [
+      275,
+      20,
+      345,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 63,
+    "field": "schedule_item_code",
+    "OCR": "13.101.1",
+    "OpenAI": "13.101.1",
+    "Gemini": "13.101.1",
+    "consensus": "13.101.1",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 13,
+    "source_bbox": [
+      275,
+      20,
+      345,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 64,
+    "field": "quantity",
+    "OCR": 34.6,
+    "OpenAI": 34.6,
+    "Gemini": 34.6,
+    "consensus": 34.6,
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 13,
+    "source_bbox": [
+      350,
+      20,
+      430,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 64,
+    "field": "unit",
+    "OCR": "sqm",
+    "OpenAI": "sqm",
+    "Gemini": "sqm",
+    "consensus": "sqm",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 13,
+    "source_bbox": [
+      350,
+      20,
+      430,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 64,
+    "field": "material_category",
+    "OCR": "Concrete",
+    "OpenAI": "Concrete",
+    "Gemini": "Concrete",
+    "consensus": "Concrete",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 13,
+    "source_bbox": [
+      350,
+      20,
+      430,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 64,
+    "field": "discipline",
+    "OCR": "Civil & Sitework",
+    "OpenAI": "Civil & Sitework",
+    "Gemini": "Civil & Sitework",
+    "consensus": "Civil & Sitework",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 13,
+    "source_bbox": [
+      350,
+      20,
+      430,
+      590
+    ]
+  },
+  {
+    "boq_item_no": 64,
+    "field": "schedule_item_code",
+    "OCR": "16.1",
+    "OpenAI": "16.1",
+    "Gemini": "16.1",
+    "consensus": "16.1",
+    "vote_ratio": "3/3",
+    "status": "PASS",
+    "page_number": 13,
+    "source_bbox": [
+      350,
+      20,
+      430,
+      590
+    ]
+  }
+]
