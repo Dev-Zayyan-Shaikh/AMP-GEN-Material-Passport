@@ -2,7 +2,7 @@
 Google Gemini Vision/LLM Extraction Engine.
 Extracts canonical BoQ records using Gemini Vision models (e.g. gemini-2.5-flash, gemini-1.5-flash).
 Loads API keys exclusively from .env via python-dotenv or Streamlit Secrets.
-Includes graceful fallback if keys or SDK calls are unavailable.
+Saves the first iteration extractions permanently to scratch/gemini_cache.json.
 """
 
 import os
@@ -15,6 +15,8 @@ from src.engines.ocr_engine import extract_with_ocr
 
 # Load environment variables from .env
 load_dotenv()
+
+CACHE_FILE = "scratch/gemini_cache.json"
 
 
 def get_gemini_api_key() -> str:
@@ -32,20 +34,33 @@ def get_gemini_api_key() -> str:
 def extract_with_gemini(pdf_path: str = None, model_name: str = "gemini-2.5-flash") -> List[Dict[str, Any]]:
     """
     Runs Gemini Vision extraction model on the PDF pages.
-    Returns list of items adhering to the canonical schema.
-    If GEMINI_API_KEY is set, performs live Gemini Vision API call; otherwise uses candidate baseline.
+    Saves the first iteration output permanently to disk cache (scratch/gemini_cache.json).
     """
+    # 1. Check if first iteration is already saved in persistent disk cache
+    if os.path.exists(CACHE_FILE):
+        try:
+            with open(CACHE_FILE, "r", encoding="utf-8") as f:
+                cached = json.load(f)
+                if cached and len(cached) > 0:
+                    print(f"[Gemini Engine] Loaded {len(cached)} items from saved first iteration cache ({CACHE_FILE}).")
+                    return cached
+        except Exception as e:
+            print(f"[Gemini Engine] Disk cache read warning: {e}")
+
     api_key = get_gemini_api_key()
     
     if not api_key:
         print("[Gemini Engine] GEMINI_API_KEY not found. Using Gemini baseline candidate extraction.")
-        return _fallback_gemini_extraction()
+        res = _fallback_gemini_extraction()
+        _save_to_cache(res)
+        return res
         
     try:
-        # SDK integration check for google-genai / google.generativeai
         target_pdf = pdf_path or "input/BoQ_CBRI_Principals_Residence.pdf"
         if not os.path.exists(target_pdf):
-            return _fallback_gemini_extraction()
+            res = _fallback_gemini_extraction()
+            _save_to_cache(res)
+            return res
 
         import google.generativeai as genai
         genai.configure(api_key=api_key)
@@ -84,12 +99,29 @@ def extract_with_gemini(pdf_path: str = None, model_name: str = "gemini-2.5-flas
                 extracted_items.append(it)
                 
         if extracted_items:
+            _save_to_cache(extracted_items)
             return extracted_items
-        return _fallback_gemini_extraction()
+            
+        res = _fallback_gemini_extraction()
+        _save_to_cache(res)
+        return res
 
     except Exception as e:
         print(f"[Gemini Engine] API call exception: {e}. Falling back to Gemini candidate extraction.")
-        return _fallback_gemini_extraction()
+        res = _fallback_gemini_extraction()
+        _save_to_cache(res)
+        return res
+
+
+def _save_to_cache(records: List[Dict[str, Any]]):
+    """Saves records to persistent disk cache."""
+    try:
+        os.makedirs("scratch", exist_ok=True)
+        with open(CACHE_FILE, "w", encoding="utf-8") as f:
+            json.dump(records, f, indent=2, ensure_ascii=False)
+        print(f"[Gemini Engine] Successfully saved first iteration ({len(records)} records) to {CACHE_FILE}")
+    except Exception as e:
+        print(f"[Gemini Engine] Failed to save cache: {e}")
 
 
 def _fallback_gemini_extraction() -> List[Dict[str, Any]]:

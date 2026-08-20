@@ -2,7 +2,7 @@
 OpenAI Vision/LLM Extraction Engine.
 Extracts canonical BoQ records using OpenAI Vision models (e.g. gpt-4o, gpt-4o-mini).
 Loads API keys exclusively from .env via python-dotenv or Streamlit Secrets.
-Includes graceful fallback if keys or SDK calls are unavailable.
+Saves the first iteration extractions permanently to scratch/openai_cache.json.
 """
 
 import os
@@ -15,6 +15,8 @@ from src.engines.ocr_engine import extract_with_ocr
 
 # Load environment variables from .env
 load_dotenv()
+
+CACHE_FILE = "scratch/openai_cache.json"
 
 
 def get_openai_api_key() -> str:
@@ -32,14 +34,26 @@ def get_openai_api_key() -> str:
 def extract_with_openai(pdf_path: str = None, model_name: str = "gpt-4o") -> List[Dict[str, Any]]:
     """
     Runs OpenAI Vision extraction model on the PDF pages.
-    Returns list of items adhering to the canonical schema.
-    If OPENAI_API_KEY is set, performs live Vision API call; otherwise uses candidate baseline.
+    Saves the first iteration output permanently to disk cache (scratch/openai_cache.json).
     """
+    # 1. Check if first iteration is already saved in persistent disk cache
+    if os.path.exists(CACHE_FILE):
+        try:
+            with open(CACHE_FILE, "r", encoding="utf-8") as f:
+                cached = json.load(f)
+                if cached and len(cached) > 0:
+                    print(f"[OpenAI Engine] Loaded {len(cached)} items from saved first iteration cache ({CACHE_FILE}).")
+                    return cached
+        except Exception as e:
+            print(f"[OpenAI Engine] Disk cache read warning: {e}")
+
     api_key = get_openai_api_key()
     
     if not api_key:
         print("[OpenAI Engine] OPENAI_API_KEY not found. Using OpenAI baseline candidate extraction.")
-        return _fallback_openai_extraction()
+        res = _fallback_openai_extraction()
+        _save_to_cache(res)
+        return res
         
     try:
         import openai
@@ -47,7 +61,9 @@ def extract_with_openai(pdf_path: str = None, model_name: str = "gpt-4o") -> Lis
         
         target_pdf = pdf_path or "input/BoQ_CBRI_Principals_Residence.pdf"
         if not os.path.exists(target_pdf):
-            return _fallback_openai_extraction()
+            res = _fallback_openai_extraction()
+            _save_to_cache(res)
+            return res
             
         doc = fitz.open(target_pdf)
         extracted_items = []
@@ -87,12 +103,29 @@ def extract_with_openai(pdf_path: str = None, model_name: str = "gpt-4o") -> Lis
                 extracted_items.append(it)
                 
         if extracted_items:
+            _save_to_cache(extracted_items)
             return extracted_items
-        return _fallback_openai_extraction()
+            
+        res = _fallback_openai_extraction()
+        _save_to_cache(res)
+        return res
         
     except Exception as e:
         print(f"[OpenAI Engine] Vision API call exception: {e}. Falling back to OpenAI candidate extraction.")
-        return _fallback_openai_extraction()
+        res = _fallback_openai_extraction()
+        _save_to_cache(res)
+        return res
+
+
+def _save_to_cache(records: List[Dict[str, Any]]):
+    """Saves records to persistent disk cache."""
+    try:
+        os.makedirs("scratch", exist_ok=True)
+        with open(CACHE_FILE, "w", encoding="utf-8") as f:
+            json.dump(records, f, indent=2, ensure_ascii=False)
+        print(f"[OpenAI Engine] Successfully saved first iteration ({len(records)} records) to {CACHE_FILE}")
+    except Exception as e:
+        print(f"[OpenAI Engine] Failed to save cache: {e}")
 
 
 def _fallback_openai_extraction() -> List[Dict[str, Any]]:
