@@ -13,7 +13,7 @@ import plotly.graph_objects as go
 # 1. Page Configuration
 st.set_page_config(
     page_title="AMP-GEN Material Passport Dashboard",
-    page_icon="https://img.icons8.com/ios-filled/50/000000/building.png",
+    page_icon="🏗️",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -218,12 +218,19 @@ def load_data():
 df, meta, excel_bytes = load_data()
 
 # 4. Sidebar Controls
+# Brand logo block — colours tuned for dark navy sidebar
 st.sidebar.markdown("""
-<div style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px;">
-    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#1E40AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22V12a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v10"/><path d="M18 22V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v18"/><path d="M6 12H4a2 2 0 0 0-2 2v8"/><path d="M18 12h2a2 2 0 0 1 2 2v8"/></svg>
+<div style="display: flex; align-items: center; gap: 14px; margin-bottom: 20px; padding: 12px 10px; background: rgba(255,255,255,0.05); border-radius: 10px; border: 1px solid rgba(99,179,237,0.15);">
+    <div style="flex-shrink: 0; width: 40px; height: 40px; background: linear-gradient(135deg, #1D4ED8 0%, #0EA5E9 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center;">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 22V10l9-8 9 8v12"/>
+            <path d="M9 22v-6h6v6"/>
+            <rect x="9" y="10" width="6" height="4" rx="0.5"/>
+        </svg>
+    </div>
     <div>
-        <div style="font-weight: 700; font-size: 1.1rem; color: #0F172A;">AMP-GEN AI</div>
-        <div style="font-size: 0.75rem; color: #64748B;">Material Passport Engine</div>
+        <div style="font-weight: 700; font-size: 1.05rem; color: #F1F5F9; letter-spacing: -0.01em;">AMP-GEN AI</div>
+        <div style="font-size: 0.72rem; color: #64748B; margin-top: 1px;">Material Passport Engine</div>
     </div>
 </div>
 """, unsafe_allow_html=True)
@@ -284,9 +291,20 @@ if not filtered_df.empty:
 # 5. Header Banner
 st.markdown("""
 <div class="main-header">
-    <div class="badge-gov">Google Centre for Climate Technology & PSA Office, Govt. of India</div>
-    <h1>CBRI Principal's Residence — Digital Material Passport</h1>
-    <p>Reproducible, Defensible Material Extraction & Embodied Carbon Pipeline | IIT Roorkee Assignment</p>
+    <div class="badge-gov">Google Centre for Climate Technology &amp; PSA Office, Govt. of India</div>
+    <div style="display: flex; align-items: center; gap: 16px; margin-top: 8px;">
+        <div style="flex-shrink: 0; width: 52px; height: 52px; background: linear-gradient(135deg, #1D4ED8 0%, #0EA5E9 100%); border-radius: 14px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 14px rgba(14,165,233,0.35);">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 22V10l9-8 9 8v12"/>
+                <path d="M9 22v-6h6v6"/>
+                <rect x="9" y="10" width="6" height="4" rx="0.5"/>
+            </svg>
+        </div>
+        <div>
+            <h1 style="margin: 0;">CBRI Principal’s Residence — Digital Material Passport</h1>
+            <p>Reproducible, Defensible Material Extraction &amp; Embodied Carbon Pipeline | IIT Roorkee Assignment</p>
+        </div>
+    </div>
 </div>
 """, unsafe_allow_html=True)
 
