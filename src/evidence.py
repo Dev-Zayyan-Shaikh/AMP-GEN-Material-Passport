@@ -50,16 +50,19 @@ def get_crop_image(
             ymin, xmin, ymax, xmax = [float(b) for b in bbox[:4]]
         except Exception:
             ymin, xmin, ymax, xmax = 50.0, 20.0, 150.0, 590.0
-            
+
         page_w = float(page.rect.width)
         page_h = float(page.rect.height)
-        
-        clip_xmin = max(0.0, xmin - 5.0)
-        clip_ymin = max(0.0, ymin - 5.0)
-        clip_xmax = min(page_w, xmax + 5.0)
-        clip_ymax = min(page_h, ymax + 5.0)
+
+        # Apply generous padding so item text is never clipped at top/bottom/sides
+        clip_xmin = max(0.0, xmin - 15.0)
+        clip_ymin = max(0.0, ymin - 18.0)
+        clip_xmax = min(page_w, xmax + 15.0)
+        clip_ymax = min(page_h, ymax + 18.0)
         
         clip_rect = fitz.Rect(clip_xmin, clip_ymin, clip_xmax, clip_ymax)
+
+
         
         pix = page.get_pixmap(dpi=dpi, clip=clip_rect)
         crop_img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
