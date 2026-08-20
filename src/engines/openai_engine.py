@@ -17,8 +17,15 @@ load_dotenv()
 
 
 def get_openai_api_key() -> str:
-    """Returns the OpenAI API Key from .env environment variables."""
-    return os.getenv("OPENAI_API_KEY", "")
+    """Returns the OpenAI API Key from .env or Streamlit Secrets."""
+    key = os.getenv("OPENAI_API_KEY", "")
+    if not key:
+        try:
+            import streamlit as st
+            key = st.secrets.get("OPENAI_API_KEY", "")
+        except Exception:
+            pass
+    return key
 
 
 def extract_with_openai(pdf_path: str = None, model_name: str = "gpt-4o") -> List[Dict[str, Any]]:

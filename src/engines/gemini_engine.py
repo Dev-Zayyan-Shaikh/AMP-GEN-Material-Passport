@@ -16,8 +16,15 @@ load_dotenv()
 
 
 def get_gemini_api_key() -> str:
-    """Returns the Gemini API Key from .env environment variables."""
-    return os.getenv("GEMINI_API_KEY", "") or os.getenv("GOOGLE_API_KEY", "")
+    """Returns the Gemini API Key from .env or Streamlit Secrets."""
+    key = os.getenv("GEMINI_API_KEY", "") or os.getenv("GOOGLE_API_KEY", "")
+    if not key:
+        try:
+            import streamlit as st
+            key = st.secrets.get("GEMINI_API_KEY", "") or st.secrets.get("GOOGLE_API_KEY", "")
+        except Exception:
+            pass
+    return key
 
 
 def extract_with_gemini(pdf_path: str = None, model_name: str = "gemini-2.5-flash") -> List[Dict[str, Any]]:
