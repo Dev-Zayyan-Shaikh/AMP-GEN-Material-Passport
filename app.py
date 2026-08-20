@@ -373,6 +373,20 @@ with tab1:
     else:
         st.info("No records match the active filter criteria.")
 
+    # ── Embedded static visualization ──────────────────────────────────────────
+    st.markdown("---")
+    st.subheader("Material Category Distribution Chart")
+    viz_path = "output/visualization.png"
+    if os.path.exists(viz_path):
+        st.image(viz_path, use_container_width=True)
+        st.markdown(
+            "<p class='viz-caption'>visualization.png — Material Category Distribution "
+            "across 64 BoQ items (AMP-GEN Material Passport, CBRI Principal's Residence)</p>",
+            unsafe_allow_html=True,
+        )
+    else:
+        st.warning("visualization.png not found. Run `python src/main.py` to generate it.")
+
 # TAB 2: Carbon Analytics
 with tab2:
     st.subheader("Embodied Carbon Breakdown (A1-A3 Cradle-to-Gate)")
