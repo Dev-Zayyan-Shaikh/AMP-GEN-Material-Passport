@@ -31,10 +31,10 @@ def get_crop_image(
         PIL Image crop object.
     """
     if not os.path.exists(pdf_path):
-        # Create a placeholder image if PDF file is not available
+        # Fallback placeholder if PDF path is missing
         img = Image.new("RGB", (600, 150), color=(241, 245, 249))
         draw = ImageDraw.Draw(img)
-        draw.text((20, 60), f"PDF Page {page_num} Region Crop [Demo Mode]", fill=(30, 41, 59))
+        draw.text((20, 60), f"PDF File Not Found: {pdf_path}", fill=(220, 38, 38))
         return img
         
     try:
@@ -44,22 +44,22 @@ def get_crop_image(
         
         # Default bounding box if none provided
         if not bbox or len(bbox) < 4:
-            bbox = [100, 50, 250, 550]
+            bbox = [50, 20, 150, 590]
             
         ymin, xmin, ymax, xmax = bbox
         
-        # Convert page to pixmap
-        scale = dpi / 72.0
-        rect = fitz.Rect(xmin, ymin, xmax, ymax)
+        # Safely clamp rect coordinates to page dimensions
+        page_w = page.rect.width
+        page_h = page.rect.height
         
-        # Clip page to bounding box rect with padding
-        clip_rect = fitz.Rect(
-            max(0, xmin - 10),
-            max(0, ymin - 10),
-            min(page.rect.width, xmax + 10),
-            min(page.rect.height, ymax + 10)
-        )
+        clip_xmin = max(0.0, float(xmin) - 10.0)
+        clip_ymin = max(0.0, float(ymin) - 10.0)
+        clip_xmax = min(page_w, float(xmax) + 10.0)
+        clip_ymax = min(page_h, float(ymax) + 10.0)
         
+        clip_rect = fitz.Rect(clip_xmin, clip_ymin, clip_xmax, clip_ymax)
+        
+        # Render high-resolution pixmap of the clip region
         pix = page.get_pixmap(dpi=dpi, clip=clip_rect)
         crop_img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
         return crop_img
@@ -67,5 +67,5 @@ def get_crop_image(
         print(f"[Evidence Engine] Error cropping page {page_num}: {e}")
         img = Image.new("RGB", (600, 150), color=(248, 250, 252))
         draw = ImageDraw.Draw(img)
-        draw.text((20, 60), f"Page {page_num} Crop Preview (Demo)", fill=(100, 116, 139))
+        draw.text((20, 60), f"Page {page_num} Region Crop Preview", fill=(100, 116, 139))
         return img

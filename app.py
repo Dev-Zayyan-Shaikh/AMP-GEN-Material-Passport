@@ -200,6 +200,13 @@ st.markdown("""
         margin-top: 6px;
         font-style: italic;
     }
+
+    /* Comparison matrix disagreement highlight */
+    .highlight-disagree {
+        background-color: #FEE2E2 !important;
+        color: #991B1B !important;
+        font-weight: 600;
+    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -228,9 +235,19 @@ engine_option = st.sidebar.selectbox(
     index=0
 )
 
-# API Keys Check (.env)
+# API Keys Check (.env / Streamlit Secrets)
 openai_key = os.getenv("OPENAI_API_KEY", "")
 gemini_key = os.getenv("GEMINI_API_KEY", "") or os.getenv("GOOGLE_API_KEY", "")
+if not openai_key:
+    try:
+        openai_key = st.secrets.get("OPENAI_API_KEY", "")
+    except Exception:
+        pass
+if not gemini_key:
+    try:
+        gemini_key = st.secrets.get("GEMINI_API_KEY", "") or st.secrets.get("GOOGLE_API_KEY", "")
+    except Exception:
+        pass
 
 openai_badge = '<span class="badge-key-active">Active (.env)</span>' if openai_key else '<span class="badge-key-demo">Demo Mode</span>'
 gemini_badge = '<span class="badge-key-active">Active (.env)</span>' if gemini_key else '<span class="badge-key-demo">Demo Mode</span>'
@@ -245,26 +262,42 @@ if "Gemini" in engine_option or "Compare" in engine_option:
 
 st.sidebar.markdown("---")
 
-st.sidebar.subheader("2. Upload BoQ PDF")
+st.sidebar.subheader("2. Upload BoQ PDF (Optional)")
 uploaded_file = st.sidebar.file_uploader("Upload Scanned PDF", type=["pdf"])
 
 pdf_path = "input/BoQ_CBRI_Principals_Residence.pdf"
+is_custom_upload = False
+
 if uploaded_file is not None:
-    pdf_path = f"scratch/{uploaded_file.name}"
+    is_custom_upload = True
     os.makedirs("scratch", exist_ok=True)
+    pdf_path = f"scratch/{uploaded_file.name}"
     with open(pdf_path, "wb") as f:
         f.write(uploaded_file.getbuffer())
     st.sidebar.success(f"Uploaded: {uploaded_file.name}")
 else:
-    st.sidebar.caption("Using default: `BoQ_CBRI_Principals_Residence.pdf` (13 pages)")
+    st.sidebar.caption("Default: `BoQ_CBRI_Principals_Residence.pdf` (Persistent Dataset)")
 
 st.sidebar.markdown("---")
 
-# 5. Pipeline Execution & Data Loading
-@st.cache_data(show_spinner="Running Multi-Engine Extraction & Consensus Pipeline...")
-def run_pipeline(selected_engine: str, file_path: str):
+# 5. Pipeline Execution & Persistent Disk Cache
+CACHE_FILE = "scratch/consensus_cache.json"
+COMP_CACHE_FILE = "scratch/comparison_cache.json"
+
+def run_pipeline(selected_engine: str, file_path: str, force_recompute: bool = False):
+    # Use disk cache if using default BoQ and not forced to recompute
+    if not is_custom_upload and not force_recompute and os.path.exists(CACHE_FILE) and os.path.exists(COMP_CACHE_FILE):
+        try:
+            with open(CACHE_FILE, "r", encoding="utf-8") as f:
+                consensus_records = json.load(f)
+            with open(COMP_CACHE_FILE, "r", encoding="utf-8") as f:
+                comparison_matrix = json.load(f)
+            print("[Cache] Loaded consensus records from persistent disk cache!")
+            return consensus_records, comparison_matrix
+        except Exception:
+            pass
+
     engine_results = {}
-    
     if selected_engine == "Compare / Both (ALL 3 Engines)":
         engine_results["OCR"] = extract_with_ocr(file_path)
         engine_results["OpenAI"] = extract_with_openai(file_path)
@@ -278,41 +311,55 @@ def run_pipeline(selected_engine: str, file_path: str):
 
     consensus_records, comparison_matrix = compute_consensus(engine_results)
     
-    # Load metadata & deliverables
-    meta_path = "output/building_meta.json"
-    meta = {}
-    if os.path.exists(meta_path):
-        with open(meta_path, "r", encoding="utf-8") as f:
-            meta = json.load(f)
+    # Save persistent disk cache for default BoQ
+    if not is_custom_upload:
+        os.makedirs("scratch", exist_ok=True)
+        with open(CACHE_FILE, "w", encoding="utf-8") as f:
+            json.dump(consensus_records, f, indent=2, ensure_ascii=False)
+        with open(COMP_CACHE_FILE, "w", encoding="utf-8") as f:
+            json.dump(comparison_matrix, f, indent=2, ensure_ascii=False)
             
-    excel_bytes = None
-    excel_path = "output/passport_filled.xlsx"
-    if os.path.exists(excel_path):
-        with open(excel_path, "rb") as f:
-            excel_bytes = f.read()
+    return consensus_records, comparison_matrix
 
-    return consensus_records, comparison_matrix, meta, excel_bytes
-
-# Initialize Session State for Human Review overrides
+# Initialize Session State
 if "consensus_data" not in st.session_state:
-    records, comp_matrix, meta, excel_bytes = run_pipeline(engine_option, pdf_path)
+    records, comp_matrix = run_pipeline(engine_option, pdf_path)
     st.session_state["consensus_data"] = records
     st.session_state["comparison_matrix"] = comp_matrix
-    st.session_state["meta"] = meta
-    st.session_state["excel_bytes"] = excel_bytes
 else:
     records = st.session_state["consensus_data"]
     comp_matrix = st.session_state["comparison_matrix"]
-    meta = st.session_state["meta"]
-    excel_bytes = st.session_state["excel_bytes"]
+
+# Load metadata & excel bytes
+meta_path = "output/building_meta.json"
+meta = {}
+if os.path.exists(meta_path):
+    with open(meta_path, "r", encoding="utf-8") as f:
+        meta = json.load(f)
+
+excel_bytes = None
+excel_path = "output/passport_filled.xlsx"
+if os.path.exists(excel_path):
+    with open(excel_path, "rb") as f:
+        excel_bytes = f.read()
 
 df = pd.DataFrame(records)
 
-# Ensure carbon numeric mapping
+# Ensure carbon numeric mapping & fallback calculation from output/passport.json if needed
 if "embodied_carbon_a1_a3_kg_co2e" in df.columns:
     df["carbon_kg"] = pd.to_numeric(df["embodied_carbon_a1_a3_kg_co2e"], errors="coerce").fillna(0)
 else:
     df["carbon_kg"] = 0.0
+
+# If carbon total is zero, fill from passport.json baseline
+if df["carbon_kg"].sum() == 0 and os.path.exists("output/passport.json"):
+    try:
+        with open("output/passport.json", "r", encoding="utf-8") as f:
+            p_list = json.load(f)
+            p_dict = {str(r["boq_item_no"]): r.get("embodied_carbon_a1_a3_kg_co2e") or 0.0 for r in p_list}
+            df["carbon_kg"] = df["boq_item_no"].astype(str).map(p_dict).fillna(0.0)
+    except Exception:
+        pass
 
 # 6. Sidebar Filters & Downloads
 st.sidebar.subheader("3. Filter Dataset")
@@ -382,7 +429,7 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# 8. Metric Cards
+# 8. Metric Cards Calculation
 total_items = len(df)
 total_carbon_kg = df["carbon_kg"].sum()
 total_carbon_ton = total_carbon_kg / 1000.0
@@ -474,16 +521,16 @@ with tab1:
         )
         
         if selected_item_no:
-            item_row = filtered_df[filtered_df["boq_item_no"] == selected_item_no].iloc[0]
+            item_row = filtered_df[filtered_df["boq_item_no"] == str(selected_item_no)].iloc[0]
             pg = item_row.get("page_number", 2)
-            bbox = item_row.get("source_bbox", [100, 50, 250, 550])
+            bbox = item_row.get("source_bbox", [50, 20, 150, 590])
             
             col_crop, col_info = st.columns([1.5, 1])
             with col_crop:
-                st.markdown(f"**PDF Source Page:** {pg} | **Bounding Box:** `{bbox}`")
+                st.markdown(f"**PDF Source Page:** {pg} | **Bounding Box Region:** `{bbox}`")
                 crop_img = get_crop_image(pdf_path=pdf_path, page_num=pg, bbox=bbox)
                 if crop_img:
-                    st.image(crop_img, use_container_width=True, caption=f"Original PDF Page {pg} High-Res Crop Region")
+                    st.image(crop_img, use_container_width=True, caption=f"Original High-Res PDF Page {pg} Crop Region")
             with col_info:
                 st.markdown(f"**Item #:** `{item_row['boq_item_no']}`")
                 st.markdown(f"**GMAP ID:** `{item_row.get('gmap_id')}`")
@@ -505,15 +552,24 @@ with tab1:
             unsafe_allow_html=True,
         )
 
-# TAB 2: Engine Comparison Matrix
+# TAB 2: Engine Comparison Matrix with Light Red Disagreement Highlighting
 with tab2:
     st.subheader("Field-by-Field Engine Comparison Matrix")
-    st.markdown("Side-by-side extractions from **OCR**, **OpenAI Vision**, and **Gemini Vision** engines.")
-    
+    st.markdown("Side-by-side extractions from **OCR**, **OpenAI Vision**, and **Gemini Vision** engines. **Disagreements (`NEEDS_REVIEW`) highlighted in light red.**")
+
     if comp_matrix:
         comp_df = pd.DataFrame(comp_matrix)
+        
+        # Apply Pandas Styling to highlight NEEDS_REVIEW rows/cells in light red (#FEE2E2 / #991B1B)
+        def highlight_disagreements(row):
+            if row.get("status") == "NEEDS_REVIEW":
+                return ['background-color: #FEE2E2; color: #991B1B; font-weight: 600;'] * len(row)
+            return [''] * len(row)
+
+        styled_comp_df = comp_df.style.apply(highlight_disagreements, axis=1)
+
         st.dataframe(
-            comp_df,
+            styled_comp_df,
             column_config={
                 "boq_item_no": st.column_config.TextColumn("Item #", width="small"),
                 "field": st.column_config.TextColumn("Field", width="medium"),
@@ -534,24 +590,24 @@ with tab2:
 with tab3:
     st.subheader("Human Review Queue & Override System")
     st.markdown("Items requiring review due to extraction disagreement or low confidence.")
-    
+
     review_queue = get_review_queue(records)
     if review_queue:
         st.warning(f"⚠️ {len(review_queue)} item(s) pending human review & confirmation.")
-        
+
         for rev_item in review_queue:
-            item_no = rev_item["boq_item_no"]
+            item_no = int(rev_item["boq_item_no"])
             with st.expander(f"Review Required: Item #{item_no} — {rev_item.get('description', '')[:70]}...", expanded=True):
                 c_crop, c_form = st.columns([1, 1])
-                
+
                 with c_crop:
                     pg = rev_item.get("page_number", 2)
-                    bbox = rev_item.get("source_bbox", [100, 50, 250, 550])
+                    bbox = rev_item.get("source_bbox", [50, 20, 150, 590])
                     st.markdown(f"**PDF Page {pg} Source Region:**")
                     crop = get_crop_image(pdf_path=pdf_path, page_num=pg, bbox=bbox)
                     if crop:
                         st.image(crop, use_container_width=True)
-                        
+
                 with c_form:
                     st.markdown("##### Candidate Extractions & Field Override")
                     with st.form(key=f"review_form_{item_no}"):
@@ -559,16 +615,20 @@ with tab3:
                         new_unit = st.text_input("Confirmed Unit:", value=str(rev_item.get("unit", "cum")))
                         new_cat = st.text_input("Confirmed Material Category:", value=str(rev_item.get("material_category", "Concrete")))
                         notes = st.text_input("Reviewer Audit Notes:", value="Verified against original PDF scan.")
-                        
+
                         btn_confirm = st.form_submit_button("Confirm & Save Override")
                         if btn_confirm:
                             updated = apply_human_override(
                                 st.session_state["consensus_data"],
-                                item_no,
+                                str(item_no),
                                 {"quantity": new_qty, "unit": new_unit, "material_category": new_cat},
                                 notes
                             )
                             st.session_state["consensus_data"] = updated
+                            # Update disk cache
+                            if not is_custom_upload:
+                                with open(CACHE_FILE, "w", encoding="utf-8") as f:
+                                    json.dump(updated, f, indent=2, ensure_ascii=False)
                             st.success(f"Item #{item_no} confirmed and marked human_reviewed = true!")
                             st.rerun()
     else:
@@ -581,13 +641,13 @@ with tab4:
 
     if not df.empty and total_carbon_kg > 0:
         carbon_df = df[df["carbon_kg"] > 0].copy()
-        
+
         col_left, col_right = st.columns(2)
-        
+
         with col_left:
             cat_carbon = carbon_df.groupby("material_category")["carbon_kg"].sum().reset_index()
             cat_carbon = cat_carbon.sort_values(by="carbon_kg", ascending=True)
-            
+
             fig_bar = px.bar(
                 cat_carbon, 
                 y="material_category", 
@@ -601,7 +661,7 @@ with tab4:
             )
             fig_bar.update_layout(showlegend=False, margin=dict(l=20, r=20, t=40, b=20))
             st.plotly_chart(fig_bar, use_container_width=True)
-            
+
         with col_right:
             fig_pie = px.pie(
                 cat_carbon, 
