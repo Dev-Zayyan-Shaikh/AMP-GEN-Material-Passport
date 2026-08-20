@@ -18,9 +18,9 @@
     "comment": "[EXCLUDED] Earthwork and site excavation involve pure machinery/labour services without permanent material embodied carbon.",
     "page_number": 2,
     "source_bbox": [
-      50,
+      35,
       20,
-      110,
+      95,
       590
     ],
     "confidence": 0.95,
@@ -101,9 +101,9 @@
     "comment": "[EXCLUDED] Earthwork and site excavation involve pure machinery/labour services without permanent material embodied carbon.",
     "page_number": 2,
     "source_bbox": [
-      115,
+      95,
       20,
-      175,
+      155,
       590
     ],
     "confidence": 0.95,
@@ -184,9 +184,9 @@
     "comment": "[EXCLUDED] Earthwork and site excavation involve pure machinery/labour services without permanent material embodied carbon.",
     "page_number": 2,
     "source_bbox": [
-      180,
+      155,
       20,
-      240,
+      215,
       590
     ],
     "confidence": 0.95,
@@ -267,9 +267,9 @@
     "comment": "[EXCLUDED] Earthwork and site excavation involve pure machinery/labour services without permanent material embodied carbon.",
     "page_number": 2,
     "source_bbox": [
-      245,
+      215,
       20,
-      305,
+      275,
       590
     ],
     "confidence": 0.95,
@@ -350,9 +350,9 @@
     "comment": "[EXCLUDED] Earthwork and site excavation involve pure machinery/labour services without permanent material embodied carbon.",
     "page_number": 2,
     "source_bbox": [
-      310,
+      275,
       20,
-      370,
+      340,
       590
     ],
     "confidence": 0.95,
@@ -433,9 +433,9 @@
     "comment": "GWP: 0.13 kg CO2e/kg, Density: 2350.0 kg/m³ | Source: ICE Database v3.0 (Concrete 15/20 MPa).",
     "page_number": 2,
     "source_bbox": [
-      375,
+      340,
       20,
-      440,
+      415,
       590
     ],
     "confidence": 0.95,
@@ -516,9 +516,9 @@
     "comment": "GWP: 0.13 kg CO2e/kg, Density: 2350.0 kg/m³ | Source: ICE Database v3.0 (Concrete 15/20 MPa).",
     "page_number": 3,
     "source_bbox": [
-      50,
+      35,
       20,
-      110,
+      95,
       590
     ],
     "confidence": 0.95,
@@ -599,9 +599,9 @@
     "comment": "GWP: 0.13 kg CO2e/kg, Density: 2350.0 kg/m³ | Source: ICE Database v3.0 (Concrete 15/20 MPa).",
     "page_number": 3,
     "source_bbox": [
-      115,
+      95,
       20,
-      175,
+      155,
       590
     ],
     "confidence": 0.95,
@@ -682,9 +682,9 @@
     "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
     "page_number": 3,
     "source_bbox": [
-      180,
+      155,
       20,
-      240,
+      215,
       590
     ],
     "confidence": 0.95,
@@ -765,9 +765,9 @@
     "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
     "page_number": 3,
     "source_bbox": [
-      245,
+      215,
       20,
-      305,
+      275,
       590
     ],
     "confidence": 0.95,
@@ -848,9 +848,9 @@
     "comment": "GWP: 0.155 kg CO2e/kg, Density: 2400.0 kg/m³ | Source: ICE Database v3.0 (Concrete 25/30 MPa).",
     "page_number": 3,
     "source_bbox": [
-      310,
+      275,
       20,
-      370,
+      340,
       590
     ],
     "confidence": 0.95,
@@ -931,9 +931,9 @@
     "comment": "GWP: 0.155 kg CO2e/kg, Density: 2400.0 kg/m³ | Source: ICE Database v3.0 (Concrete 25/30 MPa).",
     "page_number": 3,
     "source_bbox": [
-      375,
+      340,
       20,
-      440,
+      415,
       590
     ],
     "confidence": 0.95,
@@ -1014,9 +1014,9 @@
     "comment": "GWP: 0.155 kg CO2e/kg, Density: 2400.0 kg/m³ | Source: ICE Database v3.0 (Concrete 25/30 MPa).",
     "page_number": 4,
     "source_bbox": [
-      50,
+      35,
       20,
-      120,
+      95,
       590
     ],
     "confidence": 0.95,
@@ -1097,9 +1097,9 @@
     "comment": "GWP: 0.155 kg CO2e/kg, Density: 2400.0 kg/m³ | Source: ICE Database v3.0 (Concrete 25/30 MPa).",
     "page_number": 4,
     "source_bbox": [
-      125,
+      95,
       20,
-      210,
+      180,
       590
     ],
     "confidence": 0.95,
@@ -1180,9 +1180,9 @@
     "comment": "GWP: 0.155 kg CO2e/kg, Density: 2400.0 kg/m³ | Source: ICE Database v3.0 (Concrete 25/30 MPa).",
     "page_number": 4,
     "source_bbox": [
-      215,
+      180,
       20,
-      285,
+      245,
       590
     ],
     "confidence": 0.95,
@@ -1263,9 +1263,9 @@
     "comment": "GWP: 0.450 kg CO2e/kg, Density: 650 kg/m³ | Source: ICE Database v3.0 (Sawn Timber, fossil GWP A1-A3).",
     "page_number": 4,
     "source_bbox": [
-      290,
+      245,
       20,
-      365,
+      325,
       590
     ],
     "confidence": 0.95,
@@ -1346,9 +1346,9 @@
     "comment": "Source notation: 100 kg (Mild steel) + 1375/1500 kg (Cold twisted bars for Zone I-IV / Zone V). GWP: 2.363 kg CO2e/kg, Density: 7850 kg/m³ | Source: ICE Database v3.0 (Steel - Rebar / Rod / Structural).",
     "page_number": 4,
     "source_bbox": [
-      370,
+      325,
       20,
-      445,
+      410,
       590
     ],
     "confidence": 0.95,
@@ -1429,9 +1429,9 @@
     "comment": "GWP: 0.155 kg CO2e/kg, Density: 2400.0 kg/m³ | Source: ICE Database v3.0 (Concrete 25/30 MPa).",
     "page_number": 5,
     "source_bbox": [
-      50,
+      35,
       20,
-      110,
+      95,
       590
     ],
     "confidence": 0.95,
@@ -1512,9 +1512,9 @@
     "comment": "GWP: 0.240 kg CO2e/kg, Density: 1900 kg/m³ | Source: ICE Database v3.0 / Indian LCA literature (Burnt Clay Bricks & Mortar).",
     "page_number": 5,
     "source_bbox": [
-      115,
+      95,
       20,
-      175,
+      155,
       590
     ],
     "confidence": 0.95,
@@ -1595,9 +1595,9 @@
     "comment": "GWP: 0.240 kg CO2e/kg, Density: 1900 kg/m³ | Source: ICE Database v3.0 / Indian LCA literature (Burnt Clay Bricks & Mortar).",
     "page_number": 5,
     "source_bbox": [
-      180,
+      155,
       20,
-      240,
+      215,
       590
     ],
     "confidence": 0.95,
@@ -1678,9 +1678,9 @@
     "comment": "GWP: 0.240 kg CO2e/kg, Density: 1900 kg/m³ | Source: ICE Database v3.0 / Indian LCA literature (Burnt Clay Bricks & Mortar).",
     "page_number": 5,
     "source_bbox": [
-      245,
+      215,
       20,
-      305,
+      275,
       590
     ],
     "confidence": 0.95,
@@ -1761,9 +1761,9 @@
     "comment": "GWP: 0.240 kg CO2e/kg, Density: 1900 kg/m³ | Source: ICE Database v3.0 / Indian LCA literature (Burnt Clay Bricks & Mortar).",
     "page_number": 5,
     "source_bbox": [
-      310,
+      275,
       20,
-      370,
+      335,
       590
     ],
     "confidence": 0.95,
@@ -1844,9 +1844,9 @@
     "comment": "GWP: 0.240 kg CO2e/kg, Density: 1900 kg/m³ | Source: ICE Database v3.0 / Indian LCA literature (Burnt Clay Bricks & Mortar).",
     "page_number": 5,
     "source_bbox": [
-      375,
+      335,
       20,
-      440,
+      410,
       590
     ],
     "confidence": 0.95,
@@ -1927,9 +1927,9 @@
     "comment": "Normalized 3.5 x 10 cubic decimetre (dm³) to 0.035 m³ (cum) per template instructions. GWP: 0.450 kg CO2e/kg, Density: 650 kg/m³ | Source: ICE Database v3.0 (Sawn Timber, fossil GWP A1-A3).",
     "page_number": 6,
     "source_bbox": [
-      50,
+      35,
       20,
-      120,
+      95,
       590
     ],
     "confidence": 0.95,
@@ -2010,9 +2010,9 @@
     "comment": "GWP: 0.450 kg CO2e/kg, Density: 650 kg/m³ | Source: ICE Database v3.0 (Sawn Timber, fossil GWP A1-A3).",
     "page_number": 6,
     "source_bbox": [
-      125,
+      95,
       20,
-      195,
+      160,
       590
     ],
     "confidence": 0.95,
@@ -2093,9 +2093,9 @@
     "comment": "GWP: 0.450 kg CO2e/kg, Density: 650 kg/m³ | Source: ICE Database v3.0 (Sawn Timber, fossil GWP A1-A3).",
     "page_number": 6,
     "source_bbox": [
-      200,
+      160,
       20,
-      280,
+      245,
       590
     ],
     "confidence": 0.95,
@@ -2176,9 +2176,9 @@
     "comment": "GWP: 0.450 kg CO2e/kg, Density: 650 kg/m³ | Source: ICE Database v3.0 (Sawn Timber, fossil GWP A1-A3).",
     "page_number": 6,
     "source_bbox": [
-      285,
+      245,
       20,
-      360,
+      325,
       590
     ],
     "confidence": 0.95,
@@ -2259,9 +2259,9 @@
     "comment": "GWP: 2.363 kg CO2e/kg, Density: 7850 kg/m³ | Source: ICE Database v3.0 (Steel - Rebar / Rod / Structural).",
     "page_number": 6,
     "source_bbox": [
-      365,
+      325,
       20,
-      440,
+      410,
       590
     ],
     "confidence": 0.95,
@@ -2342,9 +2342,9 @@
     "comment": "GWP: 2.363 kg CO2e/kg, Density: 7850 kg/m³ | Source: ICE Database v3.0 (Steel - Rebar / Rod / Structural).",
     "page_number": 7,
     "source_bbox": [
-      50,
+      35,
       20,
-      120,
+      95,
       590
     ],
     "confidence": 0.95,
@@ -2425,9 +2425,9 @@
     "comment": "GWP: 8.90 kg CO2e/kg, Density: 2700 kg/m³ | Source: ICE Database v3.0 (Extruded Aluminium).",
     "page_number": 7,
     "source_bbox": [
-      125,
+      95,
       20,
-      195,
+      160,
       590
     ],
     "confidence": 0.95,
@@ -2508,9 +2508,9 @@
     "comment": "GWP: 8.90 kg CO2e/kg, Density: 2700 kg/m³ | Source: ICE Database v3.0 (Extruded Aluminium).",
     "page_number": 7,
     "source_bbox": [
-      200,
+      160,
       20,
-      270,
+      230,
       590
     ],
     "confidence": 0.95,
@@ -2591,9 +2591,9 @@
     "comment": "GWP: 8.90 kg CO2e/kg, Density: 2700 kg/m³ | Source: ICE Database v3.0 (Extruded Aluminium).",
     "page_number": 7,
     "source_bbox": [
-      275,
+      230,
       20,
-      355,
+      315,
       590
     ],
     "confidence": 0.95,
@@ -2674,9 +2674,9 @@
     "comment": "GWP: 8.90 kg CO2e/kg, Density: 2700 kg/m³ | Source: ICE Database v3.0 (Extruded Aluminium).",
     "page_number": 7,
     "source_bbox": [
-      360,
+      315,
       20,
-      435,
+      400,
       590
     ],
     "confidence": 0.95,
@@ -2757,9 +2757,9 @@
     "comment": "GWP: 2.363 kg CO2e/kg, Density: 7850 kg/m³ | Source: ICE Database v3.0 (Steel - Rebar / Rod / Structural).",
     "page_number": 8,
     "source_bbox": [
-      50,
+      35,
       20,
-      110,
+      95,
       590
     ],
     "confidence": 0.95,
@@ -2840,9 +2840,9 @@
     "comment": "GWP: 2.363 kg CO2e/kg, Density: 7850 kg/m³ | Source: ICE Database v3.0 (Steel - Rebar / Rod / Structural).",
     "page_number": 8,
     "source_bbox": [
-      115,
+      95,
       20,
-      175,
+      155,
       590
     ],
     "confidence": 0.95,
@@ -2923,9 +2923,9 @@
     "comment": "GWP: 8.90 kg CO2e/kg, Density: 2700 kg/m³ | Source: ICE Database v3.0 (Extruded Aluminium).",
     "page_number": 8,
     "source_bbox": [
-      180,
+      155,
       20,
-      240,
+      215,
       590
     ],
     "confidence": 0.95,
@@ -3006,9 +3006,9 @@
     "comment": "GWP: 2.363 kg CO2e/kg, Density: 7850 kg/m³ | Source: ICE Database v3.0 (Steel - Rebar / Rod / Structural).",
     "page_number": 8,
     "source_bbox": [
-      245,
+      215,
       20,
-      305,
+      275,
       590
     ],
     "confidence": 0.95,
@@ -3089,9 +3089,9 @@
     "comment": "GWP: 2.363 kg CO2e/kg, Density: 7850 kg/m³ | Source: ICE Database v3.0 (Steel - Rebar / Rod / Structural).",
     "page_number": 8,
     "source_bbox": [
-      310,
+      275,
       20,
-      370,
+      335,
       590
     ],
     "confidence": 0.95,
@@ -3172,9 +3172,9 @@
     "comment": "GWP: 2.363 kg CO2e/kg, Density: 7850 kg/m³ | Source: ICE Database v3.0 (Steel - Rebar / Rod / Structural).",
     "page_number": 8,
     "source_bbox": [
-      375,
+      335,
       20,
-      440,
+      410,
       590
     ],
     "confidence": 0.95,
@@ -3255,9 +3255,9 @@
     "comment": "GWP: 0.155 kg CO2e/kg, Density: 2400.0 kg/m³ | Source: ICE Database v3.0 (Concrete 25/30 MPa).",
     "page_number": 9,
     "source_bbox": [
-      50,
+      35,
       20,
-      120,
+      100,
       590
     ],
     "confidence": 0.95,
@@ -3338,9 +3338,9 @@
     "comment": "GWP: 0.180 kg CO2e/kg, Density: 2000 kg/m³ | Source: ICE Database v3.0 (Cement Mortar / Plaster).",
     "page_number": 9,
     "source_bbox": [
-      125,
+      100,
       20,
-      195,
+      170,
       590
     ],
     "confidence": 0.95,
@@ -3421,9 +3421,9 @@
     "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
     "page_number": 9,
     "source_bbox": [
-      200,
+      170,
       20,
-      270,
+      240,
       590
     ],
     "confidence": 0.95,
@@ -3504,9 +3504,9 @@
     "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
     "page_number": 9,
     "source_bbox": [
-      275,
+      240,
       20,
-      345,
+      310,
       590
     ],
     "confidence": 0.95,
@@ -3587,9 +3587,9 @@
     "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
     "page_number": 9,
     "source_bbox": [
-      350,
+      310,
       20,
-      430,
+      395,
       590
     ],
     "confidence": 0.95,
@@ -3670,9 +3670,9 @@
     "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
     "page_number": 10,
     "source_bbox": [
-      50,
+      35,
       20,
-      140,
+      125,
       590
     ],
     "confidence": 0.95,
@@ -3753,9 +3753,9 @@
     "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
     "page_number": 10,
     "source_bbox": [
-      145,
+      125,
       20,
-      215,
+      195,
       590
     ],
     "confidence": 0.95,
@@ -3836,9 +3836,9 @@
     "comment": "GWP: 0.155 kg CO2e/kg, Density: 2400.0 kg/m³ | Source: ICE Database v3.0 (Concrete 25/30 MPa).",
     "page_number": 10,
     "source_bbox": [
-      220,
+      195,
       20,
-      290,
+      265,
       590
     ],
     "confidence": 0.95,
@@ -3919,9 +3919,9 @@
     "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
     "page_number": 10,
     "source_bbox": [
-      295,
+      265,
       20,
-      365,
+      335,
       590
     ],
     "confidence": 0.95,
@@ -4002,9 +4002,9 @@
     "comment": "GWP: 2.030 kg CO2e/kg, Density: 7150 kg/m³ | Source: ICE Database v3.0 (Cast Iron / Drainage Pipework).",
     "page_number": 10,
     "source_bbox": [
-      370,
+      335,
       20,
-      440,
+      410,
       590
     ],
     "confidence": 0.95,
@@ -4085,9 +4085,9 @@
     "comment": "GWP: 2.030 kg CO2e/kg, Density: 7150 kg/m³ | Source: ICE Database v3.0 (Cast Iron / Drainage Pipework).",
     "page_number": 11,
     "source_bbox": [
-      40,
+      30,
       20,
-      120,
+      105,
       590
     ],
     "confidence": 0.95,
@@ -4168,9 +4168,9 @@
     "comment": "GWP: 2.030 kg CO2e/kg, Density: 7150 kg/m³ | Source: ICE Database v3.0 (Cast Iron / Drainage Pipework).",
     "page_number": 11,
     "source_bbox": [
-      125,
+      105,
       20,
-      185,
+      170,
       590
     ],
     "confidence": 0.95,
@@ -4251,9 +4251,9 @@
     "comment": "GWP: 0.180 kg CO2e/kg, Density: 2000 kg/m³ | Source: ICE Database v3.0 (Cement Mortar / Plaster).",
     "page_number": 11,
     "source_bbox": [
-      190,
+      170,
       20,
-      250,
+      235,
       590
     ],
     "confidence": 0.95,
@@ -4334,9 +4334,9 @@
     "comment": "GWP: 0.180 kg CO2e/kg, Density: 2000 kg/m³ | Source: ICE Database v3.0 (Cement Mortar / Plaster).",
     "page_number": 11,
     "source_bbox": [
-      255,
+      235,
       20,
-      315,
+      300,
       590
     ],
     "confidence": 0.95,
@@ -4417,9 +4417,9 @@
     "comment": "GWP: 0.180 kg CO2e/kg, Density: 2000 kg/m³ | Source: ICE Database v3.0 (Cement Mortar / Plaster).",
     "page_number": 11,
     "source_bbox": [
-      320,
+      300,
       20,
-      380,
+      375,
       590
     ],
     "confidence": 0.95,
@@ -4500,9 +4500,9 @@
     "comment": "GWP: 0.180 kg CO2e/kg, Density: 2000 kg/m³ | Source: ICE Database v3.0 (Cement Mortar / Plaster).",
     "page_number": 12,
     "source_bbox": [
-      50,
+      30,
       20,
-      140,
+      110,
       590
     ],
     "confidence": 0.95,
@@ -4583,9 +4583,9 @@
     "comment": "GWP: 0.180 kg CO2e/kg, Density: 2000 kg/m³ | Source: ICE Database v3.0 (Cement Mortar / Plaster).",
     "page_number": 12,
     "source_bbox": [
-      145,
+      110,
       20,
-      215,
+      170,
       590
     ],
     "confidence": 0.95,
@@ -4666,9 +4666,9 @@
     "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
     "page_number": 12,
     "source_bbox": [
-      220,
+      165,
       20,
-      290,
+      235,
       590
     ],
     "confidence": 0.95,
@@ -4749,9 +4749,9 @@
     "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
     "page_number": 12,
     "source_bbox": [
-      295,
+      235,
       20,
-      365,
+      305,
       590
     ],
     "confidence": 0.95,
@@ -4832,9 +4832,9 @@
     "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
     "page_number": 12,
     "source_bbox": [
-      370,
+      305,
       20,
-      440,
+      385,
       590
     ],
     "confidence": 0.95,
@@ -4915,9 +4915,9 @@
     "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
     "page_number": 13,
     "source_bbox": [
-      50,
+      35,
       20,
-      120,
+      105,
       590
     ],
     "confidence": 0.95,
@@ -4998,9 +4998,9 @@
     "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
     "page_number": 13,
     "source_bbox": [
-      125,
+      105,
       20,
-      195,
+      175,
       590
     ],
     "confidence": 0.95,
@@ -5081,9 +5081,9 @@
     "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
     "page_number": 13,
     "source_bbox": [
-      200,
+      175,
       20,
-      270,
+      245,
       590
     ],
     "confidence": 0.95,
@@ -5164,9 +5164,9 @@
     "comment": "Material-specific carbon factors excluded due to composite or specialized scope.",
     "page_number": 13,
     "source_bbox": [
-      275,
+      245,
       20,
-      345,
+      315,
       590
     ],
     "confidence": 0.95,
@@ -5247,9 +5247,9 @@
     "comment": "GWP: 0.155 kg CO2e/kg, Density: 2400.0 kg/m³ | Source: ICE Database v3.0 (Concrete 25/30 MPa).",
     "page_number": 13,
     "source_bbox": [
-      350,
+      315,
       20,
-      430,
+      395,
       590
     ],
     "confidence": 0.95,
