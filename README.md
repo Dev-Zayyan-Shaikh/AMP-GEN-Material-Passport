@@ -130,10 +130,8 @@ Run `python src/validate.py` to execute all 14 programmatic assertions:
 
 ---
 
-## 🎙️ Executive Presentation Script & PDF
+## 🎙️ Executive Presentation & PDF
 
-A 2.5-minute executive presentation script and panel Q&A cheat sheet is available in:
-* 📄 **PDF Presentation Document**: [`output/Presentation_Script_Material_Passport_AI.pdf`](output/Presentation_Script_Material_Passport_AI.pdf)
 * 📝 **Approach & Methodology**: [`APPROACH.md`](APPROACH.md)
 
 ---
