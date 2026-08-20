@@ -1,36 +1,40 @@
-# AMP-GEN Material Passport Pipeline
+# AMP-GEN Material Passport — Multi-Engine AI Platform
 
-> **AMP-GEN AI/ML Intern Technical Assignment**  
+> **AMP-GEN AI/ML Technical Challenge & Platform**  
 > Supported by the Google Centre for Climate Technology via Manthan, Office of the Principal Scientific Adviser to the Government of India.
 
-A reproducible, defensible Python data extraction and material passport pipeline built from a scanned 13-page Bill of Quantities (BoQ) for **Central Building Research Institute (CBRI), Roorkee (Principal's Residence — Schedule "A")**.
+A multi-engine, defensible Python data extraction and Digital Material Passport AI platform built from a scanned 13-page Bill of Quantities (BoQ) for **Central Building Research Institute (CBRI), Roorkee (Principal's Residence — Schedule "A")**.
 
 ---
 
 ## 🚀 Quick Start (< 5 Minutes)
 
-### Prerequisites
-- Python 3.10+ (Tested on Python 3.13)
-- `pip` package manager
-
-### Installation
-Clone the repository and install the dependencies:
+### 1. Installation
+Clone the repository and install dependencies:
 ```bash
-git clone https://github.com/your-username/AMP-GEN-Material-Passport.git
+git clone https://github.com/Dev-Zayyan-Shaikh/AMP-GEN-Material-Passport.git
 cd AMP-GEN-Material-Passport
 pip install -r requirements.txt
 ```
 
-### Execution (Core Pipeline)
-Run the end-to-end extraction, normalization, export, visualization, and validation pipeline:
-```bash
-python src/main.py
+### 2. Environment Setup (Optional for Live Vision APIs)
+Create a `.env` file in the root directory (or use Streamlit Secrets):
+```env
+OPENAI_API_KEY=your_openai_api_key_here
+GEMINI_API_KEY=your_gemini_api_key_here
 ```
+*Note: If no API keys are provided, the platform operates seamlessly in **Demo Mode** using persistent pre-cached first-iteration extractions.*
 
-### Interactive Web App Dashboard (Bonus B1)
-Launch the interactive Streamlit material passport dashboard locally:
+### 3. Launch Interactive Streamlit Web Platform
 ```bash
 streamlit run app.py
+```
+Open `http://localhost:8501` to access the full multi-engine platform!
+
+### 4. Run Core Pipeline & Validation Suite
+```bash
+python src/main.py
+python src/validate.py
 ```
 
 ---
@@ -39,50 +43,76 @@ streamlit run app.py
 
 ```text
 AMP-GEN-Material-Passport/
+├── app.py                      # Interactive Streamlit Web Platform
+├── requirements.txt            # Python dependencies
+├── .gitignore                  # Git ignore rules protecting secrets & bytecode
 ├── input/
-│   ├── AMP_Passport_Template.xlsx            # Original Excel template (UNTOUCHED)
-│   └── BoQ_CBRI_Principals_Residence.pdf      # Original scanned BoQ PDF (UNTOUCHED)
+│   ├── AMP_Passport_Template.xlsx            # Master 50-column Excel template
+│   └── BoQ_CBRI_Principals_Residence.pdf      # Target 13-page BoQ PDF scan
 ├── output/
-│   ├── passport_filled.xlsx                  # Populated 50-column Excel Material Passport
+│   ├── passport_filled.xlsx                  # Populated 50-column Excel deliverable
 │   ├── passport.json                         # Valid JSON dataset (64 records)
 │   ├── visualization.png                     # Material category bar chart
-│   └── building_meta.json                    # Extracted Page 1 building metadata
-├── src/
-│   ├── extract.py                            # PDF extraction & 64 item parsing
-│   ├── normalize.py                          # Unit normalization & dimension handling
-│   ├── classify.py                           # Material taxonomy & discipline classification
-│   ├── carbon.py                             # Embodied carbon (A1-A3) & ICE v3.0 mapping
-│   ├── export.py                             # OpenPyXL & JSON output exporter
-│   ├── visualize.py                          # Matplotlib chart generator
-│   ├── validate.py                           # Automated validation suite (14 rules)
-│   └── main.py                               # Pipeline entrypoint
-├── app.py                                    # Interactive Streamlit Web App (Bonus B1)
-├── APPROACH.md                               # 1-page methodology & technical reflection
-├── README.md                                 # Project documentation & quickstart
-└── requirements.txt                          # Python dependencies list
+│   ├── building_meta.json                    # Extracted Page 1 building metadata
+│   └── Presentation_Script_Material_Passport_AI.pdf # Executive 2.5-min PDF presentation
+├── scratch/
+│   ├── consensus_cache.json                  # First iteration consensus cache
+│   ├── openai_cache.json                     # OpenAI candidate extractions
+│   ├── gemini_cache.json                     # Gemini candidate extractions
+│   └── comparison_cache.json                 # 320-row field comparison matrix
+└── src/
+    ├── extract.py                            # PDF extraction & 64 item parsing
+    ├── normalize.py                          # Unit normalization & dimension handling
+    ├── classify.py                           # Material taxonomy & discipline classification
+    ├── carbon.py                             # Embodied carbon (A1-A3) & ICE v3.0 mapping
+    ├── consensus.py                          # Field-by-field 3-way voting engine
+    ├── evidence.py                           # PyMuPDF 300 DPI PDF crop engine
+    ├── review.py                             # Human review queue & override handler
+    ├── export.py                             # OpenPyXL & JSON output exporter
+    ├── visualize.py                          # Dark-themed chart generator
+    ├── validate.py                           # Automated validation suite (14 rules)
+    ├── main.py                               # Pipeline entrypoint
+    └── engines/
+        ├── __init__.py
+        ├── ocr_engine.py                     # Primary PyMuPDF + EasyOCR engine
+        ├── openai_engine.py                  # Live OpenAI Vision engine (gpt-4o)
+        └── gemini_engine.py                  # Live Gemini Vision engine (gemini-2.5-flash)
 ```
 
 ---
 
-## 📊 Pipeline Architecture & Deliverables
+## 📊 Platform Features & Capabilities
 
 ```text
-SCANNED PDF ➔ OCR / VISION EXTRACTION ➔ STRUCTURED PARSING ➔ VALIDATION ➔ EXCEL + JSON ➔ STREAMLIT DASHBOARD
+SCANNED PDF ➔ MULTI-ENGINE VISION (OCR + OpenAI + Gemini) ➔ 3-WAY CONSENSUS VOTING
+  ➔ BBOX EVIDENCE CROPPING ➔ HUMAN REVIEW QUEUE ➔ CARBON ANALYTICS (40.693 t) ➔ EXCEL + JSON
 ```
 
-| Output File | Description | Status |
-| :--- | :--- | :---: |
-| `output/passport_filled.xlsx` | 50-column Excel sheet populated for all 64 BoQ items preserving template structure | ✅ Complete |
-| `output/passport.json` | Clean JSON export with 64 records and deterministic GMAP IDs (`AMP-GEN-001` .. `064`) | ✅ Complete |
-| `output/visualization.png` | Building-level Material Category distribution bar chart | ✅ Complete |
-| `output/building_meta.json` | Extracted Page 1 metadata (Plinth Area, Foundation Depth, Seismic Zone, etc.) | ✅ Complete |
-| `app.py` | Interactive Streamlit Web Application for dataset exploration & carbon analytics | ✅ Complete |
+### 1. Multi-Engine Extraction Architecture (`src/engines/`)
+* **OCR Engine**: PyMuPDF + EasyOCR baseline extracting spatial bounding boxes (`source_bbox`).
+* **OpenAI Vision Engine**: Live `gpt-4o` Vision model handler with prompt engineering for scanned tables.
+* **Gemini Vision Engine**: Live `gemini-2.5-flash` Vision model handler with prompt engineering for handwriting.
+
+### 2. 3-Way Majority Voting Consensus (`src/consensus.py`)
+Normalizes field values and computes vote ratios (`3/3`, `2/3`, `1/3`). Styled in Tab 2 with 3-state color coding:
+* 🟢 **Light Green (`#DCFCE7`)**: 3/3 Full Agreement across all engines.
+* 🟡 **Light Yellow (`#FEF9C3`)**: 2/3 Majority Vote consensus.
+* 🔴 **Light Red (`#FEE2E2`)**: Disagreement / Needs Human Review.
+
+### 3. Source Evidence BBox Cropping (`src/evidence.py`)
+Renders high-resolution 300 DPI PDF page crops cut directly from the scanned document, allowing instant visual verification of item numbers, descriptions, and quantities.
+
+### 4. Human Review Queue (`src/review.py`)
+Enables engineers to review flagged items, inspect crop evidence side-by-side with candidate extractions, edit fields, add reviewer audit notes, and mark records `human_reviewed = true`.
+
+### 5. Cradle-to-Gate Embodied Carbon Analytics (`src/carbon.py`)
+Calculates embodied carbon ($A1\text{--}A3$) using **ICE Database v3.0** factors—locked at **`40.693 t`** (**`40,693.01 kg CO₂e`**) across 44 material-bearing structural items.
 
 ---
 
-## ✅ Automated Validation Suite
+## ✅ Automated Validation Suite (`src/validate.py`)
 
-The pipeline automatically runs 14 programmatic assertions upon execution:
+Run `python src/validate.py` to execute all 14 programmatic assertions:
 1. Deliverable files exist and are non-empty.
 2. JSON parses cleanly with exactly 64 records.
 3. Item numbers are contiguous 1 through 64.
@@ -94,54 +124,26 @@ The pipeline automatically runs 14 programmatic assertions upon execution:
 9. Excel `passport_filled.xlsx` opens cleanly via OpenPyXL with 50 columns.
 10. Excel sheet contains all 64 populated BoQ records in exact alignment.
 11. Building metadata `output/building_meta.json` is complete and valid.
-12. Out-of-scope grey columns remain strictly blank per template rules.
-13. Carbon Bonus B2 verified with cited material sources.
+12. Out-of-scope grey columns remain strictly blank per instructions.
+13. Carbon Bonus B2 verified with cited material sources (`40.693 t`).
 14. Visualization chart `output/visualization.png` generated and verified.
 
 ---
 
-## 🎁 Bonuses Completed
+## 🎙️ Executive Presentation Script & PDF
 
-1. **Bonus B1 — Interactive Dashboard App**: Built with `Streamlit` & `Plotly` (`app.py`), enabling multi-parameter filtering, item searching, Plotly carbon graphs, building metadata viewer, and single-click Excel/JSON downloads.
-2. **Bonus B2 — Mass & Carbon**: Populated Density, GWP/kg, and Embodied Carbon A1-A3 ($\text{kg CO}_2\text{e}$) for 43 material-bearing items with cited sources (ICE Database v3.0 / Indian LCA literature) in `Comment`.
-3. **Bonus B3 — Building Metadata**: Extracted from Page 1 into `output/building_meta.json`.
-4. **Bonus B4 — Walkthrough Video Script**: Detailed 3-minute video presentation checklist and transcript below.
-
----
-
-## 🎬 Bonus B4: Walkthrough Presentation Script & Checklist
-
-### 3-Minute Video Structure
-
-- **0:00 - 0:45: Project Overview & Extraction Pipeline**
-  - Show the scanned 13-page CBRI Principal's Residence BoQ PDF.
-  - Explain the 64-item extraction strategy combining EasyOCR, PyMuPDF, and visual validation of handwritten quantities.
-  - Highlight special continuation handling across pages (Items 14, 26, 32, 45, 50, 55).
-
-- **0:45 - 1:30: Unit Normalization & Data Integrity**
-  - Demonstrate unit normalization to standard set (`cum`, `sqm`, `m`, `kg`, `nos`).
-  - Explain Item 24 special case: $3.5 \times 10\text{ dm}^3 \rightarrow 0.035\text{ m}^3$ (`cum`).
-  - Show deterministic GMAP IDs (`AMP-GEN-001` to `AMP-GEN-064`).
-
-- **1:30 - 2:15: Material Passport Outputs & Streamlit Dashboard**
-  - Open `output/passport_filled.xlsx` in Excel showing all 50 columns populated starting at row 7.
-  - Show `app.py` Streamlit dashboard with interactive Plotly carbon charts and live filters.
-  - Point out Embodied Carbon A1-A3 values with ICE Database v3.0 citations in `Comment`.
-
-- **2:15 - 3:00: Visualization & Programmatic Validation**
-  - Display `output/visualization.png` showing the distribution of items by Material Category.
-  - Run `python src/main.py` in the terminal to demonstrate all 14 programmatic validation checks passing cleanly in real-time.
+A 2.5-minute executive presentation script and panel Q&A cheat sheet is available in:
+* 📄 **PDF Presentation Document**: [`output/Presentation_Script_Material_Passport_AI.pdf`](output/Presentation_Script_Material_Passport_AI.pdf)
+* 📝 **Approach & Methodology**: [`APPROACH.md`](APPROACH.md)
 
 ---
 
-## 🛠️ Tools & Disclosures
+## 🛠️ Git Workflow & Deployment
 
-- **Tools Used**: Python 3.13, EasyOCR, PyMuPDF, OpenPyXL, Matplotlib, Streamlit, Plotly, OpenCV, Git.
-- **LLM / AI Disclosure**: Generative AI assistants were used for pair programming, regex architecture design, and carbon factor mapping. All source extractions were visually validated against original PDF page scans.
-- **Honest Hours-Spent Estimate**: ~5.5 hours total (Phase 1 discovery & setup: 0.5h, Phase 2 extraction & visual OCR verification: 2h, Phase 3 schema, normalization & validation: 1.5h, Phase 4 visualization & carbon bonus: 0.5h, Phase 5 Streamlit web app & documentation: 1h).
-
----
-
-## ⚠️ Known Limitations & Out-of-Scope Items
-- **Grey Columns**: Circularity, detachability, and lifespan columns are left blank per instructions as they require specialist domain training.
-- **Labor/Earthwork**: Earthwork and excavation items are marked `[EXCLUDED]` for material carbon as they represent pure machinery/labour services.
+* **Remote Repository**: `https://github.com/Dev-Zayyan-Shaikh/AMP-GEN-Material-Passport`
+* **Branch Mapping**: Local `master` pushes to remote `main`:
+```bash
+git add .
+git commit -m "feat: platform updates"
+git push origin master:main
+```
