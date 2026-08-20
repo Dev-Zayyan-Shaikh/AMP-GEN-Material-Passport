@@ -282,11 +282,13 @@ if not filtered_df.empty:
         filtered_df = filtered_df[filtered_df["floor_section"] == selected_subhead]
     if search_query:
         query_lower = search_query.lower()
-        filtered_df = filtered_df[
-            filtered_df["description"].str.lower().str.contains(query_lower) |
-            filtered_df["dsr_code"].str.lower().str.contains(query_lower) |
-            filtered_df["gmap_id"].str.lower().str.contains(query_lower)
-        ]
+        mask = filtered_df["description"].str.lower().str.contains(query_lower, na=False)
+        if "schedule_item_code" in filtered_df.columns:
+            mask = mask | filtered_df["schedule_item_code"].astype(str).str.lower().str.contains(query_lower, na=False)
+        if "gmap_id" in filtered_df.columns:
+            mask = mask | filtered_df["gmap_id"].str.lower().str.contains(query_lower, na=False)
+        filtered_df = filtered_df[mask]
+
 
 # 5. Header Banner
 st.markdown("""
