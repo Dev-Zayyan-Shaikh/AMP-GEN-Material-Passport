@@ -18,7 +18,7 @@ load_dotenv()
 # Import Platform Modules
 from src.engines import extract_with_ocr, extract_with_openai, extract_with_gemini
 from src.consensus import compute_consensus
-from src.evidence import get_crop_image
+from src.evidence import get_crop_image, get_crop_bytes
 from src.review import get_review_queue, apply_human_override
 
 # 1. Page Configuration
@@ -543,9 +543,10 @@ with tab1:
             col_crop, col_info = st.columns([1.5, 1])
             with col_crop:
                 st.markdown(f"**PDF Source Page:** {pg} | **Bounding Box Region:** `{bbox}`")
-                crop_img = get_crop_image(pdf_path=pdf_path, page_num=pg, bbox=bbox)
-                if crop_img:
-                    st.image(crop_img, use_container_width=True, caption=f"Original High-Res PDF Page {pg} Crop Region")
+                crop_bytes = get_crop_bytes(pdf_path=pdf_path, page_num=pg, bbox=bbox)
+                if crop_bytes:
+                    st.image(crop_bytes, caption=f"Original High-Res PDF Page {pg} Crop Region")
+
             with col_info:
                 st.markdown(f"**Item #:** `{item_row['boq_item_no']}`")
                 st.markdown(f"**GMAP ID:** `{item_row.get('gmap_id')}`")
@@ -619,9 +620,10 @@ with tab3:
                     pg = rev_item.get("page_number", 2)
                     bbox = rev_item.get("source_bbox", [50, 20, 150, 590])
                     st.markdown(f"**PDF Page {pg} Source Region:**")
-                    crop = get_crop_image(pdf_path=pdf_path, page_num=pg, bbox=bbox)
-                    if crop:
-                        st.image(crop, use_container_width=True)
+                    crop_bytes = get_crop_bytes(pdf_path=pdf_path, page_num=pg, bbox=bbox)
+                    if crop_bytes:
+                        st.image(crop_bytes)
+
 
                 with c_form:
                     st.markdown("##### Candidate Extractions & Field Override")

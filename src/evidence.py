@@ -9,7 +9,7 @@ import os
 import fitz  # PyMuPDF
 from PIL import Image, ImageDraw
 import io
-from typing import Tuple, Optional
+from typing import Tuple, Optional, Union
 
 
 def get_crop_image(
@@ -20,6 +20,7 @@ def get_crop_image(
 ) -> Optional[Image.Image]:
     """
     Extracts and crops the specified bounding box region from a PDF page.
+    Returns PIL Image object.
     """
     abs_path = os.path.abspath(pdf_path)
     if not os.path.exists(abs_path):
@@ -33,7 +34,6 @@ def get_crop_image(
         return img
         
     try:
-        # Convert page_num safely to int
         try:
             p_int = int(float(page_num))
         except (ValueError, TypeError):
@@ -43,7 +43,6 @@ def get_crop_image(
         page_idx = max(0, min(p_int - 1, len(doc) - 1))
         page = doc.load_page(page_idx)
         
-        # Default bounding box if none provided
         if not bbox or not isinstance(bbox, (list, tuple)) or len(bbox) < 4:
             bbox = [50, 20, 150, 590]
             
@@ -52,7 +51,6 @@ def get_crop_image(
         except Exception:
             ymin, xmin, ymax, xmax = 50.0, 20.0, 150.0, 590.0
             
-        # Safely clamp rect coordinates to page dimensions
         page_w = float(page.rect.width)
         page_h = float(page.rect.height)
         
@@ -63,7 +61,6 @@ def get_crop_image(
         
         clip_rect = fitz.Rect(clip_xmin, clip_ymin, clip_xmax, clip_ymax)
         
-        # Render high-resolution pixmap of the clip region
         pix = page.get_pixmap(dpi=dpi, clip=clip_rect)
         crop_img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
         return crop_img
@@ -73,3 +70,21 @@ def get_crop_image(
         draw = ImageDraw.Draw(img)
         draw.text((20, 60), f"Page {page_num} Region Crop Preview", fill=(100, 116, 139))
         return img
+
+
+def get_crop_bytes(
+    pdf_path: str = "input/BoQ_CBRI_Principals_Residence.pdf",
+    page_num: int = 2,
+    bbox: list = None,
+    dpi: int = 150
+) -> bytes:
+    """
+    Extracts and crops specified bounding box region, returning raw PNG bytes
+    for 100% reliable rendering in Streamlit Cloud.
+    """
+    img = get_crop_image(pdf_path, page_num, bbox, dpi)
+    if img:
+        buf = io.BytesIO()
+        img.save(buf, format="PNG")
+        return buf.getvalue()
+    return b""
