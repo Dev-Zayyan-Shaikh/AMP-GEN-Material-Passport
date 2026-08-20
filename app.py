@@ -87,18 +87,31 @@ st.markdown("""
         opacity: 0.88 !important;
     }
 
-    /* Sidebar regular action buttons (e.g. Re-sync Baseline Cache) */
-    [data-testid="stSidebar"] .stButton > button {
+    /* Sidebar primary action button (Run Extraction Pipeline) */
+    [data-testid="stSidebar"] .stButton > button[kind="primary"] {
+        background: linear-gradient(135deg, #1D4ED8 0%, #0EA5E9 100%) !important;
+        color: #FFFFFF !important;
+        border: none !important;
+        box-shadow: 0 4px 12px rgba(14, 165, 233, 0.35) !important;
+    }
+    [data-testid="stSidebar"] .stButton > button[kind="primary"] * {
+        color: #FFFFFF !important;
+        font-weight: 700 !important;
+    }
+
+    /* Sidebar secondary action buttons (e.g. Re-sync Baseline Cache) */
+    [data-testid="stSidebar"] .stButton > button[kind="secondary"] {
         background-color: #FFFFFF !important;
         color: #0F172A !important;
         border: 1px solid #CBD5E1 !important;
         font-weight: 600 !important;
         border-radius: 8px !important;
     }
-    [data-testid="stSidebar"] .stButton > button * {
+    [data-testid="stSidebar"] .stButton > button[kind="secondary"] * {
         color: #0F172A !important;
         font-weight: 600 !important;
     }
+
 
     /* Sidebar File Uploader container & text contrast */
     [data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] {
@@ -316,6 +329,9 @@ else:
     st.sidebar.caption("Default: `BoQ_CBRI_Principals_Residence.pdf` (Persistent Dataset)")
 
 st.sidebar.markdown("---")
+st.sidebar.subheader("3. Execute Extraction")
+
+run_button = st.sidebar.button("🚀 Run Extraction Pipeline", use_container_width=True, type="primary")
 
 # 5. Pipeline Execution & Persistent Disk Cache
 CACHE_FILE = "scratch/consensus_cache.json"
@@ -358,14 +374,21 @@ def run_pipeline(selected_engine: str, file_path: str, force_recompute: bool = F
             
     return consensus_records, comparison_matrix
 
-# Initialize Session State
-if "consensus_data" not in st.session_state:
-    records, comp_matrix = run_pipeline(engine_option, pdf_path)
+# Handle User Triggered Run or Initial Load
+if run_button:
+    with st.spinner(f"Running {engine_option} on BoQ PDF..."):
+        records, comp_matrix = run_pipeline(engine_option, pdf_path, force_recompute=True)
+        st.session_state["consensus_data"] = records
+        st.session_state["comparison_matrix"] = comp_matrix
+        st.sidebar.success("Extraction Complete!")
+elif "consensus_data" not in st.session_state:
+    records, comp_matrix = run_pipeline(engine_option, pdf_path, force_recompute=False)
     st.session_state["consensus_data"] = records
     st.session_state["comparison_matrix"] = comp_matrix
 else:
     records = st.session_state["consensus_data"]
     comp_matrix = st.session_state["comparison_matrix"]
+
 
 # Load metadata & excel bytes
 meta_path = "output/building_meta.json"
