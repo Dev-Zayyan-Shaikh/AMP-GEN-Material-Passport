@@ -9,8 +9,8 @@ import json
 import pymupdf
 from typing import List, Dict, Any
 from src.extract import get_all_64_boq_items
-from src.normalize import normalize_item
-from src.classify import classify_item
+from src.normalize import normalize_unit
+from src.classify import classify_boq_item
 
 # Approximate bounding box mapping per item page region [ymin, xmin, ymax, xmax] in points / relative coords
 # CBRI 13-page PDF layout mapping (Item number -> Page index (1-indexed))
@@ -117,8 +117,8 @@ def extract_with_ocr(pdf_path: str = None) -> List[Dict[str, Any]]:
         item_no = int(item["boq_item_no"])
         
         # Normalize and classify
-        norm = normalize_item(item)
-        cls = classify_item(item, norm)
+        unit_norm = normalize_unit(item.get("original_unit", ""))
+        cls = classify_boq_item(item_no, item["description"], item.get("original_unit", ""))
         
         # Get page and bounding box
         page_num, bbox = ITEM_PAGE_MAP.get(item_no, (1, [100, 50, 300, 550]))
@@ -127,7 +127,7 @@ def extract_with_ocr(pdf_path: str = None) -> List[Dict[str, Any]]:
             "boq_item_no": item_no,
             "description": item["description"],
             "quantity": float(item["original_quantity"]),
-            "unit": norm.get("original_unit", item.get("original_unit", "")).lower(),
+            "unit": unit_norm,
             "schedule": item.get("dsr_schedule", "DSR 1989"),
             "schedule_item_code": item.get("dsr_code", ""),
             "material_product": cls.get("material_product", ""),
