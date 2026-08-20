@@ -80,9 +80,46 @@ st.markdown("""
         font-weight: 600 !important;
         transition: opacity 0.2s ease;
     }
+    [data-testid="stSidebar"] .stDownloadButton > button * {
+        color: #FFFFFF !important;
+    }
     [data-testid="stSidebar"] .stDownloadButton > button:hover {
         opacity: 0.88 !important;
     }
+
+    /* Sidebar regular action buttons (e.g. Re-sync Baseline Cache) */
+    [data-testid="stSidebar"] .stButton > button {
+        background-color: #FFFFFF !important;
+        color: #0F172A !important;
+        border: 1px solid #CBD5E1 !important;
+        font-weight: 600 !important;
+        border-radius: 8px !important;
+    }
+    [data-testid="stSidebar"] .stButton > button * {
+        color: #0F172A !important;
+        font-weight: 600 !important;
+    }
+
+    /* Sidebar File Uploader container & text contrast */
+    [data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] {
+        background-color: #FFFFFF !important;
+        border: 1px dashed #94A3B8 !important;
+        border-radius: 10px !important;
+    }
+    [data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] * {
+        color: #0F172A !important;
+        font-weight: 500 !important;
+    }
+    [data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] button {
+        background-color: #F1F5F9 !important;
+        border: 1px solid #CBD5E1 !important;
+        border-radius: 6px !important;
+    }
+    [data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] button * {
+        color: #0F172A !important;
+        font-weight: 600 !important;
+    }
+
 
     /* ── Main header ────────────────────────────────────────────── */
     .main-header {
