@@ -164,20 +164,23 @@ def classify_boq_item(item_no: int, description: str, orig_unit: str):
     elif item_no in range(40, 44):
         floor_section = "Sub-Head VI - Flooring & Interior Finishes"
         discipline = "Architectural & Finishes"
-        material_category = "Flooring"
         if item_no == 40:
+            material_category = "Flooring"
             material_product = "Cement Concrete Flooring 40mm 1:2:4"
             all_materials_detected = "Cement, Coarse Sand, Stone Aggregate (20mm), Neat Cement"
             classification_matched = "40mm CC Flooring"
         elif item_no == 41:
+            material_category = "Plaster"
             material_product = "Cement Plaster Skirting 18mm 1:3"
             all_materials_detected = "Cement, Coarse Sand, Neat Cement"
-            classification_matched = "Cement Skirting"
+            classification_matched = "Cement Plaster Skirting Render"
         elif item_no == 42:
+            material_category = "Flooring"
             material_product = "Marble Chips Terrazzo Flooring 40mm"
             all_materials_detected = "Marble Chips, Cement, Marble Powder, Coarse Sand"
             classification_matched = "Terrazzo Marble Chips Flooring"
         elif item_no == 43:
+            material_category = "Flooring"
             material_product = "Glass Strips in Flooring Joints"
             all_materials_detected = "Sheet Glass Strips (40x6mm)"
             classification_matched = "Flooring Divider Strips"
