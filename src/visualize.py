@@ -72,13 +72,16 @@ def generate_material_distribution_chart(
                    edgecolor="none", zorder=3)
 
     # Value label inside / outside each bar
-    # All labels black except the last bar (longest, on top) which stays white
-    for idx, (bar, val) in enumerate(zip(bars, counts)):
+    # Reinforcement bar: light label (dark bar). All others: black.
+    for idx, (bar, val, cat) in enumerate(zip(bars, counts, categories)):
         x_end = bar.get_width()
         x_max = max(counts)
         inside = x_end > x_max * 0.25
-        is_last = (idx == n - 1)
-        label_color = (TEXT_COL if inside else ACCENT) if is_last else "#000000"
+        is_reinf = "reinf" in cat.lower() or "steel" in cat.lower()
+        if is_reinf:
+            label_color = TEXT_COL if inside else ACCENT
+        else:
+            label_color = "#000000"
         ax.text(
             x_end - (0.3 if inside else -0.3),
             bar.get_y() + bar.get_height() / 2,
