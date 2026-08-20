@@ -353,14 +353,15 @@ def run_pipeline(selected_engine: str, file_path: str, force_recompute: bool = F
     engine_results = {}
     if selected_engine == "Compare / Both (ALL 3 Engines)":
         engine_results["OCR"] = extract_with_ocr(file_path)
-        engine_results["OpenAI"] = extract_with_openai(file_path)
-        engine_results["Gemini"] = extract_with_gemini(file_path)
+        engine_results["OpenAI"] = extract_with_openai(file_path, force_recompute=force_recompute)
+        engine_results["Gemini"] = extract_with_gemini(file_path, force_recompute=force_recompute)
     elif selected_engine == "Current OCR":
         engine_results["OCR"] = extract_with_ocr(file_path)
     elif selected_engine == "OpenAI Vision":
-        engine_results["OpenAI"] = extract_with_openai(file_path)
+        engine_results["OpenAI"] = extract_with_openai(file_path, force_recompute=force_recompute)
     elif selected_engine == "Gemini Vision":
-        engine_results["Gemini"] = extract_with_gemini(file_path)
+        engine_results["Gemini"] = extract_with_gemini(file_path, force_recompute=force_recompute)
+
 
     consensus_records, comparison_matrix = compute_consensus(engine_results)
     

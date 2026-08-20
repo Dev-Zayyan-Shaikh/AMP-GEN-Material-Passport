@@ -31,21 +31,22 @@ def get_openai_api_key() -> str:
     return key
 
 
-def extract_with_openai(pdf_path: str = None, model_name: str = "gpt-4o") -> List[Dict[str, Any]]:
+def extract_with_openai(pdf_path: str = None, model_name: str = "gpt-4o", force_recompute: bool = False) -> List[Dict[str, Any]]:
     """
     Runs OpenAI Vision extraction model on the PDF pages.
-    Saves the first iteration output permanently to disk cache (scratch/openai_cache.json).
+    Saves output to disk cache (scratch/openai_cache.json).
     """
-    # 1. Check if first iteration is already saved in persistent disk cache
-    if os.path.exists(CACHE_FILE):
+    # 1. Check if first iteration is already saved in persistent disk cache (unless force_recompute)
+    if not force_recompute and os.path.exists(CACHE_FILE):
         try:
             with open(CACHE_FILE, "r", encoding="utf-8") as f:
                 cached = json.load(f)
                 if cached and len(cached) > 0:
-                    print(f"[OpenAI Engine] Loaded {len(cached)} items from saved first iteration cache ({CACHE_FILE}).")
+                    print(f"[OpenAI Engine] Loaded {len(cached)} items from saved disk cache ({CACHE_FILE}).")
                     return cached
         except Exception as e:
             print(f"[OpenAI Engine] Disk cache read warning: {e}")
+
 
     api_key = get_openai_api_key()
     
