@@ -529,9 +529,16 @@ with tab1:
         )
         
         if selected_item_no:
-            item_row = filtered_df[filtered_df["boq_item_no"] == str(selected_item_no)].iloc[0]
-            pg = item_row.get("page_number", 2)
-            bbox = item_row.get("source_bbox", [50, 20, 150, 590])
+            item_match = filtered_df[filtered_df["boq_item_no"].astype(str) == str(selected_item_no)]
+            if not item_match.empty:
+                item_row = item_match.iloc[0]
+                pg = item_row.get("page_number")
+                if pd.isna(pg) or not pg:
+                    pg = 2
+                bbox = item_row.get("source_bbox")
+                if not isinstance(bbox, (list, tuple)):
+                    bbox = [50, 20, 150, 590]
+
             
             col_crop, col_info = st.columns([1.5, 1])
             with col_crop:
