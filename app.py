@@ -617,17 +617,52 @@ with tab1:
     else:
         st.info("No records match the active filter criteria.")
 
-    # Static Visualization Embed
+    # Live Interactive Plotly Material Category Distribution Chart
     st.markdown("---")
     st.subheader("Material Category Distribution Chart")
-    viz_path = "output/visualization.png"
-    if os.path.exists(viz_path):
-        st.image(viz_path, use_container_width=True)
+    
+    if not filtered_df.empty:
+        cat_counts = filtered_df["material_category"].value_counts().reset_index()
+        cat_counts.columns = ["category", "count"]
+        cat_counts = cat_counts.sort_values("count", ascending=True)
+        
+        fig_cat = px.bar(
+            cat_counts,
+            x="count",
+            y="category",
+            orientation="h",
+            text="count",
+            labels={"count": "Number of BoQ Items", "category": "Material Category"},
+            color="count",
+            color_continuous_scale=["#1E3A5F", "#1A4F7F", "#17649F", "#118FDD", "#0EA5E9", "#38BDF8", "#7DD3FC"]
+        )
+        
+        fig_cat.update_layout(
+            title={
+                "text": "CBRI Principal's Residence — Material Category Distribution",
+                "font": {"size": 16, "color": "#F8FAFC", "family": "Inter"}
+            },
+            paper_bgcolor="#0F172A",
+            plot_bgcolor="#1E293B",
+            font={"color": "#E2E8F0"},
+            xaxis=dict(showgrid=True, gridcolor="#334155", title="Number of BoQ Line Items"),
+            yaxis=dict(showgrid=False, title=""),
+            coloraxis_showscale=False,
+            height=420,
+            margin=dict(l=20, r=40, t=50, b=40)
+        )
+        fig_cat.update_traces(
+            textposition="outside",
+            textfont=dict(size=13, color="#38BDF8", family="Inter"),
+            marker=dict(line=dict(width=0))
+        )
+        st.plotly_chart(fig_cat, use_container_width=True)
         st.markdown(
-            "<p class='viz-caption'>visualization.png — Material Category Distribution "
-            "across 64 BoQ items (AMP-GEN Material Passport, CBRI Principal's Residence)</p>",
+            "<p class='viz-caption'>Interactive Horizontal Bar Chart — Dynamic Material Category Distribution "
+            "across extracted BoQ items (AMP-GEN Material Passport, CBRI Principal's Residence)</p>",
             unsafe_allow_html=True,
         )
+
 
 # TAB 2: Engine Comparison Matrix with 3-State Color Highlighting
 with tab2:
